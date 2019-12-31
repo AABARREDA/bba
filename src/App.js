@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { Stack } from 'office-ui-fabric-react/lib/Stack';
 
 function App() {
   return (
@@ -20,6 +21,11 @@ function App() {
           Learn React
         </a>
       </header>
+      <Stack>
+        <span>Item One</span>
+        <span>Item Two</span>
+        <span>Item Thredde</span>
+      </Stack>
     </div>
   );
 }
