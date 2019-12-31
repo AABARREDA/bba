@@ -2,7 +2,7 @@
   "name": "bba",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://aabarreda.github.io/",
+  "homepage": "https://aabarreda.github.io/bba/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
@@ -21,7 +21,7 @@
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": "react-app" 
   },
   "browserslist": {
     "production": [
