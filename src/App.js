@@ -7,12 +7,27 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-          Header Here with Picture and BBA Auto Sales
+          text
       </header>
-      <Stack>
+      <Stack horizontal wrap>
         <span>Item One</span>
         <span>Item Two</span>
-        <span>Item Thredde</span>
+        <span>Item Three</span>
+        <span>Item One</span>
+        <span>Item Two</span>
+        <span>Item Three</span>
+        <span>Item One</span>
+        <span>Item Two</span>
+        <span>Item Three</span>
+        <span>Item One</span>
+        <span>Item Two</span>
+        <span>Item Three</span>
+        <span>Item One</span>
+        <span>Item Two</span>
+        <span>Item Three</span>
+        <span>Item One</span>
+        <span>Item Two</span>
+        <span>Item Three</span>
       </Stack>
     </div>
   );
