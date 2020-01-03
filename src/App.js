@@ -3,6 +3,7 @@ import logo from './assets/logo.jpg';
 import './App.css';
 import { Stack } from 'office-ui-fabric-react/lib/Stack';
 import { Image } from 'office-ui-fabric-react/lib/Image';
+import { Separator } from 'office-ui-fabric-react/lib/Separator';
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
         <span>Item Two</span>
         <span>Item Three</span>
       </Stack>
+      <Separator>Our Location</Separator>
       <Stack horizontal horizontalAlign='center' wrap>
           <Stack>
             Our Location
