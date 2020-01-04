@@ -18,6 +18,16 @@
   width: 400px;
 }
 
+.tile{
+  height:400px;
+  width: 400px;
+}
+
+.tile-pic{
+  height:350px;
+  width: 350px;
+}
+
 .App-header {
   min-height: 10vh;
   display: flex;
