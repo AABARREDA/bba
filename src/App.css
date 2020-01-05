@@ -19,13 +19,18 @@
 }
 
 .tile{
-  height:400px;
-  width: 400px;
+  height:350px;
+  width: 350px;
 }
 
 .tile-pic{
-  height:350px;
-  width: 350px;
+  height:300px;
+  width: 300px;
+}
+
+.tile-about{
+  height:500px;
+  width: 500px;
 }
 
 .App-header {
@@ -40,6 +45,16 @@
 
 .App-footer {
   min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(1px + 2vmin);
+  color: black;
+}
+
+.App-info {
+  min-height: 6vh;
   display: flex;
   flex-direction: column;
   align-items: center;
