@@ -19,12 +19,12 @@
 }
 
 .tile-text-p{
-  font-size: calc(2px + 2vmin);
+  font-size: 20px;
   color: black;
 }
 
 .tile-text-d{
-  font-size: calc(1px + 1.5vmin);
+  font-size: 15px;
   color: black;
 }
 
@@ -70,6 +70,16 @@
   align-items: center;
   justify-content: center;
   font-size: calc(1px + 2vmin);
+  color: black;
+}
+
+.App-info-test {
+  min-height: 6vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(20px);
   color: black;
 }
 
