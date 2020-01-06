@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/bba/static/css/main.80d81f34.chunk.css",
-    "main.js": "/bba/static/js/main.6294f07d.chunk.js",
-    "main.js.map": "/bba/static/js/main.6294f07d.chunk.js.map",
+    "main.css": "/bba/static/css/main.d7e1c8f3.chunk.css",
+    "main.js": "/bba/static/js/main.7b06eb24.chunk.js",
+    "main.js.map": "/bba/static/js/main.7b06eb24.chunk.js.map",
     "runtime-main.js": "/bba/static/js/runtime-main.adf1ab50.js",
     "runtime-main.js.map": "/bba/static/js/runtime-main.adf1ab50.js.map",
     "static/js/2.a0c18f19.chunk.js": "/bba/static/js/2.a0c18f19.chunk.js",
     "static/js/2.a0c18f19.chunk.js.map": "/bba/static/js/2.a0c18f19.chunk.js.map",
     "index.html": "/bba/index.html",
-    "precache-manifest.5dac3fe320086163adf0ee4f10793c85.js": "/bba/precache-manifest.5dac3fe320086163adf0ee4f10793c85.js",
+    "precache-manifest.35e0e6f5d38b46a3d9fe2f3df156169c.js": "/bba/precache-manifest.35e0e6f5d38b46a3d9fe2f3df156169c.js",
     "service-worker.js": "/bba/service-worker.js",
-    "static/css/main.80d81f34.chunk.css.map": "/bba/static/css/main.80d81f34.chunk.css.map",
+    "static/css/main.d7e1c8f3.chunk.css.map": "/bba/static/css/main.d7e1c8f3.chunk.css.map",
     "static/js/2.a0c18f19.chunk.js.LICENSE": "/bba/static/js/2.a0c18f19.chunk.js.LICENSE",
     "static/media/BuickCentury2004.JPG": "/bba/static/media/BuickCentury2004.de8fd586.JPG",
     "static/media/ChevyHHR2011.JPG": "/bba/static/media/ChevyHHR2011.ef275f61.JPG",
@@ -43,7 +43,7 @@
   "entrypoints": [
     "static/js/runtime-main.adf1ab50.js",
     "static/js/2.a0c18f19.chunk.js",
-    "static/css/main.80d81f34.chunk.css",
-    "static/js/main.6294f07d.chunk.js"
+    "static/css/main.d7e1c8f3.chunk.css",
+    "static/js/main.7b06eb24.chunk.js"
   ]
 }
