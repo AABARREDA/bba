@@ -17,31 +17,36 @@ function App() {
         <Image className='logo' imageFit={1} src={logo}/>
         610 N. Cunningham Urbana, IL. 61802 <br/>
         Phone: 217-344-2020  <br/>
-        Fax: 217-344-2022
+        Fax: 217-344-2022 <br/>
     </header>
     </div>
     <Separator className='App-header'>Current Inventory</Separator>
 
-      <Stack horizontal horizontalAlign='center' wrap>
+      <Stack horizontal horizontalAlign='center' wrap gap='15'>
           <Stack horizontalAlign='center' className='tile'>
             <Image className='tile-pic' imageFit={1} src={tahoe}/>
-            <Text> 2008 Chevy Tahoe $10500, 121K Miles, All Power, Third Row Seat, Cold AC, Alloy Wheels, Good Tires, Flex Fuel. 4 pics.</Text>
+            <Text className='tile-text-p'> 2008 Chevy Tahoe - $10,500</Text>
+            <Text className='tile-text-d'>121K Miles, All Power, Third Row Seat, Cold AC, Alloy Wheels, Good Tires, Flex Fuel.</Text>
           </Stack>
           <Stack horizontalAlign='center' className='tile'>
             <Image className='tile-pic' imageFit={1} src={logo}/>
-            <Text> 2007 Kia Sportage, $4950,90 K miles, All wheel Drive, All Power, cold Ac, tune up complete including oil chage. 5 pics. </Text>
+            <Text className='tile-text-p'>2007 Kia Sportage - $4,950</Text>
+            <Text className='tile-text-d'>90K miles, All Wheel Drive, All Power, Cold AC, Tune Up complete including Oil change.</Text>
           </Stack>
           <Stack horizontalAlign='center' className='tile'>
             <Image className='tile-pic' imageFit={1} src={logo}/>
-            <Text>2007 Nissan Versa SE, $4250, 123k Miles, oil change, front wheel drive, automatic, good tires, cold ac, 4 cyl, good gas mileage, 4 pics.</Text>
+            <Text className='tile-text-p'>2007 Nissan Versa SE - $4250</Text>
+            <Text className='tile-text-d'>123k Miles, Oil change, Front Wheel Drive, Automatic, Good Tires, Cold AC, 4 Cyl.</Text>
           </Stack>
           <Stack horizontalAlign='center' className='tile'>
             <Image className='tile-pic' imageFit={1} src={logo}/>
-            <Text> 2012 kia rio ex hatchback, $5850,90 k miles, cold ac, good tires, cruise/tilt, automatic, extra clean, 4 cyl, great gas mileage, 5 pics</Text>
+            <Text className='tile-text-p'>2012 Kia Rio Ex Hatchback - $5,850</Text>
+            <Text className='tile-text-d'>90k miles, Cold AC, Good Tires, Cruise/Tilt, Automatic, Extra Clean, 4 Cyl.</Text>
           </Stack>
           <Stack horizontalAlign='center' className='tile'>
             <Image className='tile-pic' imageFit={1} src={logo}/>
-            <Text>2011 Chevy HHR $4850, 90k miles, good tures, 4 cyl, good gas mileage, auto cold ac. 4 pics</Text>
+            <Text className='tile-text-p'>2011 Chevy HHR - $4850</Text>
+            <Text className='tile-text-d'>90k miles, Good Tires, 4 Cyl, Good Gas Mileage, Auto Cold AC.</Text>
           </Stack>
           <Stack horizontalAlign='center' className='tile'>
             <Image className='tile-pic' imageFit={1} src={logo}/>
@@ -131,7 +136,7 @@ function App() {
 
       <Separator className='App-header'>Info</Separator>
 
-      <Stack horizontal horizontalAlign='center' wrap gap='15'>
+      <Stack horizontal horizontalAlign='center' wrap gap='50'>
           <Stack>
           <Text className='App-info'>Our Location </Text>
           <Iframe url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3051.0649338166468!2d-88.20565628435764!3d40.11855638164319!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880cd79c8a9ba8bb%3A0xbe55a6bc792bdab1!2sBBA%20Auto%20Sales%20LLC!5e0!3m2!1sen!2sus!4v1578122642967!5m2!1sen!2sus"
@@ -145,7 +150,7 @@ function App() {
           <Stack className='tile-about'>
             <Text className='App-info'>About Us</Text>
             <Text className='App-info'>BBA Auto Sales is family owned and operated. We have been part of the Urbana community for the last 27 years. 
-            Being a small family owned dealership allows us to keep our prices low.</Text><br/>
+            Being a small family owned dealership allows us to provide quality cars while keeping our prices low.</Text><br/>
             <Text horizontalAlign='right' className='App-info'>Antonio Barreda - Owner</Text>
           </Stack>
       </Stack>
