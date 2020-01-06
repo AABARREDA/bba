@@ -1,13 +1,41 @@
 import React from 'react';
-import logo from './assets/logo.jpg';
-import tahoe from './assets/trucks/ChevyTahoe2008.jpg';
 import './App.css';
 import { Stack } from 'office-ui-fabric-react/lib/Stack';
 import { Image } from 'office-ui-fabric-react/lib/Image';
 import { Separator } from 'office-ui-fabric-react/lib/Separator';
 import { Text } from 'office-ui-fabric-react/lib/Text';
 import Iframe from 'react-iframe'
+import logo from './assets/logo.jpg';
 
+import kiario from './assets/cars/KiaRio2012.JPG';
+import chevyhhr2011 from './assets/cars/ChevyHHR2011.JPG';
+import versa from './assets/cars/NissanVersa2007.JPG';
+import versa08 from './assets/cars/NissanVersa2008.JPG';
+import stratus from './assets/cars/stratus.JPG';
+import chevyhhr20112 from './assets/cars/ChevyHHR20112.JPG';
+import century from './assets/cars/BuickCentury2004.JPG';
+import focus from './assets/cars/FordFocus.JPG';
+import mustang from './assets/cars/FordMustang.JPG';
+import gti from './assets/cars/GTI.JPG';
+import civic from './assets/cars/HondaCivic.JPG';
+import g6 from './assets/cars/PontiacG6.JPG';
+import s4 from './assets/cars/S4.JPG';
+import mconv from './assets/cars/mustconv.JPG';
+
+import tahoe from './assets/trucks/ChevyTahoe2008.jpg';
+import sportage from './assets/trucks/KiaSportage2007.JPG';
+import tahoe16 from './assets/trucks/ChevyTahoe16.JPG';
+import mkx from './assets/trucks/MKX.JPG';
+import quest from './assets/trucks/Quest.JPG';
+import sienna from './assets/trucks/Sienna.JPG';
+import silverado from './assets/trucks/SilveradoLT.JPG';
+import terrain from './assets/trucks/Terrain.JPG';
+import trailblazer from './assets/trucks/TrailBlazer.JPG';
+import caliber from './assets/trucks/caliber.JPG';
+import srx from './assets/trucks/SRX.jpeg';
+
+
+import cbr from './assets/other/hondacbr.JPG'
 
 function App() {
   return (
@@ -29,108 +57,129 @@ function App() {
             <Text className='tile-text-d'>121K Miles, All Power, Third Row Seat, Cold AC, Alloy Wheels, Good Tires, Flex Fuel.</Text>
           </Stack>
           <Stack horizontalAlign='center' className='tile'>
-            <Image className='tile-pic' imageFit={1} src={logo}/>
+            <Image className='tile-pic' imageFit={1} src={sportage}/>
             <Text className='tile-text-p'>2007 Kia Sportage - $4,950</Text>
-            <Text className='tile-text-d'>90K miles, All Wheel Drive, All Power, Cold AC, Tune Up complete including Oil change.</Text>
+            <Text className='tile-text-d'>90K Miles, All Wheel Drive, All Power, Cold AC, Tune Up complete including Oil change.</Text>
           </Stack>
           <Stack horizontalAlign='center' className='tile'>
-            <Image className='tile-pic' imageFit={1} src={logo}/>
+            <Image className='tile-pic' imageFit={1} src={versa}/>
             <Text className='tile-text-p'>2007 Nissan Versa SE - $4250</Text>
-            <Text className='tile-text-d'>123k Miles, Oil change, Front Wheel Drive, Automatic, Good Tires, Cold AC, 4 Cyl.</Text>
+            <Text className='tile-text-d'>123K Miles, Oil change, Front Wheel Drive, Automatic, Good Tires, Cold AC, 4 Cyl.</Text>
           </Stack>
           <Stack horizontalAlign='center' className='tile'>
-            <Image className='tile-pic' imageFit={1} src={logo}/>
+            <Image className='tile-pic' imageFit={1} src={kiario}/>
             <Text className='tile-text-p'>2012 Kia Rio Ex Hatchback - $5,850</Text>
-            <Text className='tile-text-d'>90k miles, Cold AC, Good Tires, Cruise/Tilt, Automatic, Extra Clean, 4 Cyl.</Text>
+            <Text className='tile-text-d'>90K Miles, Cold AC, Good Tires, Cruise/Tilt, Automatic, Extra Clean, 4 Cyl.</Text>
           </Stack>
           <Stack horizontalAlign='center' className='tile'>
-            <Image className='tile-pic' imageFit={1} src={logo}/>
+            <Image className='tile-pic' imageFit={1} src={chevyhhr2011}/>
+            <Text className='tile-text-p'>2011 Chevy HHR - $4,850</Text>
+            <Text className='tile-text-d'>90K Miles, Good Tires, 4 Cyl, Good Gas Mileage, Auto Cold AC.</Text>
+          </Stack>
+          <Stack horizontalAlign='center' className='tile'>
+            <Image className='tile-pic' imageFit={1} src={versa08}/>
+            <Text className='tile-text-p'>2008 Nissan Versa - 4,250</Text>
+            <Text className='tile-text-d'>114K Miles, 4 Cyl, Good Gas Mileage, Good Engine and Transmission, Automatic.</Text>
+          </Stack>
+          <Stack horizontalAlign='center' className='tile'>
+            <Image className='tile-pic' imageFit={1} src={caliber}/>
+            <Text className='tile-text-p'>2008 Dodge Caliber - $3,490</Text>
+            <Text className='tile-text-d'>106K Miles, All Power, Good Mileage, Front Wheel Drive, Cold AC, Oil Change, New Front Brakes.</Text>
+          </Stack>
+          <Stack horizontalAlign='center' className='tile'>
+            <Image className='tile-pic' imageFit={1} src={chevyhhr20112}/>
             <Text className='tile-text-p'>2011 Chevy HHR - $4850</Text>
-            <Text className='tile-text-d'>90k miles, Good Tires, 4 Cyl, Good Gas Mileage, Auto Cold AC.</Text>
+            <Text className='tile-text-d'>127K Miles, Alloy Wheels, Good Tires, All Power, Front Wheel Drive.</Text>
           </Stack>
           <Stack horizontalAlign='center' className='tile'>
-            <Image className='tile-pic' imageFit={1} src={logo}/>
-            <Text>2008 nissan versa, $4250 114k miles, 4 cyl good gas mileage, good engine, transmission, automatic, 4 pics </Text>
+            <Image className='tile-pic' imageFit={1} src={gti}/>
+            <Text className='tile-text-p'>2009 VW GTI - $6,900</Text>
+            <Text className='tile-text-d'>70K Miles, Paddle Shifter, Turbo, Tartan Interior, Premium Rims, Extra clean in and out.</Text>
           </Stack>
           <Stack horizontalAlign='center' className='tile'>
-            <Image className='tile-pic' imageFit={1} src={logo}/>
-            <Text>2008 Dodge Caliber $3490, 106 k miles, all power, good mileage, front Wheel Drive, cold ac, oil change, new front brakes, 4 pics</Text>
+            <Image className='tile-pic' imageFit={1} src={focus}/>
+            <Text className='tile-text-p'>2013 Ford Focus - $5,950</Text>
+            <Text className='tile-text-d'>129K Miles, Good Tires, Extra Clean, Cold AC, Oil Change Completed, 4 Cyl.</Text>
           </Stack>
           <Stack horizontalAlign='center' className='tile'>
-            <Image className='tile-pic' imageFit={1} src={logo}/>
-            <Text>2011 Chevy HHR, 4850, 127 k miles, alloy wheels, good tires, all power, front wheel drive, 5 pics</Text>
+            <Image className='tile-pic' imageFit={1} src={g6}/>
+            <Text className='tile-text-p'>2007 Pontiac G6 - $3,450</Text>
+            <Text className='tile-text-d'>70K Miles, Good Tires, Auto, Woodgrain, Clean, Cold AC.</Text>
           </Stack>
           <Stack horizontalAlign='center' className='tile'>
-            <Image className='tile-pic' imageFit={1} src={logo}/>
-            <Text>2009 VW GTI, 6900, 70k miles, paddle shifter, turbo, tartan interior, premium rims, x clean in and out,</Text>
+            <Image className='tile-pic' imageFit={1} src={mustang}/>
+            <Text className='tile-text-p'>2012 Ford Mustang - $8,450</Text>
+            <Text className='tile-text-d'>120K Miles, 6 Cyl, All Power, Good Wheels and Tires, Black Interior.</Text>
           </Stack>
           <Stack horizontalAlign='center' className='tile'>
-            <Image className='tile-pic' imageFit={1} src={logo}/>
-            <Text>2013 Ford Focus, 5950, 129 k miles, good tires, extra clean, cold ac, oil change completed, 4 cyl good gas mileage, 5 pics</Text>
+            <Image className='tile-pic' imageFit={1} src={tahoe16}/>
+            <Text className='tile-text-p'>2016 Chevy Tahoe - $15,500</Text>
+            <Text className='tile-text-d'>109K Miles, 3rd Row Seat, Nice Rims, Good Tires, Caddy Tail Lights, Leather.</Text>
           </Stack>
           <Stack horizontalAlign='center' className='tile'>
-            <Image className='tile-pic' imageFit={1} src={logo}/>
-            <Text>2007 Pontiac G6 low miles, 3450, 70k miles, good tires, auto, woodgrain, clean, cold ac.4 pics </Text>
+            <Image className='tile-pic' imageFit={1} src={terrain}/>
+            <Text className='tile-text-p'>2012 GMC Terrain - $9,250</Text>
+            <Text className='tile-text-d'>105K Miles, All Power, Backup Camera, Keyless Entry, Alloy Wheels, Cold AC, Good Tires, Extra Clean.</Text>
           </Stack>
           <Stack horizontalAlign='center' className='tile'>
-            <Image className='tile-pic' imageFit={1} src={logo}/>
-            <Text>2012 ford mustang, 8450, 120k miles, 6 cyl, all power, good wheels and tires, black interior, 6 pics</Text>
+            <Image className='tile-pic' imageFit={1} src={mkx}/>
+            <Text className='tile-text-p'>2008 Lincoln MKX - $6,950</Text>
+            <Text className='tile-text-d'>99K Miles, Panoramic Roof, Navigation, Leather, AWD, Clean.</Text>
           </Stack>
           <Stack horizontalAlign='center' className='tile'>
-            <Image className='tile-pic' imageFit={1} src={logo}/>
-            <Text>2013 chevy tahoe, $15500, 109 k miles, 3rd row seat, nice rims, good tires, caddy tail lights, leather, 6 pics</Text>
+            <Image className='tile-pic' imageFit={1} src={quest}/>
+            <Text className='tile-text-p'>2009 Nissan Quest - $6,100</Text>
+            <Text className='tile-text-d'>130K Miles, Automatic, Alloy Wheels, Good Tires, Back Up Camera.</Text>
           </Stack>
           <Stack horizontalAlign='center' className='tile'>
-            <Image className='tile-pic' imageFit={1} src={logo}/>
-            <Text>2012 gmc terrain, 9250, 105k miles, all power, backup camera, keyless entry, alloy wheels, cold ac, good tires, extra clean 3 pics</Text>
+            <Image className='tile-pic' imageFit={1} src={s4}/>
+            <Text className='tile-text-p'>2009 Audi S4 - $6274</Text>
+            <Text className='tile-text-d'>85K Miles, New Battery, Leather, Automotive, Cold AC.</Text>
           </Stack>
           <Stack horizontalAlign='center' className='tile'>
-            <Image className='tile-pic' imageFit={1} src={logo}/>
-            <Text>2008 lincoln mkx, 6950, 99k miles, panoramic roof, navigation, leather, awd, clean. 4 pics </Text>
+            <Image className='tile-pic' imageFit={1} src={civic}/>
+            <Text className='tile-text-p'>2001 Honda Civic - $2,450</Text>
+            <Text className='tile-text-d'>160K Miles, 5 Speed Manual, All Power, Aftermarket Wheels, Rear Spoiler, Clean in and out.</Text>
           </Stack>
           <Stack horizontalAlign='center' className='tile'>
-            <Image className='tile-pic' imageFit={1} src={logo}/>
-            <Text>2009 nissan quest, 6100, 130k miles, automatic, alloy wheels, good tires, back up camera, 4 pics</Text>
+            <Image className='tile-pic' imageFit={1} src={trailblazer}/>
+            <Text className='tile-text-p'>2004 Chevy trailblazer - $4950</Text>
+            <Text className='tile-text-d'>136K Miles, 3rd Row Seat, All Power, Alloy Wheels.</Text>
           </Stack>
           <Stack horizontalAlign='center' className='tile'>
-            <Image className='tile-pic' imageFit={1} src={logo}/>
-            <Text>2009 Audi S4, 6274, 85 k miles, new battery, leather, automotive, cold ac, 5 pics</Text>
+            <Image className='tile-pic' imageFit={1} src={sienna}/>
+            <Text className='tile-text-p'>2007 Toyota Sienna - $6250</Text>
+            <Text className='tile-text-d'>130K Miles, All Power, Cold AC, Rear AC, Extra Clean in and out, Towing Package, Good Tires.</Text>
           </Stack>
           <Stack horizontalAlign='center' className='tile'>
-            <Image className='tile-pic' imageFit={1} src={logo}/>
-            <Text>2001 honda civic, 2450, 160k miles, 5 speed manual, all power, aftermarket wheels, rear spoiler, clean in and out. 4 pics</Text>
+            <Image className='tile-pic' imageFit={1} src={stratus}/>
+            <Text className='tile-text-p'>2002 Dodge Stratus - $2,450</Text>
+            <Text className='tile-text-d'>150K Miles, All Power, Cold AC, Heater, Sunroof, Front Wheel Drive, Leather, Alloy Wheels, Good Tires.</Text>
           </Stack>
           <Stack horizontalAlign='center' className='tile'>
-            <Image className='tile-pic' imageFit={1} src={logo}/>
-            <Text>2004 chevy trailblazer, 4950, 136k miles, 3rd row seat, all power, alloy wheels, 4 pics</Text>
+            <Image className='tile-pic' imageFit={1} src={century}/>
+            <Text className='tile-text-p'>2004 Buick Century - $3,277</Text>
+            <Text className='tile-text-d'>96K Miles, Leather, Cold AC, Good Tires, Clean inside and out, All Power.</Text>
           </Stack>
           <Stack horizontalAlign='center' className='tile'>
-            <Image className='tile-pic' imageFit={1} src={logo}/>
-            <Text>2007 toyota sienna, 6250, 130k miles, all power, cold ac, rear ac, x clean in and out, towing package, good tires 4 pics</Text>
+            <Image className='tile-pic' imageFit={1} src={mconv}/>
+            <Text className='tile-text-p'>2005 Mustang Convertible - $4,950</Text>
+            <Text className='tile-text-d'>160K Miles, Cold AC, All Power, Chrome Rims, Leather, Super clean.</Text>
           </Stack>
           <Stack horizontalAlign='center' className='tile'>
-            <Image className='tile-pic' imageFit={1} src={logo}/>
-            <Text>2002 dodge stratus, 2450, 150k miles, all power, ac, heater, sunroof, front wheel drive, leather, alloy wheels and good tires. 4 pics.</Text>
+            <Image className='tile-pic' imageFit={1} src={silverado}/>
+            <Text className='tile-text-p'>2016 Chevy Silverado LT- $25,550</Text>
+            <Text className='tile-text-d'>21K Miles, Backup Camera, Side Running Boards, 4x4, 4 Door, Navigation, Leather, All Power.</Text>
           </Stack>
           <Stack horizontalAlign='center' className='tile'>
-            <Image className='tile-pic' imageFit={1} src={logo}/>
-            <Text>2004 buick century, 3277, 96k miles, leather cold ac good tires, clean inside and out, all power. 4 pics</Text>
+            <Image className='tile-pic' imageFit={1} src={cbr}/>
+            <Text className='tile-text-p'>2004 Honda CBR 600RR - $2,750</Text>
+            <Text className='tile-text-d'>23K Miles, New Tires, Tune Up compelte including oil change.</Text>
           </Stack>
           <Stack horizontalAlign='center' className='tile'>
-            <Image className='tile-pic' imageFit={1} src={logo}/>
-            <Text>2005 mustang convertible, 4950, 160k miles, cold ac, all power, chrome rims, leather supwer clean, 7 pics</Text>
-          </Stack>
-          <Stack horizontalAlign='center' className='tile'>
-            <Image className='tile-pic' imageFit={1} src={logo}/>
-            <Text>2016 chevy silverado lt low mileage, 25500, 21k miles, backup camera, extra clean, side running boards, 4x4, 4 door, navigation, leather, all power, 9 pics.</Text>
-          </Stack>
-          <Stack horizontalAlign='center' className='tile'>
-            <Image className='tile-pic' imageFit={1} src={logo}/>
-            <Text>2004 honda cbr 600rr 2750, 23k miles, new tires, tune up, oil change, 7 pics</Text>
-          </Stack>
-          <Stack horizontalAlign='center' className='tile'>
-            <Image className='tile-pic' imageFit={1} src={logo}/>
-            <Text>2012 cadillac srx, 12500, 86k miles, all power, keyess entry, panoramic roof, leather, ac and heated seats, two tv,s navigation, dvd, bluetooth, front wheel drive, v6 extra clean, chrome rims, good tires, xm 11 pics</Text>
+            <Image className='tile-pic' imageFit={1} src={srx}/>
+            <Text className='tile-text-p'>2012 Cadillac SRX - $12,500</Text>
+            <Text className='tile-text-d'>86K Miles, V6, Front Wheel Drive, Keyless Entry, Panoramic Roof, Leather, Heated and Cooled Seats, Dual TVs, NAV, DVD, Bluetooth, Chrome Rims.</Text>
           </Stack>
        </Stack>
 
