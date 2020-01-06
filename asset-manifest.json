@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/bba/static/css/main.023333c1.chunk.css",
-    "main.js": "/bba/static/js/main.90a995b1.chunk.js",
-    "main.js.map": "/bba/static/js/main.90a995b1.chunk.js.map",
+    "main.css": "/bba/static/css/main.51b6b186.chunk.css",
+    "main.js": "/bba/static/js/main.65a01d9a.chunk.js",
+    "main.js.map": "/bba/static/js/main.65a01d9a.chunk.js.map",
     "runtime-main.js": "/bba/static/js/runtime-main.adf1ab50.js",
     "runtime-main.js.map": "/bba/static/js/runtime-main.adf1ab50.js.map",
     "static/js/2.f66e6e73.chunk.js": "/bba/static/js/2.f66e6e73.chunk.js",
     "static/js/2.f66e6e73.chunk.js.map": "/bba/static/js/2.f66e6e73.chunk.js.map",
     "index.html": "/bba/index.html",
-    "precache-manifest.eaa0c60ab35bba011f3978177047fd7c.js": "/bba/precache-manifest.eaa0c60ab35bba011f3978177047fd7c.js",
+    "precache-manifest.eb06e3b4701387cdf111a359dc0860b3.js": "/bba/precache-manifest.eb06e3b4701387cdf111a359dc0860b3.js",
     "service-worker.js": "/bba/service-worker.js",
-    "static/css/main.023333c1.chunk.css.map": "/bba/static/css/main.023333c1.chunk.css.map",
+    "static/css/main.51b6b186.chunk.css.map": "/bba/static/css/main.51b6b186.chunk.css.map",
     "static/js/2.f66e6e73.chunk.js.LICENSE": "/bba/static/js/2.f66e6e73.chunk.js.LICENSE",
     "static/media/ChevyTahoe2008.jpg": "/bba/static/media/ChevyTahoe2008.0d26877d.jpg",
     "static/media/logo.jpg": "/bba/static/media/logo.20d4e971.jpg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.adf1ab50.js",
     "static/js/2.f66e6e73.chunk.js",
-    "static/css/main.023333c1.chunk.css",
-    "static/js/main.90a995b1.chunk.js"
+    "static/css/main.51b6b186.chunk.css",
+    "static/js/main.65a01d9a.chunk.js"
   ]
 }
