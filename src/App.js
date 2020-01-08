@@ -21,6 +21,7 @@ import civic from './assets/cars/HondaCivic.JPG';
 import g6 from './assets/cars/PontiacG6.JPG';
 import s4 from './assets/cars/S4.JPG';
 import mconv from './assets/cars/mustconv.JPG';
+import nissan from './assets/cars/Nissan.JPEG';
 
 import tahoe from './assets/trucks/ChevyTahoe2008.jpg';
 import sportage from './assets/trucks/KiaSportage2007.JPG';
@@ -51,6 +52,11 @@ function App() {
     <Separator className='App-header'>Current Inventory</Separator>
 
       <Stack horizontal horizontalAlign='center' wrap gap='15'>
+          <Stack horizontalAlign='center' className='tile'>
+            <Image className='tile-pic' imageFit={1} src={nissan}/>
+            <Text className='tile-text-p'> 2013 Nissan Sentra - $Call</Text>
+            <Text className='tile-text-d'>120K Miles, All Power, Extra Clean in/out, Front Wheel Drive, Keyless Entry, Bluetooth.</Text>
+          </Stack>
           <Stack horizontalAlign='center' className='tile'>
             <Image className='tile-pic' imageFit={1} src={tahoe}/>
             <Text className='tile-text-p'> 2008 Chevy Tahoe - $10,500</Text>
