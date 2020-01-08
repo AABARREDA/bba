@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c4928e05f2fb3f59fc143d0c86a40597",
+    "revision": "50c8b31e67735c61c77de769743ff2df",
     "url": "/index.html"
   },
   {
-    "revision": "b540bc15ccee9bfb5e27",
+    "revision": "f36491c87b03f008aed8",
     "url": "/static/css/main.d7e1c8f3.chunk.css"
   },
   {
-    "revision": "beca51e21f102f11f243",
-    "url": "/static/js/2.a0c18f19.chunk.js"
+    "revision": "e87d75c75526cd8052d9",
+    "url": "/static/js/2.b631d3e2.chunk.js"
   },
   {
     "revision": "0c08a48b164499df78c0607b14eb2c76",
-    "url": "/static/js/2.a0c18f19.chunk.js.LICENSE"
+    "url": "/static/js/2.b631d3e2.chunk.js.LICENSE"
   },
   {
-    "revision": "b540bc15ccee9bfb5e27",
-    "url": "/static/js/main.fe4c3664.chunk.js"
+    "revision": "f36491c87b03f008aed8",
+    "url": "/static/js/main.215b66ea.chunk.js"
   },
   {
     "revision": "dfda05006be39051ceae",
@@ -70,6 +70,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1a615e01b84944792d4a2eb57c6519d2",
     "url": "/static/media/MKX.1a615e01.JPG"
+  },
+  {
+    "revision": "d66b24f7c0a432227b64f6b853c986ec",
+    "url": "/static/media/Nissan.d66b24f7.JPEG"
   },
   {
     "revision": "b97a8d92ecc2909e402f4a0acbc46e1f",
