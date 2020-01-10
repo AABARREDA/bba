@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.38589db4.chunk.css",
-    "main.js": "/static/js/main.5c76656d.chunk.js",
-    "main.js.map": "/static/js/main.5c76656d.chunk.js.map",
+    "main.css": "/static/css/main.abfee6b7.chunk.css",
+    "main.js": "/static/js/main.6ff47888.chunk.js",
+    "main.js.map": "/static/js/main.6ff47888.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1968646e.js",
     "runtime-main.js.map": "/static/js/runtime-main.1968646e.js.map",
     "static/js/2.80f0c2b4.chunk.js": "/static/js/2.80f0c2b4.chunk.js",
     "static/js/2.80f0c2b4.chunk.js.map": "/static/js/2.80f0c2b4.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f0193094f64397e9c38662f51b3d443c.js": "/precache-manifest.f0193094f64397e9c38662f51b3d443c.js",
+    "precache-manifest.a00b65fa75d6edea515fb844d3f414eb.js": "/precache-manifest.a00b65fa75d6edea515fb844d3f414eb.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.38589db4.chunk.css.map": "/static/css/main.38589db4.chunk.css.map",
+    "static/css/main.abfee6b7.chunk.css.map": "/static/css/main.abfee6b7.chunk.css.map",
     "static/js/2.80f0c2b4.chunk.js.LICENSE": "/static/js/2.80f0c2b4.chunk.js.LICENSE",
     "static/media/BuickCentury2004.JPG": "/static/media/BuickCentury2004.de8fd586.JPG",
     "static/media/ChevyHHR2011.JPG": "/static/media/ChevyHHR2011.ef275f61.JPG",
@@ -42,7 +42,7 @@
   "entrypoints": [
     "static/js/runtime-main.1968646e.js",
     "static/js/2.80f0c2b4.chunk.js",
-    "static/css/main.38589db4.chunk.css",
-    "static/js/main.5c76656d.chunk.js"
+    "static/css/main.abfee6b7.chunk.css",
+    "static/js/main.6ff47888.chunk.js"
   ]
 }
