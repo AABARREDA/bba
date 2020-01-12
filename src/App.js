@@ -1,11 +1,13 @@
 import React from 'react';
 import './App.css';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Stack } from 'office-ui-fabric-react/lib/Stack';
 import { Image } from 'office-ui-fabric-react/lib/Image';
 import { Separator } from 'office-ui-fabric-react/lib/Separator';
 import { Text } from 'office-ui-fabric-react/lib/Text';
+import { Carousel } from 'react-responsive-carousel';
+
 import Iframe from 'react-iframe'
-import logo from './assets/logo.jpg';
 
 import kiario from './assets/cars/KiaRio2012.JPG';
 import chevyhhr2011 from './assets/cars/ChevyHHR2011.JPG';
@@ -20,7 +22,6 @@ import gti from './assets/cars/GTI.JPG';
 import civic from './assets/cars/HondaCivic.JPG';
 import g6 from './assets/cars/PontiacG6.JPG';
 import s4 from './assets/cars/S4.JPG';
-import mconv from './assets/cars/mustconv.JPG';
 import nissan from './assets/cars/Nissan.JPEG';
 
 import tahoe from './assets/trucks/ChevyTahoe2008.jpg';
@@ -29,7 +30,6 @@ import tahoe16 from './assets/trucks/ChevyTahoe16.JPG';
 import mkx from './assets/trucks/MKX.JPG';
 import quest from './assets/trucks/Quest.JPG';
 import sienna from './assets/trucks/Sienna.JPG';
-import silverado from './assets/trucks/SilveradoLT.JPG';
 import terrain from './assets/trucks/Terrain.JPG';
 import trailblazer from './assets/trucks/TrailBlazer.JPG';
 import caliber from './assets/trucks/caliber.JPG';
@@ -41,17 +41,36 @@ import cbr from './assets/other/hondacbr.JPG'
 function App() {
   return (
     <div>
-    <div className="App">
-    <header className="App-header">
-        <Image className='logo' imageFit={1} src={logo}/>
-        610 N. Cunningham Urbana, IL. 61802 <br/>
-        Phone: 217-344-2020  <br/>
-        Fax: 217-344-2022 <br/>
-    </header>
-    </div>
+        <div className="App">
+        <div className="hero-image">
+          <header className="App-header-2">
+            <br/>
+            BBA Auto Sales<br/>
+            610 N. Cunningham Urbana, IL. 61802 <br/>
+            Phone: 217-344-2020  <br/>
+            Fax: 217-344-2022 <br/>
+          </header>
+        </div>
+        </div>
+
     <Separator className='App-header'>Current Inventory</Separator>
 
       <Stack horizontal horizontalAlign='center' wrap gap='15'>
+          <Stack horizontalAlign='center' className='tile'>
+            <Carousel width="425px" emulateTouch>
+                <div>
+                    <img src={nissan} />
+                </div>
+                <div>
+                    <img src={srx} />
+                </div>
+                <div>
+                    <img src={nissan} />
+                </div>
+            </Carousel>
+            <Text className='tile-text-p'> 2013 Nissan Sentra - $5,950</Text>
+            <Text className='tile-text-d'>120K Miles, All Power, Extra Clean in/out, Front Wheel Drive, Keyless Entry, Bluetooth.</Text>
+          </Stack>
           <Stack horizontalAlign='center' className='tile'>
             <Image className='tile-pic' imageFit={1} src={nissan}/>
             <Text className='tile-text-p'> 2013 Nissan Sentra - $5,950</Text>
@@ -168,16 +187,6 @@ function App() {
             <Text className='tile-text-d'>96K Miles, Leather, Cold AC, Good Tires, Clean inside and out, All Power.</Text>
           </Stack>
           <Stack horizontalAlign='center' className='tile'>
-            <Image className='tile-pic' imageFit={1} src={mconv}/>
-            <Text className='tile-text-p'>2005 Mustang Convertible - $4,950</Text>
-            <Text className='tile-text-d'>160K Miles, Cold AC, All Power, Chrome Rims, Leather, Super clean.</Text>
-          </Stack>
-          <Stack horizontalAlign='center' className='tile'>
-            <Image className='tile-pic' imageFit={1} src={silverado}/>
-            <Text className='tile-text-p'>2016 Chevy Silverado LT- $25,550</Text>
-            <Text className='tile-text-d'>21K Miles, Backup Camera, Side Running Boards, 4x4, 4 Door, Navigation, Leather, All Power.</Text>
-          </Stack>
-          <Stack horizontalAlign='center' className='tile'>
             <Image className='tile-pic' imageFit={1} src={cbr}/>
             <Text className='tile-text-p'>2004 Honda CBR 600RR - $2,750</Text>
             <Text className='tile-text-d'>23K Miles, New Tires, Tune Up compelte including oil change.</Text>
@@ -192,10 +201,10 @@ function App() {
       <Separator className='App-header'>Info</Separator>
 
       <Stack horizontal horizontalAlign='center' wrap gap='50'>
-          <Stack>
+          <Stack className='tile-about'>
           <Text className='App-info-test'>Our Location </Text>
           <Iframe url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3051.0649338166468!2d-88.20565628435764!3d40.11855638164319!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880cd79c8a9ba8bb%3A0xbe55a6bc792bdab1!2sBBA%20Auto%20Sales%20LLC!5e0!3m2!1sen!2sus!4v1578122642967!5m2!1sen!2sus"
-            width="500px"
+            width="495px"
             height="350px"
             id="myId"
             className="myClassname"
