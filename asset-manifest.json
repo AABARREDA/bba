@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.d4ad8e09.chunk.css",
-    "main.js": "/static/js/main.2a60ca13.chunk.js",
-    "main.js.map": "/static/js/main.2a60ca13.chunk.js.map",
+    "main.js": "/static/js/main.341bf780.chunk.js",
+    "main.js.map": "/static/js/main.341bf780.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1968646e.js",
     "runtime-main.js.map": "/static/js/runtime-main.1968646e.js.map",
     "static/css/2.f3db0347.chunk.css": "/static/css/2.f3db0347.chunk.css",
-    "static/js/2.919c71e8.chunk.js": "/static/js/2.919c71e8.chunk.js",
-    "static/js/2.919c71e8.chunk.js.map": "/static/js/2.919c71e8.chunk.js.map",
+    "static/js/2.951b3104.chunk.js": "/static/js/2.951b3104.chunk.js",
+    "static/js/2.951b3104.chunk.js.map": "/static/js/2.951b3104.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.1d4fa6586e211a068d605f03689d0308.js": "/precache-manifest.1d4fa6586e211a068d605f03689d0308.js",
+    "precache-manifest.ee0ebf2aad02a03013c8fe651a48dd47.js": "/precache-manifest.ee0ebf2aad02a03013c8fe651a48dd47.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.f3db0347.chunk.css.map": "/static/css/2.f3db0347.chunk.css.map",
     "static/css/main.d4ad8e09.chunk.css.map": "/static/css/main.d4ad8e09.chunk.css.map",
-    "static/js/2.919c71e8.chunk.js.LICENSE": "/static/js/2.919c71e8.chunk.js.LICENSE",
+    "static/js/2.951b3104.chunk.js.LICENSE": "/static/js/2.951b3104.chunk.js.LICENSE",
     "static/media/BuickCentury2004.JPG": "/static/media/BuickCentury2004.de8fd586.JPG",
     "static/media/ChevyHHR2011.JPG": "/static/media/ChevyHHR2011.ef275f61.JPG",
     "static/media/ChevyHHR20112.JPG": "/static/media/ChevyHHR20112.6c2a31ed.JPG",
@@ -39,13 +39,23 @@
     "static/media/caliber.JPG": "/static/media/caliber.ad25deca.JPG",
     "static/media/App.css": "/static/media/dealer2.b7694f84.jpg",
     "static/media/hondacbr.JPG": "/static/media/hondacbr.814aef82.JPG",
-    "static/media/stratus.JPG": "/static/media/stratus.550c377e.JPG"
+    "static/media/kia2.JPG": "/static/media/kia2.1c616c65.JPG",
+    "static/media/kia3.JPG": "/static/media/kia3.ba804614.JPG",
+    "static/media/kia4.JPG": "/static/media/kia4.0f62bab7.JPG",
+    "static/media/kia5.JPG": "/static/media/kia5.fa25f89d.JPG",
+    "static/media/nissan2.JPEG": "/static/media/nissan2.ef06f930.JPEG",
+    "static/media/nissan3.JPEG": "/static/media/nissan3.4aefc46f.JPEG",
+    "static/media/stratus.JPG": "/static/media/stratus.550c377e.JPG",
+    "static/media/tahoe2.JPG": "/static/media/tahoe2.4d4e9e85.JPG",
+    "static/media/tahoe3.JPG": "/static/media/tahoe3.e2008797.JPG",
+    "static/media/versa2.JPG": "/static/media/versa2.baed6236.JPG",
+    "static/media/versa3.JPG": "/static/media/versa3.1b455692.JPG"
   },
   "entrypoints": [
     "static/js/runtime-main.1968646e.js",
     "static/css/2.f3db0347.chunk.css",
-    "static/js/2.919c71e8.chunk.js",
+    "static/js/2.951b3104.chunk.js",
     "static/css/main.d4ad8e09.chunk.css",
-    "static/js/main.2a60ca13.chunk.js"
+    "static/js/main.341bf780.chunk.js"
   ]
 }
