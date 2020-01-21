@@ -19,13 +19,15 @@
 }
 
 .tile-text-p{
-  font-size: 20px;
+  font-size: 23px;
   color: black;
 }
 
 .tile-text-d{
   font-size: 15px;
   color: black;
+  text-align: center;
+  height: 40px;
 }
 
 .tile{
