@@ -2,6 +2,7 @@ import React from 'react';
 import { Stack, Text } from 'office-ui-fabric-react';
 import './App.css'; 
 import Iframe from 'react-iframe'
+import {Separator } from 'office-ui-fabric-react/lib/';
 
 class Footer extends React.Component {
     render() {
