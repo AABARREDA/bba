@@ -33,6 +33,7 @@
 .tile{
   height:510px;
   width: 450px;
+  min-width: 450px;
 }
 
 .tile-pic{
