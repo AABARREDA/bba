@@ -19,7 +19,8 @@
 }
 
 .bContainer{
-  height:60px;
+  min-height:60px;
+  padding-bottom: 10px;
 }
 
 .tile-text-p{
