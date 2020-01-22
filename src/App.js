@@ -3,12 +3,12 @@ import './App.css';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Stack, Separator } from 'office-ui-fabric-react/lib/';
 
-
 import Cars from './Cars';
 import Other from './Other';
 import Suvs from './Suvs';
 import Vans from './Vans';
 import Footer from './Footer';
+import { DefaultButton } from 'office-ui-fabric-react';
 
 function App() {
   return (
@@ -26,6 +26,8 @@ function App() {
         </div>
 
     <Separator className='App-header'>Current Inventory</Separator>
+
+
 
       <Stack horizontal horizontalAlign='center' wrap gap='15'>
           <Cars/>

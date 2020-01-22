@@ -18,6 +18,10 @@
   width: 400px;
 }
 
+.bContainer{
+  height:60px;
+}
+
 .tile-text-p{
   font-size: 23px;
   color: black;
