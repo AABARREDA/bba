@@ -8,37 +8,143 @@ import Other from './Other';
 import Suvs from './Suvs';
 import Vans from './Vans';
 import Footer from './Footer';
+import Header from './Header';
 import { DefaultButton } from 'office-ui-fabric-react';
 
-function App() {
-  return (
+class App extends React.Component{
+
+  state = {view: 'All'};
+
+  componentDidMount (){
+    this.setState({view: 'All'});
+   }
+
+   updateViewA(){
+     this.setState({view: 'All'});
+   }
+
+   updateViewC(){
+    this.setState({view: 'Cars'});
+  }
+  
+  updateViewS(){
+    this.setState({view: 'Suvs'});
+  }
+  
+  updateViewV(){
+    this.setState({view: 'Vans'});
+  }
+
+  updateViewM(){
+    this.setState({view: 'Moto'});
+  }
+
+  render (){
+
+    if (this.state.view == 'All'){
+    return(
     <div>
-        <div className="App">
-        <div className="hero-image">
-          <header className="App-header-2">
-            <br/>
-            BBA Auto Sales<br/>
-            610 N. Cunningham Urbana, IL. 61802 <br/>
-            Phone: 217-344-2020  <br/>
-            Fax: 217-344-2022 <br/>
-          </header>
-        </div>
-        </div>
-
-    <Separator className='App-header'>Current Inventory</Separator>
-
-
-
+      <Header/>
+      <Separator className='App-header'>Current Inventory</Separator>
+      <Stack className='bContainer' horizontal horizontalAlign='center' wrap gap='25'>
+          <DefaultButton text="Show All" onClick={() => this.updateViewA()}/>
+          <DefaultButton text="Cars" onClick={() => this.updateViewC()}/>
+          <DefaultButton text="Suvs" onClick={() => this.updateViewS()}/>
+          <DefaultButton text="Vans" onClick={() => this.updateViewV()}/>
+          <DefaultButton text="Motorcycles" onClick={() => this.updateViewM()}/>
+      </Stack>
       <Stack horizontal horizontalAlign='center' wrap gap='15'>
           <Cars/>
           <Suvs/>
           <Vans/>
           <Other/>
        </Stack>
-
       <Footer/>
     </div>
-  );
-}
+    );
+  }
+
+    if (this.state.view == 'Cars'){
+      return (
+        <div>
+        <Header/>
+        <Separator className='App-header'>Current Inventory</Separator>
+        <Stack className='bContainer' horizontal horizontalAlign='center' wrap gap='25'>
+            <DefaultButton text="Show All" onClick={() => this.updateViewA()}/>
+            <DefaultButton text="Cars" onClick={() => this.updateViewC()}/>
+            <DefaultButton text="Suvs" onClick={() => this.updateViewS()}/>
+            <DefaultButton text="Vans" onClick={() => this.updateViewV()}/>
+            <DefaultButton text="Motorcycles" onClick={() => this.updateViewM()}/>
+        </Stack>
+        <Stack horizontal horizontalAlign='center' wrap gap='15'>
+            <Cars/>
+        </Stack>
+        <Footer/>
+    </div>
+      );
+    }
+
+    if (this.state.view == 'Suvs'){
+      return (
+        <div>
+        <Header/>
+        <Separator className='App-header'>Current Inventory</Separator>
+        <Stack className='bContainer' horizontal horizontalAlign='center' wrap gap='25'>
+            <DefaultButton text="Show All" onClick={() => this.updateViewA()}/>
+            <DefaultButton text="Cars" onClick={() => this.updateViewC()}/>
+            <DefaultButton text="Suvs" onClick={() => this.updateViewS()}/>
+            <DefaultButton text="Vans" onClick={() => this.updateViewV()}/>
+            <DefaultButton text="Motorcycles" onClick={() => this.updateViewM()}/>
+        </Stack>
+        <Stack horizontal horizontalAlign='center' wrap gap='15'>
+            <Suvs/>
+        </Stack>
+        <Footer/>
+    </div>
+      );
+    }
+
+    if (this.state.view == 'Vans'){
+      return (
+        <div>
+        <Header/>
+        <Separator className='App-header'>Current Inventory</Separator>
+        <Stack className='bContainer' horizontal horizontalAlign='center' wrap gap='25'>
+            <DefaultButton text="Show All" onClick={() => this.updateViewA()}/>
+            <DefaultButton text="Cars" onClick={() => this.updateViewC()}/>
+            <DefaultButton text="Suvs" onClick={() => this.updateViewS()}/>
+            <DefaultButton text="Vans" onClick={() => this.updateViewV()}/>
+            <DefaultButton text="Motorcycles" onClick={() => this.updateViewM()}/>
+        </Stack>
+        <Stack horizontal horizontalAlign='center' wrap gap='15'>
+            <Vans/>
+        </Stack>
+        <Footer/>
+    </div>
+      );
+    }
+
+    if (this.state.view == 'Moto'){
+      return (
+        <div>
+        <Header/>
+        <Separator className='App-header'>Current Inventory</Separator>
+        <Stack className='bContainer' horizontal horizontalAlign='center' wrap gap='25'>
+            <DefaultButton text="Show All" onClick={() => this.updateViewA()}/>
+            <DefaultButton text="Cars" onClick={() => this.updateViewC()}/>
+            <DefaultButton text="Suvs" onClick={() => this.updateViewS()}/>
+            <DefaultButton text="Vans" onClick={() => this.updateViewV()}/>
+            <DefaultButton text="Motorcycles" onClick={() => this.updateViewM()}/>
+        </Stack>
+        <Stack horizontal horizontalAlign='center' wrap gap='15'>
+            <Other/>
+        </Stack>
+        <Footer/>
+    </div>
+      );
+    }
+
+  };
+};
 
 export default App;
