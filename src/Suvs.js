@@ -41,7 +41,7 @@ class Suvs extends React.Component {
                 <Stack padding={3}>
                 <Text className='tile-text-d'>121K Miles, All Power, Third Row Seat, Cold AC, Alloy Wheels, Good Tires, Flex Fuel.</Text>
                 </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
+                <Carousel width="400px" emulateTouch showStatus={false}>
                     <img src={tahoe} />
                     <img src={tahoe2} />
                     <img src={tahoe3} />
@@ -52,7 +52,7 @@ class Suvs extends React.Component {
                 <Stack padding={3}>
                 <Text className='tile-text-d'>90K Miles, All Wheel Drive, All Power, Cold AC, Tune Up complete including Oil change.</Text>
                 </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
+                <Carousel width="400px" emulateTouch showStatus={false}>
                     <img src={kia} />
                     <img src={kia2} />
                     <img src={kia3} />
@@ -64,7 +64,7 @@ class Suvs extends React.Component {
                 <Stack padding={3}>
                 <Text className='tile-text-d'>105K Miles, All Power, Backup Camera, Keyless Entry, Alloy Wheels, Cold AC, Good Tires, Extra Clean.</Text>
                 </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
+                <Carousel width="400px" emulateTouch showStatus={false}>
                     <img src={terrain} />
                     <img src={terrain2} />
                 </Carousel>
@@ -74,7 +74,7 @@ class Suvs extends React.Component {
                 <Stack padding={3}>
                 <Text className='tile-text-d'>99K Miles, Panoramic Roof, Navigation, Leather, AWD, Clean.</Text>
                 </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
+                <Carousel width="400px" emulateTouch showStatus={false}>
                     <img src={mkx} />
                     <img src={mkx2} />
                     <img src={mkx3} />
@@ -85,7 +85,7 @@ class Suvs extends React.Component {
                 <Stack padding={3}>
                 <Text className='tile-text-d'>136K Miles, 3rd Row Seat, All Power, Alloy Wheels.</Text>
                 </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
+                <Carousel width="400px" emulateTouch showStatus={false}>
                     <img src={trailblazer} />
                     <img src={trail2} />
                     <img src={trail3} />
@@ -96,7 +96,7 @@ class Suvs extends React.Component {
                 <Stack padding={3}>
                 <Text className='tile-text-d'>109K Miles, 3rd Row Seat, Nice Rims, Good Tires, Caddy Tail Lights, Leather.</Text>
                 </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
+                <Carousel width="400px" emulateTouch showStatus={false}>
                 <img src={tahoe16} />
                   <img src={tahoe162} />
                   <img src={tahoe163} />
@@ -108,7 +108,7 @@ class Suvs extends React.Component {
                 <Stack padding={3}>
                 <Text className='tile-text-d'>86K Miles, V6, Front Wheel Drive, Keyless Entry, Panoramic Roof, Leather, Heated and Cooled Seats, Dual TVs, NAV, DVD, Bluetooth, Chrome Rims.</Text>
                 </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
+                <Carousel width="400px" emulateTouch showStatus={false}>
                     <img src={srx} />
                     <img src={srx2} />
                 </Carousel>

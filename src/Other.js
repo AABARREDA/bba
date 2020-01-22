@@ -18,7 +18,7 @@ class Other extends React.Component {
                 <Stack padding={3}>
                 <Text className='tile-text-d'>23K Miles, New Tires, Tune Up compelte including oil change.</Text>
                 </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
+                <Carousel width="400px" emulateTouch showStatus={false}>
                     <img src={cbr} />
                     <img src={cbr2} />
                     <img src={cbr3} />

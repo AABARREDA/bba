@@ -21,7 +21,7 @@ class Vans extends React.Component {
                 <Stack padding={3}>
                 <Text className='tile-text-d'>130K Miles, Automatic, Alloy Wheels, Good Tires, Back Up Camera.</Text>
                 </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
+                <Carousel width="400px" emulateTouch showStatus={false}>
                     <img src={quest} />
                     <img src={quest2} />
                     <img src={quest3} />
@@ -32,7 +32,7 @@ class Vans extends React.Component {
                 <Stack padding={3}>
                 <Text className='tile-text-d'>130K Miles, All Power, Cold AC, Rear AC, Extra Clean in and out, Towing Package, Good Tires.</Text>
                 </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
+                <Carousel width="400px" emulateTouch showStatus={false}>
                     <img src={sienna} />
                     <img src={sienna2} />
                     <img src={sienna3} />
