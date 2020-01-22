@@ -8,7 +8,7 @@ import Cars from './Cars';
 import Other from './Other';
 import Suvs from './Suvs';
 import Vans from './Vans';
-import Footer from '/Footer';
+import Footer from './Footer';
 
 function App() {
   return (
