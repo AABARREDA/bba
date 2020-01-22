@@ -26,7 +26,7 @@ function App() {
 
     <Separator className='App-header'>Current Inventory</Separator>
 
-      <Stack horizontal horizontalAlign='center' wrap gap='15'>
+      <Stack>
           <Cars/>
           <Suvs/>
           <Vans/>
