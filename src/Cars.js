@@ -75,7 +75,7 @@ class Cars extends React.Component {
                 <Stack padding={3}>
                 <Text className='tile-text-d'>120K Miles, All Power, Extra Clean in/out, Front Wheel Drive, Keyless Entry, Bluetooth.</Text>
                 </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
+                <Carousel width="400px" emulateTouch showStatus={false}>
                     <img src={nissan} />
                     <img src={nissan2} />
                     <img src={nissan3} />
@@ -86,7 +86,7 @@ class Cars extends React.Component {
                 <Stack padding={3}>
                 <Text className='tile-text-d'>150K Miles, All Power, Cold AC, Heater, Sunroof, Front Wheel Drive, Leather, Alloy Wheels, Good Tires.</Text>
                 </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
+                <Carousel width="400px" emulateTouch showStatus={false}>
                     <img src={stratus} />
                     <img src={stratus2} />
                     <img src={stratus3} />
@@ -97,7 +97,7 @@ class Cars extends React.Component {
                 <Stack padding={3}>
                 <Text className='tile-text-d'>90K Miles, Cold AC, Good Tires, Cruise/Tilt, Automatic, Extra Clean, 4 Cyl.</Text>
                 </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
+                <Carousel width="400px" emulateTouch showStatus={false}>
                     <img src={kiario} />
                     <img src={rio2} />
                     <img src={rio3} />
@@ -108,7 +108,7 @@ class Cars extends React.Component {
                 <Stack padding={3}>
                 <Text className='tile-text-d'>90K Miles, Good Tires, 4 Cyl, Good Gas Mileage, Auto Cold AC.</Text>
                 </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
+                <Carousel width="400px" emulateTouch showStatus={false}>
                     <img src={chevyhhr2011} />
                     <img src={hhr2} />
                 </Carousel>
@@ -118,7 +118,7 @@ class Cars extends React.Component {
                 <Stack padding={3}>
                 <Text className='tile-text-d'>106K Miles, All Power, Good Mileage, Front Wheel Drive, Cold AC, Oil Change, New Front Brakes.</Text>
                 </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
+                <Carousel width="400px" emulateTouch showStatus={false}>
                     <img src={caliber} />
                     <img src={caliber2} />
                 </Carousel>
@@ -128,7 +128,7 @@ class Cars extends React.Component {
                 <Stack padding={3}>
                 <Text className='tile-text-d'>123K Miles, Oil change, Front Wheel Drive, Automatic, Good Tires, Cold AC, 4 Cyl.</Text>
                 </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
+                <Carousel width="400px" emulateTouch showStatus={false}>
                     <img src={versa} />
                     <img src={versa2} />
                     <img src={versa3} />
@@ -139,7 +139,7 @@ class Cars extends React.Component {
                 <Stack padding={3}>
                 <Text className='tile-text-d'>114K Miles, 4 Cyl, Good Gas Mileage, Good Engine and Transmission, Automatic.</Text>
                 </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
+                <Carousel width="400px" emulateTouch showStatus={false}>
                     <img src={versa08} />
                     <img src={versa082} />
                     <img src={versa083} />
@@ -150,7 +150,7 @@ class Cars extends React.Component {
                 <Stack padding={3}>
                 <Text className='tile-text-d'>127K Miles, Alloy Wheels, Good Tires, All Power, Front Wheel Drive.</Text>
                 </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
+                <Carousel width="400px" emulateTouch showStatus={false}>
                     <img src={chevyhhr20112} />
                     <img src={hhr22} />
                     <img src={hhr33} />
@@ -161,7 +161,7 @@ class Cars extends React.Component {
                 <Stack padding={3}>
                 <Text className='tile-text-d'>70K Miles, Paddle Shifter, Turbo, Tartan Interior, Premium Rims, Extra clean in and out.</Text>
                 </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
+                <Carousel width="400px" emulateTouch showStatus={false}>
                     <img src={gti} />
                     <img src={gti2} />
                     <img src={gti3} />
@@ -173,7 +173,7 @@ class Cars extends React.Component {
                 <Stack padding={3}>
                 <Text className='tile-text-d'>129K Miles, Good Tires, Extra Clean, Cold AC, Oil Change Completed, 4 Cyl.</Text>
                 </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
+                <Carousel width="400px" emulateTouch showStatus={false}>
                     <img src={focus} />
                     <img src={focus2} />
                     <img src={focus3} />
@@ -184,7 +184,7 @@ class Cars extends React.Component {
                 <Stack padding={3}>
                 <Text className='tile-text-d'>70K Miles, Good Tires, Auto, Woodgrain, Clean, Cold AC.</Text>
                 </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
+                <Carousel width="400px" emulateTouch showStatus={false}>
                     <img src={g6} />
                     <img src={g62} />
                     <img src={g63} />
@@ -195,7 +195,7 @@ class Cars extends React.Component {
                 <Stack padding={3}>
                 <Text className='tile-text-d'>120K Miles, 6 Cyl, All Power, Good Wheels and Tires, Black Interior.</Text>
                 </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
+                <Carousel width="400px" emulateTouch showStatus={false}>
                     <img src={mustang} />
                     <img src={stang2} />
                     <img src={stang3} />
@@ -207,7 +207,7 @@ class Cars extends React.Component {
                 <Stack padding={3}>
                 <Text className='tile-text-d'>85K Miles, New Battery, Leather, Automotive, Cold AC.</Text>
                 </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
+                <Carousel width="400px" emulateTouch showStatus={false}>
                     <img src={s4} />
                     <img src={s42} />
                     <img src={s43} />
@@ -219,7 +219,7 @@ class Cars extends React.Component {
                 <Stack padding={3}>
                 <Text className='tile-text-d'>160K Miles, 5 Speed Manual, All Power, Aftermarket Wheels, Rear Spoiler, Clean in and out.</Text>
                 </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
+                <Carousel width="400px" emulateTouch showStatus={false}>
                     <img src={civic} />
                     <img src={civic2} />
                     <img src={civic3} />
@@ -230,7 +230,7 @@ class Cars extends React.Component {
                 <Stack padding={3}>
                 <Text className='tile-text-d'>96K Miles, Leather, Cold AC, Good Tires, Clean inside and out, All Power.</Text>
                 </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
+                <Carousel width="400px" emulateTouch showStatus={false}>
                     <img src={century} />
                     <img src={century2} />
                     <img src={century3} />
