@@ -15,7 +15,7 @@ class Trucks extends React.Component {
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
                 <Stack padding={2}><Text className='tile-text-p'>2007 Chevy Silverado - $8,950</Text></Stack>
                 <Stack padding={3}>
-                <Text className='tile-text-d'>Call for Miles, Crew Cab, All Power, Towing Package, Alloy Wheels, Good Tires, One Owner.</Text>
+                <Text className='tile-text-d'>160K, Crew Cab, All Power, Towing Package, Alloy Wheels, Good Tires, One Owner.</Text>
                 </Stack>
                 <Carousel width="400px" emulateTouch showStatus={false}>
                     <img src={silverado1} />
