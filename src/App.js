@@ -6,6 +6,7 @@ import { Stack, Separator } from 'office-ui-fabric-react/lib/';
 import Cars from './Cars';
 import Other from './Other';
 import Suvs from './Suvs';
+import Trucks from './Trucks';
 import Vans from './Vans';
 import Footer from './Footer';
 import Header from './Header';
@@ -25,6 +26,10 @@ class App extends React.Component{
 
    updateViewC(){
     this.setState({view: 'Cars'});
+  }
+
+  updateViewT(){
+    this.setState({view: 'Trucks'});
   }
   
   updateViewS(){
@@ -49,6 +54,7 @@ class App extends React.Component{
       <Stack className='bContainer' horizontal horizontalAlign='center' wrap gap='25'>
           <DefaultButton text="Show All" onClick={() => this.updateViewA()}/>
           <DefaultButton text="Cars" onClick={() => this.updateViewC()}/>
+          <DefaultButton text="Trucks" onClick={() => this.updateViewT()}/>
           <DefaultButton text="Suvs" onClick={() => this.updateViewS()}/>
           <DefaultButton text="Vans" onClick={() => this.updateViewV()}/>
           <DefaultButton text="Motorcycles" onClick={() => this.updateViewM()}/>
@@ -56,6 +62,7 @@ class App extends React.Component{
       <Stack horizontal horizontalAlign='center' wrap gap='15'>
           <Cars/>
           <Suvs/>
+          <Trucks/>
           <Vans/>
           <Other/>
        </Stack>
@@ -72,12 +79,34 @@ class App extends React.Component{
         <Stack className='bContainer' horizontal horizontalAlign='center' wrap gap='25'>
             <DefaultButton text="Show All" onClick={() => this.updateViewA()}/>
             <DefaultButton text="Cars" onClick={() => this.updateViewC()}/>
+            <DefaultButton text="Trucks" onClick={() => this.updateViewT()}/>
             <DefaultButton text="Suvs" onClick={() => this.updateViewS()}/>
             <DefaultButton text="Vans" onClick={() => this.updateViewV()}/>
             <DefaultButton text="Motorcycles" onClick={() => this.updateViewM()}/>
         </Stack>
         <Stack horizontal horizontalAlign='center' wrap gap='15'>
             <Cars/>
+        </Stack>
+        <Footer/>
+    </div>
+      );
+    }
+
+    if (this.state.view == 'Trucks'){
+      return (
+        <div>
+        <Header/>
+        <Separator className='App-header'>Current Inventory</Separator>
+        <Stack className='bContainer' horizontal horizontalAlign='center' wrap gap='25'>
+            <DefaultButton text="Show All" onClick={() => this.updateViewA()}/>
+            <DefaultButton text="Cars" onClick={() => this.updateViewC()}/>
+            <DefaultButton text="Trucks" onClick={() => this.updateViewT()}/>
+            <DefaultButton text="Suvs" onClick={() => this.updateViewS()}/>
+            <DefaultButton text="Vans" onClick={() => this.updateViewV()}/>
+            <DefaultButton text="Motorcycles" onClick={() => this.updateViewM()}/>
+        </Stack>
+        <Stack horizontal horizontalAlign='center' wrap gap='15'>
+            <Trucks/>
         </Stack>
         <Footer/>
     </div>
@@ -92,6 +121,7 @@ class App extends React.Component{
         <Stack className='bContainer' horizontal horizontalAlign='center' wrap gap='25'>
             <DefaultButton text="Show All" onClick={() => this.updateViewA()}/>
             <DefaultButton text="Cars" onClick={() => this.updateViewC()}/>
+            <DefaultButton text="Trucks" onClick={() => this.updateViewT()}/>
             <DefaultButton text="Suvs" onClick={() => this.updateViewS()}/>
             <DefaultButton text="Vans" onClick={() => this.updateViewV()}/>
             <DefaultButton text="Motorcycles" onClick={() => this.updateViewM()}/>
@@ -112,6 +142,7 @@ class App extends React.Component{
         <Stack className='bContainer' horizontal horizontalAlign='center' wrap gap='25'>
             <DefaultButton text="Show All" onClick={() => this.updateViewA()}/>
             <DefaultButton text="Cars" onClick={() => this.updateViewC()}/>
+            <DefaultButton text="Trucks" onClick={() => this.updateViewT()}/>
             <DefaultButton text="Suvs" onClick={() => this.updateViewS()}/>
             <DefaultButton text="Vans" onClick={() => this.updateViewV()}/>
             <DefaultButton text="Motorcycles" onClick={() => this.updateViewM()}/>
@@ -132,6 +163,7 @@ class App extends React.Component{
         <Stack className='bContainer' horizontal horizontalAlign='center' wrap gap='25'>
             <DefaultButton text="Show All" onClick={() => this.updateViewA()}/>
             <DefaultButton text="Cars" onClick={() => this.updateViewC()}/>
+            <DefaultButton text="Trucks" onClick={() => this.updateViewT()}/>
             <DefaultButton text="Suvs" onClick={() => this.updateViewS()}/>
             <DefaultButton text="Vans" onClick={() => this.updateViewV()}/>
             <DefaultButton text="Motorcycles" onClick={() => this.updateViewM()}/>

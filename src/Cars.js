@@ -65,13 +65,61 @@ import century from './assets/cars/BuickCentury2004.JPG';
 import century2 from './assets/cars/century2.JPG';
 import century3 from './assets/cars/century3.JPG';
 
+import avenger1 from './assets/cars/avenger1.jpg'
+import avenger2 from './assets/cars/avenger2.jpg'
+import avenger3 from './assets/cars/avenger3.jpg'
+import avenger4 from './assets/cars/avenger4.jpg'
+
+import silverA1 from './assets/cars/silverA1.JPEG'
+import silverA3 from './assets/cars/silverA3.JPEG'
+import silverA4 from './assets/cars/silverA4.JPEG'
+
+import gp1 from './assets/cars/gp1.JPEG'
+import gp2 from './assets/cars/gp2.JPEG'
+import gp3 from './assets/cars/gp3.JPEG'
+import gp4 from './assets/cars/gp4.JPEG'
 
 class Cars extends React.Component {
     render() {
     return(
         <Stack horizontal horizontalAlign='center' wrap gap='15'>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'> 2013 Nissan Sentra - $5,950</Text></Stack>
+                <Stack padding={2}><Text className='tile-text-p'>2010 Dodge Avenger - $4,750</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>110K Miles, All Power, 4DR Sedan, AC/Heat, Good Tires, Automatic.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={avenger1} />
+                    <img src={avenger3} />
+                    <img src={avenger4} />
+                    <img src={avenger2} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2011 Dodge Avenger - $5,450</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>121k Miles, 4 Cyl, 4DR Sedan, Oil Change, AC/Heat, Automatic.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={silverA3} />
+                    <img src={silverA1} />
+                    <img src={silverA4} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2006 Pontiac Grand Prix - $2,950</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>140K Miles, All Power, 4DR Sedan, Super Charged, AC/Heat, Good Tires, Automatic.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={gp1} />
+                    <img src={gp2} />
+                    <img src={gp3} />
+                    <img src={gp4} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2013 Nissan Sentra - $5,950</Text></Stack>
                 <Stack padding={3}>
                 <Text className='tile-text-d'>120K Miles, All Power, Extra Clean in/out, Front Wheel Drive, Keyless Entry, Bluetooth.</Text>
                 </Stack>
