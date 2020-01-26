@@ -1,20 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.6dc553b9.chunk.css",
-    "main.js": "/static/js/main.1d73f32f.chunk.js",
-    "main.js.map": "/static/js/main.1d73f32f.chunk.js.map",
+    "main.js": "/static/js/main.f0699b87.chunk.js",
+    "main.js.map": "/static/js/main.f0699b87.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1968646e.js",
     "runtime-main.js.map": "/static/js/runtime-main.1968646e.js.map",
     "static/css/2.65eee298.chunk.css": "/static/css/2.65eee298.chunk.css",
-    "static/js/2.920f115d.chunk.js": "/static/js/2.920f115d.chunk.js",
-    "static/js/2.920f115d.chunk.js.map": "/static/js/2.920f115d.chunk.js.map",
+    "static/js/2.46660d21.chunk.js": "/static/js/2.46660d21.chunk.js",
+    "static/js/2.46660d21.chunk.js.map": "/static/js/2.46660d21.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.009332d2965eb10040e0a8efccd1199d.js": "/precache-manifest.009332d2965eb10040e0a8efccd1199d.js",
+    "precache-manifest.53df86b65fe9d874fd2c9dab35e370d3.js": "/precache-manifest.53df86b65fe9d874fd2c9dab35e370d3.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.65eee298.chunk.css.map": "/static/css/2.65eee298.chunk.css.map",
     "static/css/main.6dc553b9.chunk.css.map": "/static/css/main.6dc553b9.chunk.css.map",
-    "static/js/2.920f115d.chunk.js.LICENSE": "/static/js/2.920f115d.chunk.js.LICENSE",
-    "static/media/BuickCentury2004.JPG": "/static/media/BuickCentury2004.74d00b98.JPG",
+    "static/js/2.46660d21.chunk.js.LICENSE": "/static/js/2.46660d21.chunk.js.LICENSE",
     "static/media/ChevyHHR2011.JPG": "/static/media/ChevyHHR2011.08084596.JPG",
     "static/media/ChevyHHR20112.JPG": "/static/media/ChevyHHR20112.e2d7b676.JPG",
     "static/media/ChevyTahoe16.JPG": "/static/media/ChevyTahoe16.5a6966f3.JPG",
@@ -40,13 +39,9 @@
     "static/media/avenger2.jpg": "/static/media/avenger2.0d4ffd64.jpg",
     "static/media/avenger3.jpg": "/static/media/avenger3.f7de251b.jpg",
     "static/media/avenger4.jpg": "/static/media/avenger4.b3dba45a.jpg",
-    "static/media/caliber.JPG": "/static/media/caliber.bf18dd55.JPG",
-    "static/media/caliber2.JPG": "/static/media/caliber2.69cfbd84.JPG",
     "static/media/cbr2.JPG": "/static/media/cbr2.95a9aacf.JPG",
     "static/media/cbr3.JPG": "/static/media/cbr3.035f4d3d.JPG",
     "static/media/cbr4.JPG": "/static/media/cbr4.33c8ac66.JPG",
-    "static/media/century2.JPG": "/static/media/century2.4ab88556.JPG",
-    "static/media/century3.JPG": "/static/media/century3.ab0702b7.JPG",
     "static/media/civic2.JPG": "/static/media/civic2.f7462a9c.JPG",
     "static/media/civic3.JPG": "/static/media/civic3.318c1288.JPG",
     "static/media/App.css": "/static/media/dealer2.b7694f84.jpg",
@@ -110,8 +105,8 @@
   "entrypoints": [
     "static/js/runtime-main.1968646e.js",
     "static/css/2.65eee298.chunk.css",
-    "static/js/2.920f115d.chunk.js",
+    "static/js/2.46660d21.chunk.js",
     "static/css/main.6dc553b9.chunk.css",
-    "static/js/main.1d73f32f.chunk.js"
+    "static/js/main.f0699b87.chunk.js"
   ]
 }
