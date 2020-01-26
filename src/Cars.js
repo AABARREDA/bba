@@ -23,9 +23,6 @@ import versa08 from './assets/cars/NissanVersa2008.JPG';
 import versa082 from './assets/cars/versa082.JPG';
 import versa083 from './assets/cars/versa083.JPG';
 
-import caliber from './assets/trucks/caliber.JPG';
-import caliber2 from './assets/cars/caliber2.JPG';
-
 import chevyhhr20112 from './assets/cars/ChevyHHR20112.JPG';
 import hhr22 from './assets/cars/hhr22.JPG';
 import hhr33 from './assets/cars/hhr33.JPG';
@@ -60,10 +57,6 @@ import civic3 from './assets/cars/civic3.JPG';
 import stratus from './assets/cars/stratus.JPG';
 import stratus2 from './assets/cars/stratus2.JPG';
 import stratus3 from './assets/cars/stratus3.JPG';
-
-import century from './assets/cars/BuickCentury2004.JPG';
-import century2 from './assets/cars/century2.JPG';
-import century3 from './assets/cars/century3.JPG';
 
 import avenger1 from './assets/cars/avenger1.jpg'
 import avenger2 from './assets/cars/avenger2.jpg'
@@ -159,16 +152,6 @@ class Cars extends React.Component {
                 <Carousel width="400px" emulateTouch showStatus={false}>
                     <img src={chevyhhr2011} />
                     <img src={hhr2} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2008 Dodge Caliber - $3,490</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>106K Miles, All Power, Good Mileage, Front Wheel Drive, Cold AC, Oil Change, New Front Brakes.</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={caliber} />
-                    <img src={caliber2} />
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
@@ -271,17 +254,6 @@ class Cars extends React.Component {
                     <img src={civic} />
                     <img src={civic2} />
                     <img src={civic3} />
-                </Carousel>
-            </Stack>  
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2004 Buick Century - $3,277</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>96K Miles, Leather, Cold AC, Good Tires, Clean inside and out, All Power.</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={century} />
-                    <img src={century2} />
-                    <img src={century3} />
                 </Carousel>
             </Stack>  
         </Stack>
