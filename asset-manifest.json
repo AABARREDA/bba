@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.6dc553b9.chunk.css",
-    "main.js": "/static/js/main.b8cf85ca.chunk.js",
-    "main.js.map": "/static/js/main.b8cf85ca.chunk.js.map",
+    "main.js": "/static/js/main.7808c9ae.chunk.js",
+    "main.js.map": "/static/js/main.7808c9ae.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1968646e.js",
     "runtime-main.js.map": "/static/js/runtime-main.1968646e.js.map",
     "static/css/2.65eee298.chunk.css": "/static/css/2.65eee298.chunk.css",
-    "static/js/2.5f37fd2d.chunk.js": "/static/js/2.5f37fd2d.chunk.js",
-    "static/js/2.5f37fd2d.chunk.js.map": "/static/js/2.5f37fd2d.chunk.js.map",
+    "static/js/2.6068aa67.chunk.js": "/static/js/2.6068aa67.chunk.js",
+    "static/js/2.6068aa67.chunk.js.map": "/static/js/2.6068aa67.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.5ff5299976844e38cce9e87f31ac2268.js": "/precache-manifest.5ff5299976844e38cce9e87f31ac2268.js",
+    "precache-manifest.c47a46be3d85d6b8ec7be7b871b41b87.js": "/precache-manifest.c47a46be3d85d6b8ec7be7b871b41b87.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.65eee298.chunk.css.map": "/static/css/2.65eee298.chunk.css.map",
     "static/css/main.6dc553b9.chunk.css.map": "/static/css/main.6dc553b9.chunk.css.map",
-    "static/js/2.5f37fd2d.chunk.js.LICENSE": "/static/js/2.5f37fd2d.chunk.js.LICENSE",
+    "static/js/2.6068aa67.chunk.js.LICENSE": "/static/js/2.6068aa67.chunk.js.LICENSE",
     "static/media/ChevyHHR2011.JPG": "/static/media/ChevyHHR2011.08084596.JPG",
     "static/media/ChevyHHR20112.JPG": "/static/media/ChevyHHR20112.e2d7b676.JPG",
     "static/media/ChevyTahoe16.JPG": "/static/media/ChevyTahoe16.5a6966f3.JPG",
@@ -81,7 +81,6 @@
     "static/media/nissan3.JPEG": "/static/media/nissan3.56657f8c.JPEG",
     "static/media/quest2.JPG": "/static/media/quest2.bba89c14.JPG",
     "static/media/quest3.JPG": "/static/media/quest3.b2bc2c8e.JPG",
-    "static/media/ranger.JPEG": "/static/media/ranger.547121f9.JPEG",
     "static/media/ranger1.JPEG": "/static/media/ranger1.d3cc3646.JPEG",
     "static/media/ranger2.JPEG": "/static/media/ranger2.df4e42c3.JPEG",
     "static/media/ranger3.JPEG": "/static/media/ranger3.35bebaa8.JPEG",
@@ -92,9 +91,10 @@
     "static/media/silverA1.JPEG": "/static/media/silverA1.5fdd0d69.JPEG",
     "static/media/silverA3.JPEG": "/static/media/silverA3.65f332a8.JPEG",
     "static/media/silverA4.JPEG": "/static/media/silverA4.36a5fca7.JPEG",
-    "static/media/silverado1.JPEG": "/static/media/silverado1.e415f772.JPEG",
-    "static/media/silverado2.JPEG": "/static/media/silverado2.2bf36509.JPEG",
-    "static/media/silverado3.JPEG": "/static/media/silverado3.eac1f39f.JPEG",
+    "static/media/silverado1.JPEG": "/static/media/silverado1.0a02616c.JPEG",
+    "static/media/silverado2.JPEG": "/static/media/silverado2.dfef26f8.JPEG",
+    "static/media/silverado3.JPEG": "/static/media/silverado3.cc172aea.JPEG",
+    "static/media/silverado4.JPEG": "/static/media/silverado4.dc0a9293.JPEG",
     "static/media/srx2.JPEG": "/static/media/srx2.90ee5ae6.JPEG",
     "static/media/stang2.JPG": "/static/media/stang2.a99bfe9c.JPG",
     "static/media/stang3.JPG": "/static/media/stang3.6bfe7ffc.JPG",
@@ -122,8 +122,8 @@
   "entrypoints": [
     "static/js/runtime-main.1968646e.js",
     "static/css/2.65eee298.chunk.css",
-    "static/js/2.5f37fd2d.chunk.js",
+    "static/js/2.6068aa67.chunk.js",
     "static/css/main.6dc553b9.chunk.css",
-    "static/js/main.b8cf85ca.chunk.js"
+    "static/js/main.7808c9ae.chunk.js"
   ]
 }

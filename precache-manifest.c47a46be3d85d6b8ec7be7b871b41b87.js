@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "972fe857f11090f3571d67de4cdc0106",
+    "revision": "0d7376c7fc67ca01f886b3973d17ad36",
     "url": "/index.html"
   },
   {
-    "revision": "26a4b38e96fb067e79f1",
+    "revision": "521f96249819c10ff8fe",
     "url": "/static/css/2.65eee298.chunk.css"
   },
   {
-    "revision": "d576b6e0bb7346230dcf",
+    "revision": "867c684fce587f345b72",
     "url": "/static/css/main.6dc553b9.chunk.css"
   },
   {
-    "revision": "26a4b38e96fb067e79f1",
-    "url": "/static/js/2.5f37fd2d.chunk.js"
+    "revision": "521f96249819c10ff8fe",
+    "url": "/static/js/2.6068aa67.chunk.js"
   },
   {
     "revision": "7ce361e72a1a624a914acb306ecb376d",
-    "url": "/static/js/2.5f37fd2d.chunk.js.LICENSE"
+    "url": "/static/js/2.6068aa67.chunk.js.LICENSE"
   },
   {
-    "revision": "d576b6e0bb7346230dcf",
-    "url": "/static/js/main.b8cf85ca.chunk.js"
+    "revision": "867c684fce587f345b72",
+    "url": "/static/js/main.7808c9ae.chunk.js"
   },
   {
     "revision": "dfda05006be39051ceae",
@@ -296,10 +296,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/quest3.b2bc2c8e.JPG"
   },
   {
-    "revision": "547121f9522d9e0a1e9e58552400a469",
-    "url": "/static/media/ranger.547121f9.JPEG"
-  },
-  {
     "revision": "d3cc3646e97bd6d680d43e32295ebe33",
     "url": "/static/media/ranger1.d3cc3646.JPEG"
   },
@@ -340,16 +336,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/silverA4.36a5fca7.JPEG"
   },
   {
-    "revision": "e415f772cca8a95cb5e5e4dd4e5a5008",
-    "url": "/static/media/silverado1.e415f772.JPEG"
+    "revision": "0a02616cc15f580dbdd96a098b564a31",
+    "url": "/static/media/silverado1.0a02616c.JPEG"
   },
   {
-    "revision": "2bf3650908ccf9f378ade28ccd8f33c7",
-    "url": "/static/media/silverado2.2bf36509.JPEG"
+    "revision": "dfef26f837f3d41d70d03013d831ca0d",
+    "url": "/static/media/silverado2.dfef26f8.JPEG"
   },
   {
-    "revision": "eac1f39f783aac7320fda1a637a4a5b0",
-    "url": "/static/media/silverado3.eac1f39f.JPEG"
+    "revision": "cc172aea2786888f75128888dd33fed9",
+    "url": "/static/media/silverado3.cc172aea.JPEG"
+  },
+  {
+    "revision": "dc0a92931b94d86bc7aa7f871f5c92ca",
+    "url": "/static/media/silverado4.dc0a9293.JPEG"
   },
   {
     "revision": "90ee5ae610574d6ce809b6c1db98e23f",
