@@ -45,15 +45,6 @@ import stang2 from './assets/cars/stang2.JPG';
 import stang3 from './assets/cars/stang3.JPG';
 import stang4 from './assets/cars/stang4.JPG';
 
-import s4 from './assets/cars/S4.JPG';
-import s42 from './assets/cars/s42.JPG';
-import s43 from './assets/cars/s43.JPG';
-import s44 from './assets/cars/s44.JPG';
-
-import civic from './assets/cars/HondaCivic.JPG';
-import civic2 from './assets/cars/civic2.JPG';
-import civic3 from './assets/cars/civic3.JPG';
-
 import stratus from './assets/cars/stratus.JPG';
 import stratus2 from './assets/cars/stratus2.JPG';
 import stratus3 from './assets/cars/stratus3.JPG';
@@ -72,10 +63,78 @@ import gp2 from './assets/cars/gp2.JPEG'
 import gp3 from './assets/cars/gp3.JPEG'
 import gp4 from './assets/cars/gp4.JPEG'
 
+import intrepid from './assets/cars/intrepid.JPEG';
+import intrepid2 from './assets/cars/intrepid2.JPEG';
+import intrepid3 from './assets/cars/intrepid3.JPEG';
+import intrepid4 from './assets/cars/intrepid4.JPEG';
+
+import astra from './assets/cars/astra.JPEG';
+import astra2 from './assets/cars/astra2.JPEG';
+import astra3 from './assets/cars/astra3.JPEG';
+import astra4 from './assets/cars/astra4.jpg';
+
+import yaris from './assets/cars/yaris.JPEG';
+import yaris2 from './assets/cars/yaris2.JPEG';
+import yaris3 from './assets/cars/yaris3.JPEG';
+import yaris4 from './assets/cars/yaris4.jpg';
+
+import mkz from './assets/cars/mkz.JPEG';
+import mkz2 from './assets/cars/mkz2.jpg';
+import mkz3 from './assets/cars/mkz3.jpg';
+import mkz4 from './assets/cars/mkz4.jpg';
+
 class Cars extends React.Component {
     render() {
     return(
         <Stack horizontal horizontalAlign='center' wrap gap='15'>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2007 Toyota Yaris - $2950</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>124K Miles, All Power, Manual, 2DR, Good Tires, New Belt, Oil Change/Tune Up.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={yaris} />
+                    <img src={yaris2} />
+                    <img src={yaris3} />
+                    <img src={yaris4} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2011 Lincoln MKZ - $7500 LOADED!</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>122K Miles, Nav, Bluetooth, Leather, Panoramic Roof, BackUp Camera, Keyless, Remote Start.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={mkz} />
+                    <img src={mkz2} />
+                    <img src={mkz3} />
+                    <img src={mkz4} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2008 Saturn Astra - $3,727</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>124K Miles, Automatic, 2DR, 4Cyl. Alloy Wheels, Good Tires.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={astra} />
+                    <img src={astra2} />
+                    <img src={astra3} />
+                    <img src={astra4} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2001 Dodge Intrepid - $2,950</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>82K Miles, One Owner, All Power,A/C Heat, Good Tire, Leather.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={intrepid} />
+                    <img src={intrepid2} />
+                    <img src={intrepid3} />
+                    <img src={intrepid4} />
+                </Carousel>
+            </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
                 <Stack padding={2}><Text className='tile-text-p'>2010 Dodge Avenger - $4,750</Text></Stack>
                 <Stack padding={3}>
@@ -233,29 +292,6 @@ class Cars extends React.Component {
                     <img src={stang4} />
                 </Carousel>
             </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2009 Audi S4 - $6274</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>85K Miles, New Battery, Leather, Automotive, Cold AC.</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={s4} />
-                    <img src={s42} />
-                    <img src={s43} />
-                    <img src={s44} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2001 Honda Civic - $2,450</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>160K Miles, 5 Speed Manual, All Power, Aftermarket Wheels, Rear Spoiler, Clean in and out.</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={civic} />
-                    <img src={civic2} />
-                    <img src={civic3} />
-                </Carousel>
-            </Stack>  
         </Stack>
        );
     }

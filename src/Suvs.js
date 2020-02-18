@@ -32,10 +32,27 @@ import trailblazer from './assets/trucks/TrailBlazer.JPG';
 import trail2 from './assets/trucks/trail2.JPG';
 import trail3 from './assets/trucks/trail3.JPG';
 
+import jeep from './assets/trucks/jeep.JPEG';
+import jeep2 from './assets/trucks/jeep2.JPEG';
+import jeep3 from './assets/trucks/jeep3.JPEG';
+import jeep4 from './assets/trucks/jeep4.JPEG';
+
 class Suvs extends React.Component {
     render() {
     return(
         <Stack horizontal horizontalAlign='center' wrap gap='15'>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2010 Jeep Patriot - $5,950</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>103k Miles, All Power, A/C Heat, X-Clean.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={jeep} />
+                    <img src={jeep2} />
+                    <img src={jeep3} />
+                    <img src={jeep4} />
+                </Carousel>
+            </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
                 <Stack padding={2}><Text className='tile-text-p'>2008 Chevy Tahoe - $10,500</Text></Stack>
                 <Stack padding={3}>

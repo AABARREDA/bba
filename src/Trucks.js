@@ -7,6 +7,11 @@ import { Depths } from '@uifabric/fluent-theme/lib/fluent/FluentDepths';
 import silverado1 from './assets/trucks/silverado1.JPEG';
 import silverado2 from './assets/trucks/silverado2.JPEG';
 import silverado3 from './assets/trucks/silverado3.JPEG';
+import silverado4 from './assets/trucks/silverado4.JPEG';
+
+import ranger1 from './assets/trucks/ranger1.JPEG';
+import ranger2 from './assets/trucks/ranger2.JPEG';
+import ranger3 from './assets/trucks/ranger3.JPEG';
 
 class Trucks extends React.Component {
     render() {
@@ -21,6 +26,18 @@ class Trucks extends React.Component {
                     <img src={silverado1} />
                     <img src={silverado2} />
                     <img src={silverado3} />
+                    <img src={silverado4} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2003 Ford Ranger - $2,750</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>118k Miles, 4 Cyl, Great Tires, Towing Package.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={ranger1} />
+                    <img src={ranger2} />
+                    <img src={ranger3} />
                 </Carousel>
             </Stack>
         </Stack>

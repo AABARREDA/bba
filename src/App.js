@@ -61,9 +61,9 @@ class App extends React.Component{
       </Stack>
       <Stack horizontal horizontalAlign='center' wrap gap='15'>
           <Cars/>
-          <Suvs/>
           <Trucks/>
           <Vans/>
+          <Suvs/>
           <Other/>
        </Stack>
       <Footer/>
