@@ -51,6 +51,11 @@
   width: 400px;
 }
 
+.gap{
+  height:1px;
+  width: 100px;
+}
+
 .spacer{
   height:1px;
   width: 100px;

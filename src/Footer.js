@@ -19,6 +19,7 @@ class Footer extends React.Component {
               display="initial"
               />
             </Stack>
+            <Stack className='gap'></Stack>
             <Stack className='tile-about'>
               <Text className='App-info-test'>About Us</Text>
               <Text className='App-info-test'>BBA Auto Sales is family owned and operated. We have been part of the Urbana community for the last 27 years. 
