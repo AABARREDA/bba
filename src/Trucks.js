@@ -29,17 +29,6 @@ class Trucks extends React.Component {
                     <img src={silverado4} />
                 </Carousel>
             </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2003 Ford Ranger - $2,750</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>118k Miles, 4 Cyl, Great Tires, Towing Package.</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={ranger1} />
-                    <img src={ranger2} />
-                    <img src={ranger3} />
-                </Carousel>
-            </Stack>
         </Stack>
        );
     }
