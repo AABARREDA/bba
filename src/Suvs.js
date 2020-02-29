@@ -18,19 +18,8 @@ import kia2 from './assets/trucks/kia2.JPG';
 import kia3 from './assets/trucks/kia3.JPG';
 import kia5 from './assets/trucks/kia5.JPG';
 
-import terrain from './assets/trucks/Terrain.JPG';
-import terrain2 from './assets/trucks/terrain2.JPG';
-
-import mkx from './assets/trucks/MKX.JPG';
-import mkx2 from './assets/trucks/mkx2.JPG';
-import mkx3 from './assets/trucks/mkx3.JPG';
-
 import srx from './assets/trucks/SRX.jpeg';
 import srx2 from './assets/trucks/srx2.JPEG';
-
-import trailblazer from './assets/trucks/TrailBlazer.JPG';
-import trail2 from './assets/trucks/trail2.JPG';
-import trail3 from './assets/trucks/trail3.JPG';
 
 import jeep from './assets/trucks/jeep.JPEG';
 import jeep2 from './assets/trucks/jeep2.JPEG';
@@ -74,38 +63,6 @@ class Suvs extends React.Component {
                     <img src={kia2} />
                     <img src={kia3} />
                     <img src={kia5} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2012 GMC Terrain - $9,250</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>105K Miles, All Power, Backup Camera, Keyless Entry, Alloy Wheels, Cold AC, Good Tires, Extra Clean.</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={terrain} />
-                    <img src={terrain2} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2008 Lincoln MKX - $6,950</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>99K Miles, Panoramic Roof, Navigation, Leather, AWD, Clean.</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={mkx} />
-                    <img src={mkx2} />
-                    <img src={mkx3} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2004 Chevy trailblazer - $4950</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>136K Miles, 3rd Row Seat, All Power, Alloy Wheels.</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={trailblazer} />
-                    <img src={trail2} />
-                    <img src={trail3} />
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
