@@ -53,6 +53,11 @@ import v2 from './assets/cars/v2.jpeg';
 import v3 from './assets/cars/v3.jpeg';
 import v4 from './assets/cars/v4.jpeg';
 
+import el from './assets/cars/el.jpeg';
+import el1 from './assets/cars/el1.jpeg';
+import el2 from './assets/cars/el2.jpeg';
+import el3 from './assets/cars/el3.jpeg';
+
 class Cars extends React.Component {
     render() {
     return(
@@ -67,6 +72,18 @@ class Cars extends React.Component {
                     <img src={v2} />
                     <img src={v3} />
                     <img src={v4} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2009 Hyundai Elantra - $4,950</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>90K Miles All Power, Automatic, New Tires, New Battery, Fresh Tune Up, Oil Change, Extra Clean. </Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={el} />
+                    <img src={el1} />
+                    <img src={el2} />
+                    <img src={el3} />
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
