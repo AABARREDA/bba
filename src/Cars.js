@@ -48,10 +48,27 @@ import yaris2 from './assets/cars/yaris2.JPEG';
 import yaris3 from './assets/cars/yaris3.JPEG';
 import yaris4 from './assets/cars/yaris4.jpg';
 
+import v1 from './assets/cars/v1.jpeg';
+import v2 from './assets/cars/v2.jpeg';
+import v3 from './assets/cars/v3.jpeg';
+import v4 from './assets/cars/v4.jpeg';
+
 class Cars extends React.Component {
     render() {
     return(
         <Stack horizontal horizontalAlign='center' wrap gap='15'>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2013 Hyundai Veloster - $6,900</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>118K Miles, All Power, AC/Heat, Push Start, New Brakes, New Tires, Fresh Tune-Up, Oil Change.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={v1} />
+                    <img src={v2} />
+                    <img src={v3} />
+                    <img src={v4} />
+                </Carousel>
+            </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
                 <Stack padding={2}><Text className='tile-text-p'>2007 Toyota Yaris - $2,950</Text></Stack>
                 <Stack padding={3}>
@@ -67,7 +84,7 @@ class Cars extends React.Component {
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
                 <Stack padding={2}><Text className='tile-text-p'>2008 Saturn Astra - $3,727</Text></Stack>
                 <Stack padding={3}>
-                <Text className='tile-text-d'>124K Miles, Automatic, 2DR, 4Cyl. Alloy Wheels, Good Tires.</Text>
+                <Text className='tile-text-d'>126K Miles, Automatic, 2DR, 4Cyl. Alloy Wheels, Good Tires.</Text>
                 </Stack>
                 <Carousel width="400px" emulateTouch showStatus={false}>
                     <img src={astra} />

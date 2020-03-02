@@ -26,6 +26,11 @@ import jeep2 from './assets/trucks/jeep2.JPEG';
 import jeep3 from './assets/trucks/jeep3.JPEG';
 import jeep4 from './assets/trucks/jeep4.JPEG';
 
+import enclave from './assets/trucks/enclave.jpeg';
+import enclave1 from './assets/trucks/enclave1.jpeg';
+import enclave2 from './assets/trucks/enclave2.jpeg';
+import enclave3 from './assets/trucks/enclave3.jpeg';
+
 class Suvs extends React.Component {
     render() {
     return(
@@ -33,13 +38,25 @@ class Suvs extends React.Component {
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
                 <Stack padding={2}><Text className='tile-text-p'>2010 Jeep Patriot - $5,950</Text></Stack>
                 <Stack padding={3}>
-                <Text className='tile-text-d'>103k Miles, All Power, A/C Heat, X-Clean.</Text>
+                <Text className='tile-text-d'>103K Miles, All Power, A/C Heat, X-Clean.</Text>
                 </Stack>
                 <Carousel width="400px" emulateTouch showStatus={false}>
                     <img src={jeep} />
                     <img src={jeep2} />
                     <img src={jeep3} />
                     <img src={jeep4} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2010 Buick Enclave - $7,900</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>101K Miles, All Power, All Wheel Drive, Leather, Dual Sunroof, 3RD Row Seat, Rear view camera in mirror.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={enclave} />
+                    <img src={enclave1} />
+                    <img src={enclave2} />
+                    <img src={enclave3} />
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
