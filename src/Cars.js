@@ -58,6 +58,11 @@ import el1 from './assets/cars/el1.jpeg';
 import el2 from './assets/cars/el2.jpeg';
 import el3 from './assets/cars/el3.jpeg';
 
+import sebring1 from './assets/cars/sebring1.jpeg';
+import sebring2 from './assets/cars/sebring2.jpeg';
+import sebring3 from './assets/cars/sebring3.jpeg';
+import sebring4 from './assets/cars/sebring4.jpeg';
+
 class Cars extends React.Component {
     render() {
     return(
@@ -72,6 +77,18 @@ class Cars extends React.Component {
                     <img src={v2} />
                     <img src={v3} />
                     <img src={v4} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2008 Chrysler Sebring $4,950</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>68,876K Miles, All Power, Alloy Wheels, Good Tires, 4 Cyl, AC/Heater, AM/FM/CD, Clean In/Out.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={sebring1} />
+                    <img src={sebring2} />
+                    <img src={sebring3} />
+                    <img src={sebring4} />
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>

@@ -31,6 +31,16 @@ import enclave1 from './assets/trucks/enclave1.jpeg';
 import enclave2 from './assets/trucks/enclave2.jpeg';
 import enclave3 from './assets/trucks/enclave3.jpeg';
 
+import e1 from './assets/trucks/escape1.jpeg';
+import e2 from './assets/trucks/escape2.jpeg';
+import e3 from './assets/trucks/escape3.jpeg';
+import e4 from './assets/trucks/escape4.jpeg';
+
+import envoy1 from './assets/trucks/envoy1.jpeg';
+import envoy2 from './assets/trucks/envoy2.jpeg';
+import envoy3 from './assets/trucks/envoy3.jpeg';
+import envoy4 from './assets/trucks/envoy4.jpeg';
+
 class Suvs extends React.Component {
     render() {
     return(
@@ -45,6 +55,30 @@ class Suvs extends React.Component {
                     <img src={jeep2} />
                     <img src={jeep3} />
                     <img src={jeep4} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2009 Ford Escape - $6,750</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>76K Miles, All Power, Automatic, Front Wheel Drive, 4 Cyl, AC/Heat, AM/FM/CD.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={e1} />
+                    <img src={e2} />
+                    <img src={e3} />
+                    <img src={e4} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2005 GMC Envoy Denali - $4,750</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>4x4, Leather, Sunroof, Alloy Wheels w/tires, runs and drives, Automatic Transmission, Towing Package.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={envoy1} />
+                    <img src={envoy2} />
+                    <img src={envoy3} />
+                    <img src={envoy4} />
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
