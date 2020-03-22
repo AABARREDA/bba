@@ -27,17 +27,6 @@ class Vans extends React.Component {
                     <img src={quest3} />
                 </Carousel>
             </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2007 Toyota Sienna - $6250</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>130K Miles, All Power, Cold AC, Rear AC, Extra Clean in and out, Towing Package, Good Tires.</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={sienna} />
-                    <img src={sienna2} />
-                    <img src={sienna3} />
-                </Carousel>
-            </Stack>
         </Stack>
        );
     }

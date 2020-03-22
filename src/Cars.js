@@ -80,30 +80,6 @@ class Cars extends React.Component {
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2008 Chrysler Sebring $4,950</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>68,876K Miles, All Power, Alloy Wheels, Good Tires, 4 Cyl, AC/Heater, AM/FM/CD, Clean In/Out.</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={sebring1} />
-                    <img src={sebring2} />
-                    <img src={sebring3} />
-                    <img src={sebring4} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2009 Hyundai Elantra - $4,950</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>90K Miles All Power, Automatic, New Tires, New Battery, Fresh Tune Up, Oil Change, Extra Clean. </Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={el} />
-                    <img src={el1} />
-                    <img src={el2} />
-                    <img src={el3} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
                 <Stack padding={2}><Text className='tile-text-p'>2007 Toyota Yaris - $2,950</Text></Stack>
                 <Stack padding={3}>
                 <Text className='tile-text-d'>124K Miles, All Power, Manual, 2DR, Good Tires, New Belt, Oil Change/Tune Up.</Text>
@@ -162,17 +138,6 @@ class Cars extends React.Component {
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2007 Nissan Versa SE - $4250</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>123K Miles, Oil change, Front Wheel Drive, Automatic, Good Tires, Cold AC, 4 Cyl.</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={versa} />
-                    <img src={versa2} />
-                    <img src={versa3} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
                 <Stack padding={2}><Text className='tile-text-p'>2008 Nissan Versa - 4,250</Text></Stack>
                 <Stack padding={3}>
                 <Text className='tile-text-d'>114K Miles, 4 Cyl, Good Gas Mileage, Good Engine and Transmission, Automatic.</Text>
@@ -204,17 +169,6 @@ class Cars extends React.Component {
                     <img src={focus} />
                     <img src={focus2} />
                     <img src={focus3} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2007 Pontiac G6 - $3,450</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>70K Miles, Good Tires, Auto, Woodgrain, Clean, Cold AC.</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={g6} />
-                    <img src={g62} />
-                    <img src={g63} />
                 </Carousel>
             </Stack>
         </Stack>
