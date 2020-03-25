@@ -141,9 +141,9 @@ class Suvs extends React.Component {
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>Lincoln MKX - $6,900</Text></Stack>
+                <Stack padding={2}><Text className='tile-text-p'>2008 Lincoln MKX - $6,900</Text></Stack>
                 <Stack padding={3}>
-                <Text className='tile-text-d'>120K Miles, All Power, All Wheel Drive, Panoramic Sunroof, Navigation, Heated Seats, Cooled Seats, Leather.</Text>
+                <Text className='tile-text-d'>100K Miles, All Power, All Wheel Drive, Panoramic Sunroof, Navigation, Heated Seats, Cooled Seats, Leather.</Text>
                 </Stack>
                 <Carousel width="400px" emulateTouch showStatus={false}>
                     <img src={mkx4} />
