@@ -13,11 +13,6 @@ import tahoe162 from './assets/trucks/tahoe162.JPG'
 import tahoe163 from './assets/trucks/tahoe163.JPG'
 import tahoe164 from './assets/trucks/tahoe164.JPG'
 
-import kia from './assets/trucks/KiaSportage2007.JPG';
-import kia2 from './assets/trucks/kia2.JPG';
-import kia3 from './assets/trucks/kia3.JPG';
-import kia5 from './assets/trucks/kia5.JPG';
-
 import srx from './assets/trucks/SRX.jpeg';
 import srx2 from './assets/trucks/srx2.JPEG';
 
@@ -35,6 +30,25 @@ import e1 from './assets/trucks/escape1.jpeg';
 import e2 from './assets/trucks/escape2.jpeg';
 import e3 from './assets/trucks/escape3.jpeg';
 import e4 from './assets/trucks/escape4.jpeg';
+
+import blazer from './assets/trucks/blazer.jpeg';
+import blazer2 from './assets/trucks/blazer2.jpeg';
+import blazer3 from './assets/trucks/blazer3.jpeg';
+
+import EN1 from './assets/trucks/EN1.jpeg';
+import EN2 from './assets/trucks/EN2.jpeg';
+import EN3 from './assets/trucks/EN3.jpeg';
+import EN4 from './assets/trucks/EN4.jpeg';
+
+import explorer from './assets/trucks/explorer.jpeg';
+import explorer2 from './assets/trucks/explorer2.jpeg';
+import explorer3 from './assets/trucks/explorer3.jpeg';
+import explorer4 from './assets/trucks/explorer4.jpeg';
+
+import mkx from './assets/trucks/mkx.jpeg';
+import mkx2 from './assets/trucks/mkx2.jpeg';
+import mkx3 from './assets/trucks/mkx3.jpeg';
+import mkx4 from './assets/trucks/mkx4.jpeg';
 
 import envoy1 from './assets/trucks/envoy1.jpeg';
 import envoy2 from './assets/trucks/envoy2.jpeg';
@@ -124,6 +138,53 @@ class Suvs extends React.Component {
                 <Carousel width="400px" emulateTouch showStatus={false}>
                     <img src={srx} />
                     <img src={srx2} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>Lincoln MKX - $6,900</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>120K Miles, All Power, All Wheel Drive, Panoramic Sunroof, Navigation, Heated Seats, Cooled Seats, Leather.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={mkx4} />
+                    <img src={mkx2} />
+                    <img src={mkx3} />
+                    <img src={mkx} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2005 Chevy Trailblazer - $2,950</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>125K Miles, All Power, 4x4, AC/Heat, Towing Package, Roof Rack, CD, Alloy Wheels. </Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={blazer} />
+                    <img src={blazer2} />
+                    <img src={blazer3} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2011 Ford Explorer - Call for Price.</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>150K Miles, 3rd Row Seat, All Power, Leather, Extra Clean, AC/Heat, Alloy Wheels and Tires.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={explorer} />
+                    <img src={explorer2} />
+                    <img src={explorer3} />
+                    <img src={explorer4} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2007 GMC Envoy Denali - $4,950</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>113K Miles, Leather, All Power, V8, Towing Package, AC/Heat, CD, Clean. </Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={EN2} />
+                    <img src={EN1} />
+                    <img src={EN3} />
+                    <img src={EN4} />
                 </Carousel>
             </Stack>
         </Stack>
