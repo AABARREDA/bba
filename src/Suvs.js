@@ -178,7 +178,7 @@ class Suvs extends React.Component {
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
                 <Stack padding={2}><Text className='tile-text-p'>2007 GMC Envoy Denali - $4,950</Text></Stack>
                 <Stack padding={3}>
-                <Text className='tile-text-d'>113K Miles, Leather, All Power, V8, Towing Package, AC/Heat, CD, Clean. </Text>
+                <Text className='tile-text-d'>113K Miles, Leather, All Power, V8, Towing Package, AC/Heat, CD, Clean.</Text>
                 </Stack>
                 <Carousel width="400px" emulateTouch showStatus={false}>
                     <img src={EN2} />
