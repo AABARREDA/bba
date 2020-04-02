@@ -55,6 +55,15 @@ import envoy2 from './assets/trucks/envoy2.jpeg';
 import envoy3 from './assets/trucks/envoy3.jpeg';
 import envoy4 from './assets/trucks/envoy4.jpeg';
 
+import escape01 from './assets/trucks/escape01.jpeg';
+import escape02 from './assets/trucks/escape02.jpeg';
+import escape03 from './assets/trucks/escape03.jpeg';
+import escape04 from './assets/trucks/escape04.jpeg';
+
+import mz from './assets/trucks/mz.jpeg';
+import mz1 from './assets/trucks/mz1.jpeg';
+import mz2 from './assets/trucks/mz2.jpeg';
+
 class Suvs extends React.Component {
     render() {
     return(
@@ -185,6 +194,29 @@ class Suvs extends React.Component {
                     <img src={EN1} />
                     <img src={EN3} />
                     <img src={EN4} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2008 Ford Escape - $4,250</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>136K Miles, All Power, 4 Cyl. Automatic.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={escape01} />
+                    <img src={escape02} />
+                    <img src={escape03} />
+                    <img src={escape04} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2010 Mazda CX-7 - $6,950</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>120K Miles, All Power, Automatic, Alloy Wheels, Extra Clean in and out.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={mz} />
+                    <img src={mz1} />
+                    <img src={mz2} />
                 </Carousel>
             </Stack>
         </Stack>

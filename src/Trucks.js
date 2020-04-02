@@ -9,9 +9,10 @@ import silverado2 from './assets/trucks/silverado2.JPEG';
 import silverado3 from './assets/trucks/silverado3.JPEG';
 import silverado4 from './assets/trucks/silverado4.JPEG';
 
-import ranger1 from './assets/trucks/ranger1.JPEG';
-import ranger2 from './assets/trucks/ranger2.JPEG';
-import ranger3 from './assets/trucks/ranger3.JPEG';
+import dodge from './assets/trucks/dodge.jpeg';
+import dodge2 from './assets/trucks/dodge2.jpeg';
+import dodge3 from './assets/trucks/dodge3.jpeg';
+import dodge4 from './assets/trucks/dodge4.jpeg';
 
 class Trucks extends React.Component {
     render() {
@@ -27,6 +28,17 @@ class Trucks extends React.Component {
                     <img src={silverado2} />
                     <img src={silverado3} />
                     <img src={silverado4} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2000 Dodge Dakota - $2,950</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>77K Miles, Manual Transmission, 5 Speed, ONE OWNER, No rust, Very Clean, Tires in excellent Condition.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={dodge} />
+                    <img src={dodge2} />
+                    <img src={dodge3} />
                 </Carousel>
             </Stack>
         </Stack>
