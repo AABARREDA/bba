@@ -81,7 +81,7 @@ class Suvs extends React.Component {
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2009 Ford Escape - $6,750</Text></Stack>
+                <Stack padding={2}><Text className='tile-text-p'>2011 Ford Escape - $6,750</Text></Stack>
                 <Stack padding={3}>
                 <Text className='tile-text-d'>76K Miles, All Power, Automatic, Front Wheel Drive, 4 Cyl, AC/Heat, AM/FM/CD.</Text>
                 </Stack>
@@ -150,29 +150,6 @@ class Suvs extends React.Component {
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2008 Lincoln MKX - $6,900</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>100K Miles, All Power, All Wheel Drive, Panoramic Sunroof, Navigation, Heated Seats, Cooled Seats, Leather.</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={mkx4} />
-                    <img src={mkx2} />
-                    <img src={mkx3} />
-                    <img src={mkx} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2005 Chevy Trailblazer - $2,950</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>125K Miles, All Power, 4x4, AC/Heat, Towing Package, Roof Rack, CD, Alloy Wheels. </Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={blazer} />
-                    <img src={blazer2} />
-                    <img src={blazer3} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
                 <Stack padding={2}><Text className='tile-text-p'>2011 Ford Explorer - Call for Price.</Text></Stack>
                 <Stack padding={3}>
                 <Text className='tile-text-d'>150K Miles, 3rd Row Seat, All Power, Leather, Extra Clean, AC/Heat, Alloy Wheels and Tires.</Text>
@@ -182,30 +159,6 @@ class Suvs extends React.Component {
                     <img src={explorer2} />
                     <img src={explorer3} />
                     <img src={explorer4} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2007 GMC Envoy Denali - $4,950</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>113K Miles, Leather, All Power, V8, Towing Package, AC/Heat, CD, Clean.</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={EN2} />
-                    <img src={EN1} />
-                    <img src={EN3} />
-                    <img src={EN4} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2008 Ford Escape - $4,250</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>136K Miles, All Power, 4 Cyl. Automatic.</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={escape01} />
-                    <img src={escape02} />
-                    <img src={escape03} />
-                    <img src={escape04} />
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>

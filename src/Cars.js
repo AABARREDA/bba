@@ -63,20 +63,26 @@ import sebring2 from './assets/cars/sebring2.jpeg';
 import sebring3 from './assets/cars/sebring3.jpeg';
 import sebring4 from './assets/cars/sebring4.jpeg';
 
+import avenger1 from './assets/cars/avenger1.jpeg'
+import avenger2 from './assets/cars/avenger2.jpeg'
+import avenger3 from './assets/cars/avenger3.jpeg'
+import avenger4 from './assets/cars/avenger4.jpeg'
+
+
 class Cars extends React.Component {
     render() {
     return(
         <Stack horizontal horizontalAlign='center' wrap gap='15'>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2013 Hyundai Veloster - $6,900</Text></Stack>
+                <Stack padding={2}><Text className='tile-text-p'>2012 Dodge Avenger - $5,950</Text></Stack>
                 <Stack padding={3}>
-                <Text className='tile-text-d'>118K Miles, All Power, AC/Heat, Push Start, New Brakes, New Tires, Fresh Tune-Up, Oil Change.</Text>
+                <Text className='tile-text-d'>118K Miles, 4 Cyl, Front Wheel Drive, Automatic, Alloy Wheels, Good Tires, Clean In and Out.</Text>
                 </Stack>
                 <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={v1} />
-                    <img src={v2} />
-                    <img src={v3} />
-                    <img src={v4} />
+                    <img src={avenger1} />
+                    <img src={avenger2} />
+                    <img src={avenger3} />
+                    <img src={avenger4} />
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
@@ -113,17 +119,6 @@ class Cars extends React.Component {
                     <img src={intrepid2} />
                     <img src={intrepid3} />
                     <img src={intrepid4} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2013 Nissan Sentra - $5,950</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>120K Miles, All Power, Extra Clean in/out, Front Wheel Drive, Keyless Entry, Bluetooth.</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={nissan} />
-                    <img src={nissan2} />
-                    <img src={nissan3} />
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>

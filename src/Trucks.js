@@ -19,26 +19,12 @@ class Trucks extends React.Component {
     return(
         <Stack horizontal horizontalAlign='center' wrap gap='15'>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2007 Chevy Silverado - $8,950</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>160K Miles, Crew Cab, All Power, Towing Package, Alloy Wheels, Good Tires, One Owner.</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={silverado1} />
-                    <img src={silverado2} />
-                    <img src={silverado3} />
-                    <img src={silverado4} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
                 <Stack padding={2}><Text className='tile-text-p'>2000 Dodge Dakota - $2,950</Text></Stack>
                 <Stack padding={3}>
                 <Text className='tile-text-d'>77K Miles, Manual Transmission, 5 Speed, ONE OWNER, No rust, Very Clean, Tires in excellent Condition.</Text>
                 </Stack>
                 <Carousel width="400px" emulateTouch showStatus={false}>
                     <img src={dodge} />
-                    <img src={dodge2} />
-                    <img src={dodge3} />
                 </Carousel>
             </Stack>
         </Stack>
