@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a0d0229df82a50c71212dd49a6b9417d",
+    "revision": "46ef1efd85c0d73ed0d1b219f7747dff",
     "url": "/index.html"
   },
   {
-    "revision": "7e106afaede8a4c89b02",
+    "revision": "2217416808fd77d6ba43",
     "url": "/static/css/2.65eee298.chunk.css"
   },
   {
-    "revision": "4b63280f5ac407648553",
+    "revision": "d658603442449552e2b2",
     "url": "/static/css/main.4f466b0f.chunk.css"
   },
   {
-    "revision": "7e106afaede8a4c89b02",
-    "url": "/static/js/2.3e0ef5ce.chunk.js"
+    "revision": "2217416808fd77d6ba43",
+    "url": "/static/js/2.3ade5f35.chunk.js"
   },
   {
     "revision": "7ce361e72a1a624a914acb306ecb376d",
-    "url": "/static/js/2.3e0ef5ce.chunk.js.LICENSE"
+    "url": "/static/js/2.3ade5f35.chunk.js.LICENSE"
   },
   {
-    "revision": "4b63280f5ac407648553",
-    "url": "/static/js/main.9e56441c.chunk.js"
+    "revision": "d658603442449552e2b2",
+    "url": "/static/js/main.ad4dd516.chunk.js"
   },
   {
     "revision": "dfda05006be39051ceae",
@@ -108,6 +108,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/astra4.8b4602e2.jpg"
   },
   {
+    "revision": "5ce7e74e5e0f8162adac8a80b64ff346",
+    "url": "/static/media/avenger1.5ce7e74e.jpeg"
+  },
+  {
+    "revision": "eb31536238b113d8276857d52adf9874",
+    "url": "/static/media/avenger2.eb315362.jpeg"
+  },
+  {
+    "revision": "889493d4371294d96d678c0418cd0f60",
+    "url": "/static/media/avenger3.889493d4.jpeg"
+  },
+  {
+    "revision": "c9afcab74206620a2dd6bdd0949958bb",
+    "url": "/static/media/avenger4.c9afcab7.jpeg"
+  },
+  {
     "revision": "703461d70f63e33373a5a8b371df57bc",
     "url": "/static/media/blazer.703461d7.jpeg"
   },
@@ -136,8 +152,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/dealer2.b7694f84.jpg"
   },
   {
-    "revision": "ec64ed8a4cf0e56985be9680794e71a0",
-    "url": "/static/media/dodge.ec64ed8a.jpeg"
+    "revision": "a785cb1a6f84f3ae3251d4579a7005e9",
+    "url": "/static/media/dodge.a785cb1a.jpeg"
   },
   {
     "revision": "0759ed396568086187e9226f4b080ff9",

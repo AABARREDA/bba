@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.4f466b0f.chunk.css",
-    "main.js": "/static/js/main.9e56441c.chunk.js",
-    "main.js.map": "/static/js/main.9e56441c.chunk.js.map",
+    "main.js": "/static/js/main.ad4dd516.chunk.js",
+    "main.js.map": "/static/js/main.ad4dd516.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1968646e.js",
     "runtime-main.js.map": "/static/js/runtime-main.1968646e.js.map",
     "static/css/2.65eee298.chunk.css": "/static/css/2.65eee298.chunk.css",
-    "static/js/2.3e0ef5ce.chunk.js": "/static/js/2.3e0ef5ce.chunk.js",
-    "static/js/2.3e0ef5ce.chunk.js.map": "/static/js/2.3e0ef5ce.chunk.js.map",
+    "static/js/2.3ade5f35.chunk.js": "/static/js/2.3ade5f35.chunk.js",
+    "static/js/2.3ade5f35.chunk.js.map": "/static/js/2.3ade5f35.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.35a329f745f2cce2260d1bd341133cff.js": "/precache-manifest.35a329f745f2cce2260d1bd341133cff.js",
+    "precache-manifest.b4a611a499fdfbe2c26a883622e67cd4.js": "/precache-manifest.b4a611a499fdfbe2c26a883622e67cd4.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.65eee298.chunk.css.map": "/static/css/2.65eee298.chunk.css.map",
     "static/css/main.4f466b0f.chunk.css.map": "/static/css/main.4f466b0f.chunk.css.map",
-    "static/js/2.3e0ef5ce.chunk.js.LICENSE": "/static/js/2.3e0ef5ce.chunk.js.LICENSE",
+    "static/js/2.3ade5f35.chunk.js.LICENSE": "/static/js/2.3ade5f35.chunk.js.LICENSE",
     "static/media/ChevyTahoe16.JPG": "/static/media/ChevyTahoe16.5a6966f3.JPG",
     "static/media/ChevyTahoe2008.jpg": "/static/media/ChevyTahoe2008.d16c4ad2.jpg",
     "static/media/EN1.jpeg": "/static/media/EN1.8a726286.jpeg",
@@ -34,6 +34,10 @@
     "static/media/astra2.JPEG": "/static/media/astra2.670b0eca.JPEG",
     "static/media/astra3.JPEG": "/static/media/astra3.50bc4674.JPEG",
     "static/media/astra4.jpg": "/static/media/astra4.8b4602e2.jpg",
+    "static/media/avenger1.jpeg": "/static/media/avenger1.5ce7e74e.jpeg",
+    "static/media/avenger2.jpeg": "/static/media/avenger2.eb315362.jpeg",
+    "static/media/avenger3.jpeg": "/static/media/avenger3.889493d4.jpeg",
+    "static/media/avenger4.jpeg": "/static/media/avenger4.c9afcab7.jpeg",
     "static/media/blazer.jpeg": "/static/media/blazer.703461d7.jpeg",
     "static/media/blazer2.jpeg": "/static/media/blazer2.23fe100e.jpeg",
     "static/media/blazer3.jpeg": "/static/media/blazer3.8ecc8919.jpeg",
@@ -41,7 +45,7 @@
     "static/media/cbr3.JPG": "/static/media/cbr3.035f4d3d.JPG",
     "static/media/cbr4.JPG": "/static/media/cbr4.33c8ac66.JPG",
     "static/media/App.css": "/static/media/dealer2.b7694f84.jpg",
-    "static/media/dodge.jpeg": "/static/media/dodge.ec64ed8a.jpeg",
+    "static/media/dodge.jpeg": "/static/media/dodge.a785cb1a.jpeg",
     "static/media/dodge2.jpeg": "/static/media/dodge2.0759ed39.jpeg",
     "static/media/dodge3.jpeg": "/static/media/dodge3.e2ef5c24.jpeg",
     "static/media/dodge4.jpeg": "/static/media/dodge4.d451c6e9.jpeg",
@@ -130,8 +134,8 @@
   "entrypoints": [
     "static/js/runtime-main.1968646e.js",
     "static/css/2.65eee298.chunk.css",
-    "static/js/2.3e0ef5ce.chunk.js",
+    "static/js/2.3ade5f35.chunk.js",
     "static/css/main.4f466b0f.chunk.css",
-    "static/js/main.9e56441c.chunk.js"
+    "static/js/main.ad4dd516.chunk.js"
   ]
 }
