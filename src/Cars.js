@@ -4,14 +4,6 @@ import './App.css';
 import { Carousel } from 'react-responsive-carousel';
 import { Depths } from '@uifabric/fluent-theme/lib/fluent/FluentDepths';
 
-import nissan from './assets/cars/Nissan.JPEG';
-import nissan2 from './assets/cars/nissan2.JPEG';
-import nissan3 from './assets/cars/nissan3.JPEG';
-
-import versa from './assets/cars/NissanVersa2007.JPG';
-import versa2 from './assets/cars/versa2.JPG';
-import versa3 from './assets/cars/versa3.JPG';
-
 import kiario from './assets/cars/KiaRio2012.JPG';
 import rio2 from './assets/cars/rio2.JPG';
 import rio3 from './assets/cars/rio3.JPG';
@@ -29,10 +21,6 @@ import focus from './assets/cars/FordFocus.JPG';
 import focus2 from './assets/cars/focus2.JPG';
 import focus3 from './assets/cars/focus3.JPG';
 
-import g6 from './assets/cars/PontiacG6.JPG';
-import g62 from './assets/cars/g62.JPG';
-import g63 from './assets/cars/g63.JPG';
-
 import intrepid from './assets/cars/intrepid.JPEG';
 import intrepid2 from './assets/cars/intrepid2.JPEG';
 import intrepid3 from './assets/cars/intrepid3.JPEG';
@@ -48,41 +36,59 @@ import yaris2 from './assets/cars/yaris2.JPEG';
 import yaris3 from './assets/cars/yaris3.JPEG';
 import yaris4 from './assets/cars/yaris4.jpg';
 
-import v1 from './assets/cars/v1.jpeg';
-import v2 from './assets/cars/v2.jpeg';
-import v3 from './assets/cars/v3.jpeg';
-import v4 from './assets/cars/v4.jpeg';
+import malibu from './assets/cars/malibu.jpeg'
+import malibu2 from './assets/cars/malibu2.jpeg'
+import malibu3 from './assets/cars/malibu3.jpeg'
+import malibu4 from './assets/cars/malibu3.jpeg'
 
-import el from './assets/cars/el.jpeg';
-import el1 from './assets/cars/el1.jpeg';
-import el2 from './assets/cars/el2.jpeg';
-import el3 from './assets/cars/el3.jpeg';
+import mustang from './assets/cars/mustang.jpeg'
+import mustang1 from './assets/cars/mustang1.jpeg'
+import mustang2 from './assets/cars/mustang2.jpeg'
+import mustang3 from './assets/cars/mustang3.jpeg'
 
-import sebring1 from './assets/cars/sebring1.jpeg';
-import sebring2 from './assets/cars/sebring2.jpeg';
-import sebring3 from './assets/cars/sebring3.jpeg';
-import sebring4 from './assets/cars/sebring4.jpeg';
-
-import avenger1 from './assets/cars/avenger1.jpeg'
-import avenger2 from './assets/cars/avenger2.jpeg'
-import avenger3 from './assets/cars/avenger3.jpeg'
-import avenger4 from './assets/cars/avenger4.jpeg'
-
+import el1 from './assets/trucks/el1.jpeg';
+import el2 from './assets/trucks/el2.jpeg';
+import el3 from './assets/trucks/el3.jpeg';
+import el4 from './assets/trucks/el4.jpeg';
 
 class Cars extends React.Component {
     render() {
     return(
         <Stack horizontal horizontalAlign='center' wrap gap='15'>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2012 Dodge Avenger - $5,950</Text></Stack>
+                <Stack padding={2}><Text className='tile-text-p'>2012 Chevrolet Malibu - $5,950</Text></Stack>
                 <Stack padding={3}>
-                <Text className='tile-text-d'>118K Miles, 4 Cyl, Front Wheel Drive, Automatic, Alloy Wheels, Good Tires, Clean In and Out.</Text>
+                <Text className='tile-text-d'>113K Miles, 4 Cyl., All Power, Alloy Wheels, Auto, Oil Change completed, Good tires.</Text>
                 </Stack>
                 <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={avenger1} />
-                    <img src={avenger2} />
-                    <img src={avenger3} />
-                    <img src={avenger4} />
+                    <img src={malibu} />
+                    <img src={malibu2} />
+                    <img src={malibu3} />
+                    <img src={malibu4} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2013 Hyundai Elantra  Equinox - $6,250</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>54K Miles, All Power, Bluetooth, Auto Transmission, 4 Cyl, Extra Clean in and out, Alloy Wheels, Good Tires.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={el1} />
+                    <img src={el2} />
+                    <img src={el3} />
+                    <img src={el4} />
+                </Carousel>
+            </Stack> 
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2000 Ford Mustang - $3,950</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>156K Miles, Convertible, Leather, V6 Auto, Allow Wheels, Good Tires.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={mustang} />
+                    <img src={mustang1} />
+                    <img src={mustang2} />
+                    <img src={mustang3} />
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>

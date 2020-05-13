@@ -21,53 +21,60 @@ import jeep2 from './assets/trucks/jeep2.JPEG';
 import jeep3 from './assets/trucks/jeep3.JPEG';
 import jeep4 from './assets/trucks/jeep4.JPEG';
 
-import enclave from './assets/trucks/enclave.jpeg';
-import enclave1 from './assets/trucks/enclave1.jpeg';
-import enclave2 from './assets/trucks/enclave2.jpeg';
-import enclave3 from './assets/trucks/enclave3.jpeg';
-
-import e1 from './assets/trucks/escape1.jpeg';
-import e2 from './assets/trucks/escape2.jpeg';
-import e3 from './assets/trucks/escape3.jpeg';
-import e4 from './assets/trucks/escape4.jpeg';
-
-import blazer from './assets/trucks/blazer.jpeg';
-import blazer2 from './assets/trucks/blazer2.jpeg';
-import blazer3 from './assets/trucks/blazer3.jpeg';
-
-import EN1 from './assets/trucks/EN1.jpeg';
-import EN2 from './assets/trucks/EN2.jpeg';
-import EN3 from './assets/trucks/EN3.jpeg';
-import EN4 from './assets/trucks/EN4.jpeg';
-
 import explorer from './assets/trucks/explorer.jpeg';
 import explorer2 from './assets/trucks/explorer2.jpeg';
 import explorer3 from './assets/trucks/explorer3.jpeg';
 import explorer4 from './assets/trucks/explorer4.jpeg';
-
-import mkx from './assets/trucks/mkx.jpeg';
-import mkx2 from './assets/trucks/mkx2.jpeg';
-import mkx3 from './assets/trucks/mkx3.jpeg';
-import mkx4 from './assets/trucks/mkx4.jpeg';
 
 import envoy1 from './assets/trucks/envoy1.jpeg';
 import envoy2 from './assets/trucks/envoy2.jpeg';
 import envoy3 from './assets/trucks/envoy3.jpeg';
 import envoy4 from './assets/trucks/envoy4.jpeg';
 
-import escape01 from './assets/trucks/escape01.jpeg';
-import escape02 from './assets/trucks/escape02.jpeg';
-import escape03 from './assets/trucks/escape03.jpeg';
-import escape04 from './assets/trucks/escape04.jpeg';
-
 import mz from './assets/trucks/mz.jpeg';
 import mz1 from './assets/trucks/mz1.jpeg';
 import mz2 from './assets/trucks/mz2.jpeg';
+
+import kia from './assets/trucks/kia.jpeg';
+import kia2 from './assets/trucks/kia2.jpeg';
+import kia3 from './assets/trucks/kia3.jpeg';
+import kia4 from './assets/trucks/kia4.jpeg';
+
+import equin from './assets/trucks/equin.jpeg';
+import equin2 from './assets/trucks/equin2.jpeg';
+import equin3 from './assets/trucks/equin3.jpeg';
+import equin4 from './assets/trucks/equin4.jpeg';
+
+
 
 class Suvs extends React.Component {
     render() {
     return(
         <Stack horizontal horizontalAlign='center' wrap gap='15'>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2013 Kia Soul - $6,250</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>117K Miles, All Power, Automatic Transmission, CD, Alloy Wheels, Good Tires, Extra Clean.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={kia3} />
+                    <img src={kia2} />
+                    <img src={kia} />
+                    <img src={kia4} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2012 Chevrolet Equinox - $8,959</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>92K Miles, Leather, Sunroof, AC/Heater, CD, BackUp Camera, 4 Cyl, Alloy Wheels.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={equin} />
+                    <img src={equin2} />
+                    <img src={equin3} />
+                    <img src={equin4} />
+                </Carousel>
+            </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
                 <Stack padding={2}><Text className='tile-text-p'>2010 Jeep Patriot - $5,950</Text></Stack>
                 <Stack padding={3}>
@@ -81,18 +88,6 @@ class Suvs extends React.Component {
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2011 Ford Escape - $6,750</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>76K Miles, All Power, Automatic, Front Wheel Drive, 4 Cyl, AC/Heat, AM/FM/CD.</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={e1} />
-                    <img src={e2} />
-                    <img src={e3} />
-                    <img src={e4} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
                 <Stack padding={2}><Text className='tile-text-p'>2005 GMC Envoy Denali - $4,750</Text></Stack>
                 <Stack padding={3}>
                 <Text className='tile-text-d'>4x4, Leather, Sunroof, Alloy Wheels w/tires, runs and drives, Automatic Transmission, Towing Package.</Text>
@@ -102,18 +97,6 @@ class Suvs extends React.Component {
                     <img src={envoy2} />
                     <img src={envoy3} />
                     <img src={envoy4} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2010 Buick Enclave - $7,900</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>101K Miles, All Power, All Wheel Drive, Leather, Dual Sunroof, 3RD Row Seat, Rear view camera in mirror.</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={enclave} />
-                    <img src={enclave1} />
-                    <img src={enclave2} />
-                    <img src={enclave3} />
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
