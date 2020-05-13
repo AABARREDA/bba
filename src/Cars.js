@@ -64,7 +64,6 @@ class Cars extends React.Component {
                     <img src={malibu} />
                     <img src={malibu2} />
                     <img src={malibu3} />
-                    <img src={malibu4} />
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
