@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.4f466b0f.chunk.css",
-    "main.js": "/static/js/main.fbe1dbb3.chunk.js",
-    "main.js.map": "/static/js/main.fbe1dbb3.chunk.js.map",
+    "main.js": "/static/js/main.4199c1ad.chunk.js",
+    "main.js.map": "/static/js/main.4199c1ad.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1968646e.js",
     "runtime-main.js.map": "/static/js/runtime-main.1968646e.js.map",
     "static/css/2.65eee298.chunk.css": "/static/css/2.65eee298.chunk.css",
-    "static/js/2.b64cd1a8.chunk.js": "/static/js/2.b64cd1a8.chunk.js",
-    "static/js/2.b64cd1a8.chunk.js.map": "/static/js/2.b64cd1a8.chunk.js.map",
+    "static/js/2.8863a97d.chunk.js": "/static/js/2.8863a97d.chunk.js",
+    "static/js/2.8863a97d.chunk.js.map": "/static/js/2.8863a97d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.9994b7d2962ea1cc7247fe56eccde71b.js": "/precache-manifest.9994b7d2962ea1cc7247fe56eccde71b.js",
+    "precache-manifest.4e42dc7a5c23acfd98bbf5f12f43d94e.js": "/precache-manifest.4e42dc7a5c23acfd98bbf5f12f43d94e.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.65eee298.chunk.css.map": "/static/css/2.65eee298.chunk.css.map",
     "static/css/main.4f466b0f.chunk.css.map": "/static/css/main.4f466b0f.chunk.css.map",
-    "static/js/2.b64cd1a8.chunk.js.LICENSE": "/static/js/2.b64cd1a8.chunk.js.LICENSE",
+    "static/js/2.8863a97d.chunk.js.LICENSE": "/static/js/2.8863a97d.chunk.js.LICENSE",
     "static/media/ChevyTahoe16.JPG": "/static/media/ChevyTahoe16.5a6966f3.JPG",
     "static/media/ChevyTahoe2008.jpg": "/static/media/ChevyTahoe2008.d16c4ad2.jpg",
     "static/media/FordFocus.JPG": "/static/media/FordFocus.9bb02319.JPG",
@@ -101,8 +101,8 @@
   "entrypoints": [
     "static/js/runtime-main.1968646e.js",
     "static/css/2.65eee298.chunk.css",
-    "static/js/2.b64cd1a8.chunk.js",
+    "static/js/2.8863a97d.chunk.js",
     "static/css/main.4f466b0f.chunk.css",
-    "static/js/main.fbe1dbb3.chunk.js"
+    "static/js/main.4199c1ad.chunk.js"
   ]
 }
