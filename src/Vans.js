@@ -8,9 +8,10 @@ import quest from './assets/trucks/Quest.JPG';
 import quest2 from './assets/trucks/quest2.JPG';
 import quest3 from './assets/trucks/quest3.JPG';
 
-import sienna from './assets/trucks/Sienna.JPG';
-import sienna2 from './assets/trucks/sienna2.JPG';
-import sienna3 from './assets/trucks/sienna3.JPG';
+import journey from './assets/trucks/journey.jpeg';
+import journey1 from './assets/trucks/journey1.jpeg';
+import journey2 from './assets/trucks/journey2.jpeg';
+import journey3 from './assets/trucks/journey3.jpeg';
 
 class Vans extends React.Component {
     render() {
@@ -25,6 +26,18 @@ class Vans extends React.Component {
                     <img src={quest} />
                     <img src={quest2} />
                     <img src={quest3} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2009 Dodge Journey - $5,950</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>97K Miles, All Power, All Wheel Drive, Sunroof.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={journey} />
+                    <img src={journey1} />
+                    <img src={journey2} />
+                    <img src={journey3} />
                 </Carousel>
             </Stack>
         </Stack>
