@@ -62,6 +62,10 @@ import spark1 from './assets/cars/spark1.jpeg'
 import spark2 from './assets/cars/spark2.jpeg'
 import spark3 from './assets/cars/spark3.jpeg'
 
+import mustang04 from './assets/cars/04mustang.jpeg'
+import mustang041 from './assets/cars/04mustang1.jpeg'
+import mustang042 from './assets/cars/04mustang2.jpeg'
+
 class Cars extends React.Component {
     render() {
     return(
@@ -167,10 +171,9 @@ class Cars extends React.Component {
                 <Text className='tile-text-d'>156K Miles, Convertible, Leather, V6 Auto, Allow Wheels, Good Tires.</Text>
                 </Stack>
                 <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={mustang} />
-                    <img src={mustang1} />
-                    <img src={mustang2} />
-                    <img src={mustang3} />
+                    <img src={mustang04} />
+                    <img src={mustang041} />
+                    <img src={mustang042} />
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
