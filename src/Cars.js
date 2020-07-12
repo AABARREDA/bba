@@ -47,10 +47,61 @@ import chal1 from './assets/cars/chal1.jpeg'
 import chal2 from './assets/cars/chal2.jpeg'
 import chal3 from './assets/cars/chal3.jpeg'
 
+import sonota from './assets/cars/sonota.jpeg'
+import sonota1 from './assets/cars/sonota1.jpeg'
+import sonota2 from './assets/cars/sonota2.jpeg'
+import sonota3 from './assets/cars/sonota3.jpeg'
+
+import camry from './assets/cars/camry.jpeg'
+import camry1 from './assets/cars/camry1.jpeg'
+import camry2 from './assets/cars/camry2.jpeg'
+import camry3 from './assets/cars/camry3.jpeg'
+
+import spark from './assets/cars/spark.jpeg'
+import spark1 from './assets/cars/spark1.jpeg'
+import spark2 from './assets/cars/spark2.jpeg'
+import spark3 from './assets/cars/spark3.jpeg'
+
 class Cars extends React.Component {
     render() {
     return(
         <Stack horizontal horizontalAlign='center' wrap gap='15'>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2011 Hyundai Sonata - $6,750</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>92K Miles, Automatic, Front Wheel Drive, Alloy Wheels, Good Tires.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={sonota} />
+                    <img src={sonota1} />
+                    <img src={sonota2} />
+                    <img src={sonota3} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2017 Chevy Spark</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>Automatic Transmission, Front Wheel Drive, Back Up Camera, Bluetooth, Cold AC/Heater.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={spark} />
+                    <img src={spark1} />
+                    <img src={spark2} />
+                    <img src={spark3} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2011 Toyota Camry - $6,950</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>123K Miles, Extra Clean, Cold AC, All Power, Front Wheel Drive, New Oil, Tune Up.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={camry} />
+                    <img src={camry1} />
+                    <img src={camry2} />
+                    <img src={camry3} />
+                </Carousel>
+            </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
                 <Stack padding={2}><Text className='tile-text-p'>2010 Chrysler PT Cruiser - $4,950</Text></Stack>
                 <Stack padding={3}>

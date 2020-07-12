@@ -44,18 +44,6 @@ class Suvs extends React.Component {
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2013 Chevy Equinox - $9,500</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>78K Miles, All Power, Auto Transmission, 4 Cyl, Back Up Camera, Bluetooth, AC/Heater, New Oil Change/Brakes.</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={equin} />
-                    <img src={equin1} />
-                    <img src={equin2} />
-                    <img src={equin3} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
                 <Stack padding={2}><Text className='tile-text-p'>2009 Toyota RAV4 - $7,900</Text></Stack>
                 <Stack padding={3}>
                 <Text className='tile-text-d'>100K Miles, 4 Cyl, Front Wheel Drive, All Power, Automatic Transmission, AC/Heat, Good Tires.</Text>
@@ -77,18 +65,6 @@ class Suvs extends React.Component {
                   <img src={tahoe162} />
                   <img src={tahoe163} />
                   <img src={tahoe164} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2011 Ford Explorer - Call for Price.</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>150K Miles, 3rd Row Seat, All Power, Leather, Extra Clean, AC/Heat, Alloy Wheels and Tires.</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={explorer} />
-                    <img src={explorer2} />
-                    <img src={explorer3} />
-                    <img src={explorer4} />
                 </Carousel>
             </Stack>
         </Stack>

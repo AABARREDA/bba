@@ -18,17 +18,6 @@ class Vans extends React.Component {
     return(
         <Stack horizontal horizontalAlign='center' wrap gap='15'>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2009 Nissan Quest - $6,100</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>130K Miles, Automatic, Alloy Wheels, Good Tires, Back Up Camera.</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={quest} />
-                    <img src={quest2} />
-                    <img src={quest3} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
                 <Stack padding={2}><Text className='tile-text-p'>2009 Dodge Journey - $5,950</Text></Stack>
                 <Stack padding={3}>
                 <Text className='tile-text-d'>97K Miles, All Power, All Wheel Drive, Sunroof.</Text>
