@@ -155,17 +155,6 @@ class Cars extends React.Component {
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2012 Chevrolet Malibu - $5,950</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>113K Miles, 4 Cyl., All Power, Alloy Wheels, Auto, Oil Change completed, Good tires.</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={malibu} />
-                    <img src={malibu2} />
-                    <img src={malibu3} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
                 <Stack padding={2}><Text className='tile-text-p'>2004 Ford Mustang - $3,950</Text></Stack>
                 <Stack padding={3}>
                 <Text className='tile-text-d'>156K Miles, Convertible, Leather, V6 Auto, Allow Wheels, Good Tires.</Text>
