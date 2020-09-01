@@ -64,6 +64,8 @@ import spark3 from './assets/cars/spark3.jpeg'
 
 import cadi01 from './assets/cars/cadi01.jpeg'
 import cadi02 from './assets/cars/cadi02.jpeg'
+import cadi03 from './assets/cars/cadi03.jpeg'
+import cadi04 from './assets/cars/cadi04.jpeg'
 
 import g601 from './assets/cars/g601.jpeg'
 import g602 from './assets/cars/g602.jpeg'
@@ -90,6 +92,8 @@ class Cars extends React.Component {
                 <Carousel width="400px" emulateTouch showStatus={false}>
                     <img src={cadi01} />
                     <img src={cadi02} />
+                    <img src={cadi03} />
+                    <img src={cadi04} />
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
