@@ -17,45 +17,11 @@ import focus from './assets/cars/FordFocus.JPG';
 import focus2 from './assets/cars/focus2.JPG';
 import focus3 from './assets/cars/focus3.JPG';
 
-import intrepid from './assets/cars/intrepid.JPEG';
-import intrepid2 from './assets/cars/intrepid2.JPEG';
-import intrepid3 from './assets/cars/intrepid3.JPEG';
-import intrepid4 from './assets/cars/intrepid4.JPEG';
-
-import malibu from './assets/cars/malibu.jpeg'
-import malibu2 from './assets/cars/malibu2.jpeg'
-import malibu3 from './assets/cars/malibu3.jpeg'
-import malibu4 from './assets/cars/malibu3.jpeg'
-
-import mustang from './assets/cars/mustang.jpeg'
-import mustang1 from './assets/cars/mustang1.jpeg'
-import mustang2 from './assets/cars/mustang2.jpeg'
-import mustang3 from './assets/cars/mustang3.jpeg'
-
 import pt from './assets/cars/pt.jpeg'
 import pt1 from './assets/cars/pt1.jpeg'
 import pt2 from './assets/cars/pt2.jpeg'
 import pt3 from './assets/cars/pt3.jpeg'
 
-import fiesta from './assets/cars/fiesta.jpeg'
-import fiesta1 from './assets/cars/fiesta1.jpeg'
-import fiesta2 from './assets/cars/fiesta2.jpeg'
-import fiesta3 from './assets/cars/fiesta3.jpeg'
-
-import chal from './assets/cars/chal.jpeg'
-import chal1 from './assets/cars/chal1.jpeg'
-import chal2 from './assets/cars/chal2.jpeg'
-import chal3 from './assets/cars/chal3.jpeg'
-
-import sonota from './assets/cars/sonota.jpeg'
-import sonota1 from './assets/cars/sonota1.jpeg'
-import sonota2 from './assets/cars/sonota2.jpeg'
-import sonota3 from './assets/cars/sonota3.jpeg'
-
-import camry from './assets/cars/camry.jpeg'
-import camry1 from './assets/cars/camry1.jpeg'
-import camry2 from './assets/cars/camry2.jpeg'
-import camry3 from './assets/cars/camry3.jpeg'
 
 import spark from './assets/cars/spark.jpeg'
 import spark1 from './assets/cars/spark1.jpeg'
@@ -67,18 +33,31 @@ import cadi02 from './assets/cars/cadi02.jpeg'
 import cadi03 from './assets/cars/cadi03.jpeg'
 import cadi04 from './assets/cars/cadi04.jpeg'
 
-import g601 from './assets/cars/g601.jpeg'
-import g602 from './assets/cars/g602.jpeg'
-import g603 from './assets/cars/g603.jpeg'
-import g604 from './assets/cars/g604.jpeg'
 
 import vic01 from './assets/cars/vic01.jpeg'
 import vic02 from './assets/cars/vic02.jpeg'
 import vic03 from './assets/cars/vic03.jpeg'
 import vic04 from './assets/cars/vic04.jpeg'
 
-import red01 from './assets/cars/red01.jpeg'
-import red02 from './assets/cars/red02.jpeg'
+import versa1 from './assets/cars/versa1.jpeg'
+import versa2 from './assets/cars/versa2.jpeg'
+import versa3 from './assets/cars/versa3.jpeg'
+import versa4 from './assets/cars/versa4.jpeg'
+
+import sentra01 from './assets/cars/sentra01.jpeg'
+import sentra02 from './assets/cars/sentra02.jpeg'
+import sentra03 from './assets/cars/sentra03.jpeg'
+import sentra04 from './assets/cars/sentra04.jpeg'
+
+import avalon1 from './assets/cars/avalon1.jpeg'
+import avalon2 from './assets/cars/avalon2.jpeg'
+import avalon3 from './assets/cars/avalon3.jpeg'
+import avalon4 from './assets/cars/avalon4.jpeg'
+
+import camry1 from './assets/cars/camry1.jpeg'
+import camry2 from './assets/cars/camry2.jpeg'
+import camry3 from './assets/cars/camry3.jpeg'
+import camry4 from './assets/cars/camry4.jpeg'
 
 class Cars extends React.Component {
     render() {
@@ -97,15 +76,51 @@ class Cars extends React.Component {
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2008 Pontiac G6 - $4,250</Text></Stack>
+                <Stack padding={2}><Text className='tile-text-p'>2007 Toyota Camry - $6,500</Text></Stack>
                 <Stack padding={3}>
-                <Text className='tile-text-d'>93K Miles, 4 Cyl, Automatic Transmission, AC/Heater, Good Tires, Dependable Car.</Text>
+                <Text className='tile-text-d'>85K Miles, All Power, 4 Cyl, Cold AC, Automatic Transmission, Front Wheel Drive, Alloy Wheels, Great Tires.</Text>
                 </Stack>
                 <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={g601} />
-                    <img src={g602} />
-                    <img src={g603} />
-                    <img src={g604} />
+                    <img src={camry1} />
+                    <img src={camry2} />
+                    <img src={camry3} />
+                    <img src={camry4} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2008 Toyota Avalon - $6,500</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>78K Miles, All Power, 6 Cyl, Front Wheel Drive, AC, Aloy Wheels, Good Tires.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={avalon1} />
+                    <img src={avalon2} />
+                    <img src={avalon3} />
+                    <img src={avalon4} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2010 Nissan Sentra - $5,950</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>97K Miles, Automatic Transmission, All Power, Alloy Wheels, Good Tires, Extra Clean.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={sentra01} />
+                    <img src={sentra02} />
+                    <img src={sentra03} />
+                    <img src={sentra04} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2012 Nissan Versa - $5,950</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>111K Miles, Automatic transmission, New Oil Change, Alloy Wheels, Good Tires.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={versa1} />
+                    <img src={versa2} />
+                    <img src={versa3} />
+                    <img src={versa4} />
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
@@ -118,16 +133,6 @@ class Cars extends React.Component {
                     <img src={vic02} />
                     <img src={vic03} />
                     <img src={vic04} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2001 Ford Mustang - $3,450</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>125K Miles, Automatic Transmission, Convertible, Leather, V-6, Alloy Wheels, Good Tires.</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={red01} />
-                    <img src={red02} />
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
@@ -152,18 +157,6 @@ class Cars extends React.Component {
                     <img src={pt1} />
                     <img src={pt} />
                     <img src={pt3} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2011 Ford Fiesta - $4,950</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>116K Miles, All Power, Alloy Wheels, Good Tires, Clean.</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={fiesta} />
-                    <img src={fiesta1} />
-                    <img src={fiesta2} />
-                    <img src={fiesta3} />
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
