@@ -59,10 +59,27 @@ import camry2 from './assets/cars/camry2.jpeg'
 import camry3 from './assets/cars/camry3.jpeg'
 import camry4 from './assets/cars/camry4.jpeg'
 
+import charger from './assets/cars/charger.jpeg'
+import charger1 from './assets/cars/charger1.jpeg'
+import charger2 from './assets/cars/charger2.jpeg'
+import charger3 from './assets/cars/charger3.jpeg'
+
 class Cars extends React.Component {
     render() {
     return(
         <Stack horizontal horizontalAlign='center' wrap gap='15'>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2008 Dodge Charger - $8,500</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>110K Miles, Sunroof, Hemi 5.7 Engine, All Power, Automatic, 22" Wheels and tires, Fresh tune up.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={charger} />
+                    <img src={charger1} />
+                    <img src={charger2} />
+                    <img src={charger3} />
+                </Carousel>
+            </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
                 <Stack padding={2}><Text className='tile-text-p'>2005 Cadillac Deville - $3,450</Text></Stack>
                 <Stack padding={3}>
