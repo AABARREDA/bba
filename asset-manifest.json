@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.4f466b0f.chunk.css",
-    "main.js": "/static/js/main.cad6d58b.chunk.js",
-    "main.js.map": "/static/js/main.cad6d58b.chunk.js.map",
+    "main.js": "/static/js/main.0d4a0860.chunk.js",
+    "main.js.map": "/static/js/main.0d4a0860.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1968646e.js",
     "runtime-main.js.map": "/static/js/runtime-main.1968646e.js.map",
     "static/css/2.65eee298.chunk.css": "/static/css/2.65eee298.chunk.css",
-    "static/js/2.153abb6f.chunk.js": "/static/js/2.153abb6f.chunk.js",
-    "static/js/2.153abb6f.chunk.js.map": "/static/js/2.153abb6f.chunk.js.map",
+    "static/js/2.b719e634.chunk.js": "/static/js/2.b719e634.chunk.js",
+    "static/js/2.b719e634.chunk.js.map": "/static/js/2.b719e634.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.39a8178a0cf5df79bc508cce0a680896.js": "/precache-manifest.39a8178a0cf5df79bc508cce0a680896.js",
+    "precache-manifest.462cadfd42ffe91a5bc84e1671d7407b.js": "/precache-manifest.462cadfd42ffe91a5bc84e1671d7407b.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.65eee298.chunk.css.map": "/static/css/2.65eee298.chunk.css.map",
     "static/css/main.4f466b0f.chunk.css.map": "/static/css/main.4f466b0f.chunk.css.map",
-    "static/js/2.153abb6f.chunk.js.LICENSE": "/static/js/2.153abb6f.chunk.js.LICENSE",
+    "static/js/2.b719e634.chunk.js.LICENSE": "/static/js/2.b719e634.chunk.js.LICENSE",
     "static/media/ChevyTahoe2008.jpg": "/static/media/ChevyTahoe2008.d16c4ad2.jpg",
     "static/media/FordFocus.JPG": "/static/media/FordFocus.9bb02319.JPG",
     "static/media/GTI.JPG": "/static/media/GTI.ca7885ae.JPG",
@@ -37,6 +37,10 @@
     "static/media/cbr2.JPG": "/static/media/cbr2.95a9aacf.JPG",
     "static/media/cbr3.JPG": "/static/media/cbr3.035f4d3d.JPG",
     "static/media/cbr4.JPG": "/static/media/cbr4.33c8ac66.JPG",
+    "static/media/charger.jpeg": "/static/media/charger.dbafec3d.jpeg",
+    "static/media/charger1.jpeg": "/static/media/charger1.2e0a75a9.jpeg",
+    "static/media/charger2.jpeg": "/static/media/charger2.8fbb82ae.jpeg",
+    "static/media/charger3.jpeg": "/static/media/charger3.f4114c9e.jpeg",
     "static/media/App.css": "/static/media/dealer2.b7694f84.jpg",
     "static/media/envoy.jpeg": "/static/media/envoy.e6d06f56.jpeg",
     "static/media/envoy02.jpeg": "/static/media/envoy02.4f3dcc21.jpeg",
@@ -105,8 +109,8 @@
   "entrypoints": [
     "static/js/runtime-main.1968646e.js",
     "static/css/2.65eee298.chunk.css",
-    "static/js/2.153abb6f.chunk.js",
+    "static/js/2.b719e634.chunk.js",
     "static/css/main.4f466b0f.chunk.css",
-    "static/js/main.cad6d58b.chunk.js"
+    "static/js/main.0d4a0860.chunk.js"
   ]
 }
