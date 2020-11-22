@@ -8,15 +8,6 @@ import tahoe from './assets/trucks/ChevyTahoe2008.jpg';
 import tahoe2 from './assets/trucks/tahoe2.JPG';
 import tahoe3 from './assets/trucks/tahoe3.JPG';
 
-import envoy from './assets/trucks/envoy.jpeg'
-import envoy02 from './assets/trucks/envoy02.jpeg'
-import envoy03 from './assets/trucks/envoy03.jpeg'
-import envoy04 from './assets/trucks/envoy04.jpeg'
-
-import esc01 from './assets/trucks/esc01.jpeg';
-import esc02 from './assets/trucks/esc02.jpeg';
-import esc03 from './assets/trucks/esc03.jpeg';
-
 import tucson1 from './assets/trucks/tucson1.jpeg';
 import tucson2 from './assets/trucks/tucson2.jpeg';
 import tucson3 from './assets/trucks/tucson3.jpeg';
@@ -42,15 +33,55 @@ import gmct2 from './assets/trucks/gmct2.jpeg';
 import gmct3 from './assets/trucks/gmct3.jpeg';
 import gmct4 from './assets/trucks/gmct4.jpeg';
 
-import soul1 from './assets/trucks/soul1.jpeg';
-import soul2 from './assets/trucks/soul2.jpeg';
-import soul3 from './assets/trucks/soul3.jpeg';
-import soul4 from './assets/trucks/soul4.jpeg';
+import expedition from './assets/cars/expedition.jpeg';
+
+import rede1 from './assets/cars/rede1.jpeg';
+import rede2 from './assets/cars/rede2.jpeg';
+import rede3 from './assets/cars/rede3.jpeg';
+import rede4 from './assets/cars/rede4.jpeg';
+
+import blacke1 from './assets/cars/blacke1.jpeg';
+import blacke2 from './assets/cars/blacke2.jpeg';
+import blacke3 from './assets/cars/blacke3.jpeg';
+import blacke4 from './assets/cars/blacke4.jpeg';
 
 class Suvs extends React.Component {
     render() {
     return(
         <Stack horizontal horizontalAlign='center' wrap gap='15'>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2005 Ford Expedition XLT- $5,950</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>4X4, 3 Seated Row, Towing PKG, Leather, Sunroof, Alloy Wheels, w/good tires, fresh tune up.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={expedition} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2014 Chevrolet Equinox - $8,500</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>120K Miles,  All Wheel Drive, All Power, Leather, Alloy wheels w/good tires.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={blacke1} />
+                    <img src={blacke2} />
+                    <img src={blacke3} />
+                    <img src={blacke4} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2010 Chevrolet Equinox - $8,950</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>63K Miles, Front Wheel Drive, All Power, Leather, Extra Clean in and out.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={rede1} />
+                    <img src={rede2} />
+                    <img src={rede3} />
+                    <img src={rede4} />
+                </Carousel>
+            </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
                 <Stack padding={2}><Text className='tile-text-p'>2017 Hyundai Tucson - $15,500</Text></Stack>
                 <Stack padding={3}>
@@ -61,18 +92,6 @@ class Suvs extends React.Component {
                     <img src={tucson2} />
                     <img src={tucson3} />
                     <img src={tucson4} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'></Text>2011 Kia Soul - $6,500</Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>84K Miles, All Power, Alloy Wheels, Good Tires, X-Clean in and out.</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={soul1} />
-                    <img src={soul2} />
-                    <img src={soul3} />
-                    <img src={soul4} />
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
@@ -121,29 +140,6 @@ class Suvs extends React.Component {
                     <img src={flex2} />
                     <img src={flex3} />
                     <img src={flex4} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2010 Ford Escape - $5,750</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>138K Miles, ALl Power, Bluetooth, Leather, 4x4, V6, Automatic Transmission, Dependable Car.</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={esc01} />
-                    <img src={esc02} />
-                    <img src={esc03} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2005 GMC Envoy - $4450</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>165K Miles, All Power, Alloy Wheels, Good Tires, Sunroof.</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={envoy} />
-                    <img src={envoy02} />
-                    <img src={envoy03} />
-                    <img src={envoy04} />
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>

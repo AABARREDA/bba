@@ -1,5 +1,5 @@
 import React from 'react';
-import { Stack, Text } from 'office-ui-fabric-react';
+import { resetControlledWarnings, Stack, Text } from 'office-ui-fabric-react';
 import './App.css'; 
 import { Carousel } from 'react-responsive-carousel';
 import { Depths } from '@uifabric/fluent-theme/lib/fluent/FluentDepths';
@@ -64,10 +64,42 @@ import charger1 from './assets/cars/charger1.jpeg'
 import charger2 from './assets/cars/charger2.jpeg'
 import charger3 from './assets/cars/charger3.jpeg'
 
+import sonic1 from './assets/cars/sonic1.jpeg'
+import sonic2 from './assets/cars/sonic2.jpeg'
+import sonic3 from './assets/cars/sonic3.jpeg'
+import sonic4 from './assets/cars/sonic4.jpeg'
+
+import corolla1 from './assets/cars/corolla1.jpeg'
+import corolla2 from './assets/cars/corolla2.jpeg'
+import corolla3 from './assets/cars/corolla3.jpeg'
+
 class Cars extends React.Component {
     render() {
     return(
         <Stack horizontal horizontalAlign='center' wrap gap='15'>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2013 Chevrolet Sonic - $5,950</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>91K Miles, All Power, AC/Heat, Automatic transmission, 4 Doora.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={sonic1} />
+                    <img src={sonic2} />
+                    <img src={sonic3} />
+                    <img src={sonic4} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2010 Toyota Corolla - $5,950</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>91K Miles, Automatic Transmission, Front Wheel Drive, 4 Door.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={corolla1} />
+                    <img src={corolla2} />
+                    <img src={corolla3} />
+                </Carousel>
+            </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
                 <Stack padding={2}><Text className='tile-text-p'>2008 Dodge Charger - $8,500</Text></Stack>
                 <Stack padding={3}>
@@ -103,43 +135,7 @@ class Cars extends React.Component {
                     <img src={camry3} />
                     <img src={camry4} />
                 </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2008 Toyota Avalon - $6,500</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>78K Miles, All Power, 6 Cyl, Front Wheel Drive, AC, Aloy Wheels, Good Tires.</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={avalon1} />
-                    <img src={avalon2} />
-                    <img src={avalon3} />
-                    <img src={avalon4} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2010 Nissan Sentra - $5,950</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>97K Miles, Automatic Transmission, All Power, Alloy Wheels, Good Tires, Extra Clean.</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={sentra01} />
-                    <img src={sentra02} />
-                    <img src={sentra03} />
-                    <img src={sentra04} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2012 Nissan Versa - $5,950</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>111K Miles, Automatic transmission, New Oil Change, Alloy Wheels, Good Tires.</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={versa1} />
-                    <img src={versa2} />
-                    <img src={versa3} />
-                    <img src={versa4} />
-                </Carousel>
-            </Stack>
+            </Stack>            
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
                 <Stack padding={2}><Text className='tile-text-p'>2004 Crown Victoria - $3,450</Text></Stack>
                 <Stack padding={3}>
