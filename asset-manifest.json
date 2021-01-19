@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.4f466b0f.chunk.css",
-    "main.js": "/static/js/main.7681f9e6.chunk.js",
-    "main.js.map": "/static/js/main.7681f9e6.chunk.js.map",
+    "main.js": "/static/js/main.dbc3331e.chunk.js",
+    "main.js.map": "/static/js/main.dbc3331e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1968646e.js",
     "runtime-main.js.map": "/static/js/runtime-main.1968646e.js.map",
     "static/css/2.65eee298.chunk.css": "/static/css/2.65eee298.chunk.css",
-    "static/js/2.5957192b.chunk.js": "/static/js/2.5957192b.chunk.js",
-    "static/js/2.5957192b.chunk.js.map": "/static/js/2.5957192b.chunk.js.map",
+    "static/js/2.df694b73.chunk.js": "/static/js/2.df694b73.chunk.js",
+    "static/js/2.df694b73.chunk.js.map": "/static/js/2.df694b73.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b1a3a972e433d2888d2e89e3c83b0a8b.js": "/precache-manifest.b1a3a972e433d2888d2e89e3c83b0a8b.js",
+    "precache-manifest.fa6f6a24a2cc44a146a0f654e954b539.js": "/precache-manifest.fa6f6a24a2cc44a146a0f654e954b539.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.65eee298.chunk.css.map": "/static/css/2.65eee298.chunk.css.map",
     "static/css/main.4f466b0f.chunk.css.map": "/static/css/main.4f466b0f.chunk.css.map",
-    "static/js/2.5957192b.chunk.js.LICENSE": "/static/js/2.5957192b.chunk.js.LICENSE",
+    "static/js/2.df694b73.chunk.js.LICENSE": "/static/js/2.df694b73.chunk.js.LICENSE",
     "static/media/ChevyTahoe2008.jpg": "/static/media/ChevyTahoe2008.d16c4ad2.jpg",
     "static/media/FordFocus.JPG": "/static/media/FordFocus.9bb02319.JPG",
     "static/media/GTI.JPG": "/static/media/GTI.ca7885ae.JPG",
@@ -118,8 +118,8 @@
   "entrypoints": [
     "static/js/runtime-main.1968646e.js",
     "static/css/2.65eee298.chunk.css",
-    "static/js/2.5957192b.chunk.js",
+    "static/js/2.df694b73.chunk.js",
     "static/css/main.4f466b0f.chunk.css",
-    "static/js/main.7681f9e6.chunk.js"
+    "static/js/main.dbc3331e.chunk.js"
   ]
 }
