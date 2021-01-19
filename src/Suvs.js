@@ -50,39 +50,6 @@ class Suvs extends React.Component {
     return(
         <Stack horizontal horizontalAlign='center' wrap gap='15'>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2005 Ford Expedition XLT- $5,950</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>4X4, 3 Seated Row, Towing PKG, Leather, Sunroof, Alloy Wheels, w/good tires, fresh tune up.</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={expedition} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2014 Chevrolet Equinox - $8,500</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>120K Miles,  All Wheel Drive, All Power, Leather, Alloy wheels w/good tires.</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={blacke1} />
-                    <img src={blacke2} />
-                    <img src={blacke3} />
-                    <img src={blacke4} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2010 Chevrolet Equinox - $8,950</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>63K Miles, Front Wheel Drive, All Power, Leather, Extra Clean in and out.</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={rede1} />
-                    <img src={rede2} />
-                    <img src={rede3} />
-                    <img src={rede4} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
                 <Stack padding={2}><Text className='tile-text-p'>2017 Hyundai Tucson - $15,500</Text></Stack>
                 <Stack padding={3}>
                 <Text className='tile-text-d'>35K Miles, All Power, Alloy Wheels, Good Tires, Eco Boost, Turbo 1.6 Engine, Back Up Camera, Extra Clean.</Text>

@@ -90,41 +90,6 @@ class Cars extends React.Component {
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2010 Toyota Corolla - $5,950</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>91K Miles, Automatic Transmission, Front Wheel Drive, 4 Door.</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={corolla1} />
-                    <img src={corolla2} />
-                    <img src={corolla3} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2008 Dodge Charger - $8,500</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>110K Miles, Sunroof, Hemi 5.7 Engine, All Power, Automatic, 22" Wheels and tires, Fresh tune up.</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={charger} />
-                    <img src={charger1} />
-                    <img src={charger2} />
-                    <img src={charger3} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2005 Cadillac Deville - $3,450</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>125K Miles, Leather, All Power, Cold AC/Heater, Alloy Wheels, Good Tires.</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={cadi01} />
-                    <img src={cadi02} />
-                    <img src={cadi03} />
-                    <img src={cadi04} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
                 <Stack padding={2}><Text className='tile-text-p'>2007 Toyota Camry - $6,500</Text></Stack>
                 <Stack padding={3}>
                 <Text className='tile-text-d'>85K Miles, All Power, 4 Cyl, Cold AC, Automatic Transmission, Front Wheel Drive, Alloy Wheels, Great Tires.</Text>
@@ -134,18 +99,6 @@ class Cars extends React.Component {
                     <img src={camry2} />
                     <img src={camry3} />
                     <img src={camry4} />
-                </Carousel>
-            </Stack>            
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2004 Crown Victoria - $3,450</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>146K Miles, All Power, V8, Automatic Transmission, Extra Clean in and Out, Good Tires.</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={vic01} />
-                    <img src={vic02} />
-                    <img src={vic03} />
-                    <img src={vic04} />
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
@@ -170,17 +123,6 @@ class Cars extends React.Component {
                     <img src={pt1} />
                     <img src={pt} />
                     <img src={pt3} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2012 Kia Rio Ex Hatchback - $5,850</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>90K Miles, Cold AC, Good Tires, Cruise/Tilt, Automatic, Extra Clean, 4 Cyl.</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={kiario} />
-                    <img src={rio2} />
-                    <img src={rio3} />
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
