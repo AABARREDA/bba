@@ -4,10 +4,6 @@ import './App.css';
 import { Carousel } from 'react-responsive-carousel';
 import { Depths } from '@uifabric/fluent-theme/lib/fluent/FluentDepths';
 
-import kiario from './assets/cars/KiaRio2012.JPG';
-import rio2 from './assets/cars/rio2.JPG';
-import rio3 from './assets/cars/rio3.JPG';
-
 import gti from './assets/cars/GTI.JPG';
 import gti2 from './assets/cars/gti2.JPG';
 import gti3 from './assets/cars/gti3.JPG';
@@ -22,61 +18,42 @@ import pt1 from './assets/cars/pt1.jpeg'
 import pt2 from './assets/cars/pt2.jpeg'
 import pt3 from './assets/cars/pt3.jpeg'
 
-
 import spark from './assets/cars/spark.jpeg'
 import spark1 from './assets/cars/spark1.jpeg'
 import spark2 from './assets/cars/spark2.jpeg'
 import spark3 from './assets/cars/spark3.jpeg'
-
-import cadi01 from './assets/cars/cadi01.jpeg'
-import cadi02 from './assets/cars/cadi02.jpeg'
-import cadi03 from './assets/cars/cadi03.jpeg'
-import cadi04 from './assets/cars/cadi04.jpeg'
-
-
-import vic01 from './assets/cars/vic01.jpeg'
-import vic02 from './assets/cars/vic02.jpeg'
-import vic03 from './assets/cars/vic03.jpeg'
-import vic04 from './assets/cars/vic04.jpeg'
-
-import versa1 from './assets/cars/versa1.jpeg'
-import versa2 from './assets/cars/versa2.jpeg'
-import versa3 from './assets/cars/versa3.jpeg'
-import versa4 from './assets/cars/versa4.jpeg'
-
-import sentra01 from './assets/cars/sentra01.jpeg'
-import sentra02 from './assets/cars/sentra02.jpeg'
-import sentra03 from './assets/cars/sentra03.jpeg'
-import sentra04 from './assets/cars/sentra04.jpeg'
-
-import avalon1 from './assets/cars/avalon1.jpeg'
-import avalon2 from './assets/cars/avalon2.jpeg'
-import avalon3 from './assets/cars/avalon3.jpeg'
-import avalon4 from './assets/cars/avalon4.jpeg'
 
 import camry1 from './assets/cars/camry1.jpeg'
 import camry2 from './assets/cars/camry2.jpeg'
 import camry3 from './assets/cars/camry3.jpeg'
 import camry4 from './assets/cars/camry4.jpeg'
 
-import charger from './assets/cars/charger.jpeg'
-import charger1 from './assets/cars/charger1.jpeg'
-import charger2 from './assets/cars/charger2.jpeg'
-import charger3 from './assets/cars/charger3.jpeg'
-
 import sonic1 from './assets/cars/sonic1.jpeg'
 import sonic2 from './assets/cars/sonic2.jpeg'
 import sonic3 from './assets/cars/sonic3.jpeg'
 import sonic4 from './assets/cars/sonic4.jpeg'
 
-import corolla1 from './assets/cars/corolla1.jpeg'
-import corolla2 from './assets/cars/corolla2.jpeg'
-import corolla3 from './assets/cars/corolla3.jpeg'
+import cts1 from './assets/cars/cts1.jpg'
+import cts2 from './assets/cars/cts2.jpg'
+import cts3 from './assets/cars/cts3.jpg'
+import cts4 from './assets/cars/cts4.jpg'
 
 class Cars extends React.Component {
     render() {
     return(
         <Stack horizontal horizontalAlign='center' wrap gap='15'>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2011 Cadillac CTS - $8,750</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>114K Miles, All Leather, Panoramic Sunroof, All Power, Heated and Cooled Seats, Excellent Tires.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={cts1} />
+                    <img src={cts2} />
+                    <img src={cts3} />
+                    <img src={cts4} />
+                </Carousel>
+            </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
                 <Stack padding={2}><Text className='tile-text-p'>2013 Chevrolet Sonic - $5,950</Text></Stack>
                 <Stack padding={3}>

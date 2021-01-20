@@ -33,17 +33,6 @@ import gmct2 from './assets/trucks/gmct2.jpeg';
 import gmct3 from './assets/trucks/gmct3.jpeg';
 import gmct4 from './assets/trucks/gmct4.jpeg';
 
-import expedition from './assets/cars/expedition.jpeg';
-
-import rede1 from './assets/cars/rede1.jpeg';
-import rede2 from './assets/cars/rede2.jpeg';
-import rede3 from './assets/cars/rede3.jpeg';
-import rede4 from './assets/cars/rede4.jpeg';
-
-import blacke1 from './assets/cars/blacke1.jpeg';
-import blacke2 from './assets/cars/blacke2.jpeg';
-import blacke3 from './assets/cars/blacke3.jpeg';
-import blacke4 from './assets/cars/blacke4.jpeg';
 
 class Suvs extends React.Component {
     render() {
