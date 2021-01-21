@@ -33,11 +33,27 @@ import gmct2 from './assets/trucks/gmct2.jpeg';
 import gmct3 from './assets/trucks/gmct3.jpeg';
 import gmct4 from './assets/trucks/gmct4.jpeg';
 
+import ford1 from './assets/cars/ford1.jpg';
+import ford2 from './assets/cars/ford2.jpg';
+import ford3 from './assets/cars/ford3.jpg';
+import ford4 from './assets/cars/ford4.jpg';
 
 class Suvs extends React.Component {
     render() {
     return(
         <Stack horizontal horizontalAlign='center' wrap gap='15'>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2011 Ford Explorer - $12,500</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>119K Miles, All Power, Navigation System, Bluetooth, Heated Seats, 3rd Row, Back Up Camera. 4x4.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={ford1} />
+                    <img src={ford2} />
+                    <img src={ford3} />
+                    <img src={ford4} />
+                </Carousel>
+            </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
                 <Stack padding={2}><Text className='tile-text-p'>2017 Hyundai Tucson - $15,500</Text></Stack>
                 <Stack padding={3}>

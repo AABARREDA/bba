@@ -38,6 +38,36 @@ import cts2 from './assets/cars/cts2.jpg'
 import cts3 from './assets/cars/cts3.jpg'
 import cts4 from './assets/cars/cts4.jpg'
 
+import mkx1 from './assets/cars/mkx1.jpg'
+import mkx2 from './assets/cars/mkx2.jpg'
+import mkx3 from './assets/cars/mkx3.jpg'
+import mkx4 from './assets/cars/mkx4.jpg'
+
+import soul1 from './assets/cars/soul1.jpg'
+import soul2 from './assets/cars/soul2.jpg'
+import soul3 from './assets/cars/soul3.jpg'
+import soul4 from './assets/cars/soul4.jpg'
+
+import cooper1 from './assets/cars/cooper1.jpg'
+import cooper2 from './assets/cars/cooper2.jpg'
+import cooper3 from './assets/cars/cooper3.jpg'
+import cooper4 from './assets/cars/cooper4.jpg'
+
+import fiesta1 from './assets/cars/fiesta1.jpg'
+import fiesta2 from './assets/cars/fiesta2.jpg'
+import fiesta3 from './assets/cars/fiesta3.jpg'
+import fiesta4 from './assets/cars/fiesta4.jpg'
+
+import elantra1 from './assets/cars/elantra1.jpg'
+import elantra2 from './assets/cars/elantra2.jpg'
+import elantra3 from './assets/cars/elantra3.jpg'
+import elantra4 from './assets/cars/elantra4.jpg'
+
+import conv1 from './assets/cars/conv1.jpg'
+import conv2 from './assets/cars/conv2.jpg'
+import conv3 from './assets/cars/conv3.jpg'
+import conv4 from './assets/cars/conv4.jpg'
+
 class Cars extends React.Component {
     render() {
     return(
@@ -55,9 +85,81 @@ class Cars extends React.Component {
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2002 Ford Mustang GT - $6,500</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>86K Miles, V8, Convertible, 5 Speed Manual, Leather, Alloy Wheels, Good Tires,</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={conv1} />
+                    <img src={conv2} />
+                    <img src={conv3} />
+                    <img src={conv4} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2014 Hyundai Elantra - $7,900</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>62K Miles, Leather, Front Wheel Drive, Bluetooth, Automatic, AC/Heat Good Tires.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={elantra1} />
+                    <img src={elantra2} />
+                    <img src={elantra3} />
+                    <img src={elantra4} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2009 Mini Cooper S - $7,500</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>78K Miles, Turbo Charged, All Power, Alloy Wheels, Panoramic Roof, Automatic, Leather. </Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={cooper1} />
+                    <img src={cooper2} />
+                    <img src={cooper3} />
+                    <img src={cooper4} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2011 Ford Fiesa - $5,450</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>79K Miles, 5 Speed Manual, Leather, New Oil Change, Nice and Clean.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={fiesta1} />
+                    <img src={fiesta2} />
+                    <img src={fiesta3} />
+                    <img src={fiesta4} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2012 Kia Soul - $5,950</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>127K Miles, Front Wheel Drive, Automatic Transmission, Fresh Tune-Up, New Oil Change.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={soul1} />
+                    <img src={soul2} />
+                    <img src={soul3} />
+                    <img src={soul4} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2009 Lincoln MKX - $5650</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>175K Miles, Leather, Panoramic Sunroof, Navigation System, All Power, Alloy Wheels, Good Tires.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={mkx1} />
+                    <img src={mkx2} />
+                    <img src={mkx3} />
+                    <img src={mkx4} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
                 <Stack padding={2}><Text className='tile-text-p'>2013 Chevrolet Sonic - $5,950</Text></Stack>
                 <Stack padding={3}>
-                <Text className='tile-text-d'>91K Miles, All Power, AC/Heat, Automatic transmission, 4 Doora.</Text>
+                <Text className='tile-text-d'>91K Miles, All Power, AC/Heat, Automatic transmission, 4 Doors.</Text>
                 </Stack>
                 <Carousel width="400px" emulateTouch showStatus={false}>
                     <img src={sonic1} />
