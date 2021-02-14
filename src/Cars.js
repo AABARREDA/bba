@@ -68,10 +68,59 @@ import conv2 from './assets/cars/conv2.jpg'
 import conv3 from './assets/cars/conv3.jpg'
 import conv4 from './assets/cars/conv4.jpg'
 
+import sentra1 from './assets/cars/sentra1.jpg'
+import sentra2 from './assets/cars/sentra2.jpg'
+import sentra3 from './assets/cars/sentra3.jpg'
+
+import hhr1 from './assets/cars/hhr1.jpg'
+import hhr2 from './assets/cars/hhr2.jpg'
+import hhr3 from './assets/cars/hhr3.jpg'
+import hhr4 from './assets/cars/hhr4.jpg'
+
+import chrys1 from './assets/cars/chrys1.jpg'
+import chrys2 from './assets/cars/chrys2.jpg'
+import chrys3 from './assets/cars/chrys3.jpg'
+import chrys4 from './assets/cars/chrys4.jpg'
+
 class Cars extends React.Component {
     render() {
     return(
         <Stack horizontal horizontalAlign='center' wrap gap='15'>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>200 Chrysler Sebring - $3,950</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>118K Miles, All Power, Automatic Transmission, Excellent Tires, Alloy Wheels, Excellent Condition.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={chrys1} />
+                    <img src={chrys2} />
+                    <img src={chrys3} />
+                    <img src={chrys4} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2010 Chevrolet HHR - $4,250</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>127K Miles, All Power, Automatic Transmission, Front Wheel, Drive, AC/Heat.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={hhr1} />
+                    <img src={hhr2} />
+                    <img src={hhr3} />
+                    <img src={hhr4} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2007 Nissan Sentra - $4,450</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>107K Miles, Automatic, AC.Heat, Alloy Wheels, Excellent Tires.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={sentra1} />
+                    <img src={sentra2} />
+                    <img src={sentra3} />
+                </Carousel>
+            </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
                 <Stack padding={2}><Text className='tile-text-p'>2011 Cadillac CTS - $8,750</Text></Stack>
                 <Stack padding={3}>
