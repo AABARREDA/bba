@@ -72,42 +72,6 @@ class Suvs extends React.Component {
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2017 Hyundai Tucson - $15,500</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>35K Miles, All Power, Alloy Wheels, Good Tires, Eco Boost, Turbo 1.6 Engine, Back Up Camera, Extra Clean.</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={tucson1} />
-                    <img src={tucson2} />
-                    <img src={tucson3} />
-                    <img src={tucson4} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'></Text>2013 GMC Terrain - $9,500</Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>125K Miles, Auto Transmission, Back Up Camera, 4 Cyl., Alloy Wheels, Good Tires, All Power.</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={gmct1} />
-                    <img src={gmct2} />
-                    <img src={gmct3} />
-                    <img src={gmct4} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'></Text>2008 Chevrolet HHR - 3,850</Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>135K Miles, Heater, Automatic Transmission, All Power, Alloy Wheels.</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={hhr1} />
-                    <img src={hhr2} />
-                    <img src={hhr3} />
-                    <img src={hhr4} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
                 <Stack padding={2}><Text className='tile-text-p'></Text>2008 Mercury Mountaineer - $ 4,950</Stack>
                 <Stack padding={3}>
                 <Text className='tile-text-d'>124K Miles, Leather, Sunroof, Towing PKG, Oil Change.</Text>
@@ -129,17 +93,6 @@ class Suvs extends React.Component {
                     <img src={flex2} />
                     <img src={flex3} />
                     <img src={flex4} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2008 Chevy Tahoe - $10,500</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>121K Miles, All Power, Third Row Seat, Cold AC, Alloy Wheels, Good Tires, Flex Fuel.</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={tahoe} />
-                    <img src={tahoe2} />
-                    <img src={tahoe3} />
                 </Carousel>
             </Stack>
         </Stack>
