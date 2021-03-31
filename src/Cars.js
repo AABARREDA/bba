@@ -18,11 +18,6 @@ import sonic2 from './assets/cars/sonic2.jpeg'
 import sonic3 from './assets/cars/sonic3.jpeg'
 import sonic4 from './assets/cars/sonic4.jpeg'
 
-import cts1 from './assets/cars/cts1.jpg'
-import cts2 from './assets/cars/cts2.jpg'
-import cts3 from './assets/cars/cts3.jpg'
-import cts4 from './assets/cars/cts4.jpg'
-
 import soul1 from './assets/cars/soul1.jpg'
 import soul2 from './assets/cars/soul2.jpg'
 import soul3 from './assets/cars/soul3.jpg'
@@ -43,19 +38,83 @@ import conv2 from './assets/cars/conv2.jpg'
 import conv3 from './assets/cars/conv3.jpg'
 import conv4 from './assets/cars/conv4.jpg'
 
-import sentra1 from './assets/cars/sentra1.jpg'
-import sentra2 from './assets/cars/sentra2.jpg'
-import sentra3 from './assets/cars/sentra3.jpg'
-
 import sentrav1 from './assets/cars/sentrav1.jpg'
 import sentrav2 from './assets/cars/sentrav2.jpg'
 import sentrav3 from './assets/cars/sentrav3.jpg'
 import sentrav4 from './assets/cars/sentrav4.jpg'
 
+import elantrav1 from './assets/cars/elantrav1.jpg'
+import elantrav2 from './assets/cars/elantrav2.jpg'
+import elantrav3 from './assets/cars/elantrav3.jpg'
+import elantrav4 from './assets/cars/elantrav4.jpg'
+
+import camryv1 from './assets/cars/camryv1.jpg'
+import camryv2 from './assets/cars/camryv2.jpg'
+import camryv3 from './assets/cars/camryv3.jpg'
+import camryv4 from './assets/cars/camryv4.jpg'
+
+import sentra12v1 from './assets/cars/sentra12v1.jpg'
+import sentra12v2 from './assets/cars/sentra12v2.jpg'
+import sentra12v3 from './assets/cars/sentra12v3.jpg'
+import sentra12v4 from './assets/cars/sentra12v4.jpg'
+
+import sentra11v1 from './assets/cars/sentra11v1.jpg'
+import sentra11v2 from './assets/cars/sentra11v2.jpg'
+import sentra11v3 from './assets/cars/sentra11v3.jpg'
+import sentra11v4 from './assets/cars/sentra11v4.jpg'
+
 class Cars extends React.Component {
     render() {
     return(
         <Stack horizontal horizontalAlign='center' wrap gap='15'>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2012 Hyundai Elantra - $6,950</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>71K Miles, All Power, Front Wheel Drive, New Front Brakes, New Oil Change, Extra Clean.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={elantrav1} />
+                    <img src={elantrav2} />
+                    <img src={elantrav3} />
+                    <img src={elantrav4} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2011 Toyota Camry - $6,500</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>94K Miles, All Power, Front Wheel Drive, Auto, 4 Cyl., New Brakes, Oil Change.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={camryv1} />
+                    <img src={camryv2} />
+                    <img src={camryv3} />
+                    <img src={camryv4} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2011 Nissan Sentra - $6,850</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>92K Miles, All Power, Automatic, Alloy Wheels, Good Tires, Front Wheel Drive.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={sentra11v1} />
+                    <img src={sentra11v2} />
+                    <img src={sentra11v3} />
+                    <img src={sentra11v4} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2012 Nissan Sentra - $7,500</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>67K Miles, All Power, Auto, Alloy Wheels, Excellent Tires, AC/Heat.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={sentra12v1} />
+                    <img src={sentra12v2} />
+                    <img src={sentra12v3} />
+                    <img src={sentra12v4} />
+                </Carousel>
+            </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
                 <Stack padding={2}><Text className='tile-text-p'>2010 Nissan Sentra - $5,850</Text></Stack>
                 <Stack padding={3}>
@@ -66,29 +125,6 @@ class Cars extends React.Component {
                     <img src={sentrav2} />
                     <img src={sentrav3} />
                     <img src={sentrav4} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2007 Nissan Sentra - $4,450</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>107K Miles, Automatic, AC.Heat, Alloy Wheels, Excellent Tires.</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={sentra1} />
-                    <img src={sentra2} />
-                    <img src={sentra3} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2011 Cadillac CTS - $8,750</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>114K Miles, All Leather, Panoramic Sunroof, All Power, Heated and Cooled Seats, Excellent Tires.</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={cts1} />
-                    <img src={cts2} />
-                    <img src={cts3} />
-                    <img src={cts4} />
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
