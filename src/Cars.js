@@ -80,7 +80,7 @@ class Cars extends React.Component {
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2013 Checy Impala - $6,500</Text></Stack>
+                <Stack padding={2}><Text className='tile-text-p'>2013 Chevy Impala - $6,500</Text></Stack>
                 <Stack padding={3}>
                 <Text className='tile-text-d'>130K Miles, Leather, Sunroof, All Power, Automatic Transmission, Alloy Wheels, Good Tires.</Text>
                 </Stack>
