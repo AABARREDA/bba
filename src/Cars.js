@@ -13,11 +13,6 @@ import focus from './assets/cars/FordFocus.JPG';
 import focus2 from './assets/cars/focus2.JPG';
 import focus3 from './assets/cars/focus3.JPG';
 
-import sonic1 from './assets/cars/sonic1.jpeg'
-import sonic2 from './assets/cars/sonic2.jpeg'
-import sonic3 from './assets/cars/sonic3.jpeg'
-import sonic4 from './assets/cars/sonic4.jpeg'
-
 import soul1 from './assets/cars/soul1.jpg'
 import soul2 from './assets/cars/soul2.jpg'
 import soul3 from './assets/cars/soul3.jpg'
@@ -43,11 +38,6 @@ import sentrav2 from './assets/cars/sentrav2.jpg'
 import sentrav3 from './assets/cars/sentrav3.jpg'
 import sentrav4 from './assets/cars/sentrav4.jpg'
 
-import elantrav1 from './assets/cars/elantrav1.jpg'
-import elantrav2 from './assets/cars/elantrav2.jpg'
-import elantrav3 from './assets/cars/elantrav3.jpg'
-import elantrav4 from './assets/cars/elantrav4.jpg'
-
 import camryv1 from './assets/cars/camryv1.jpg'
 import camryv2 from './assets/cars/camryv2.jpg'
 import camryv3 from './assets/cars/camryv3.jpg'
@@ -63,20 +53,42 @@ import sentra11v2 from './assets/cars/sentra11v2.jpg'
 import sentra11v3 from './assets/cars/sentra11v3.jpg'
 import sentra11v4 from './assets/cars/sentra11v4.jpg'
 
+import versa1 from './assets/cars/versa1.jpg'
+import versa2 from './assets/cars/versa2.jpg'
+import versa3 from './assets/cars/versa3.jpg'
+import versa4 from './assets/cars/versa4.jpg'
+
+import impala1 from './assets/cars/impala1.jpg'
+import impala2 from './assets/cars/impala2.jpg'
+import impala3 from './assets/cars/impala3.jpg'
+import impala4 from './assets/cars/impala4.jpg'
+
 class Cars extends React.Component {
     render() {
     return(
-        <Stack horizontal horizontalAlign='center' wrap gap='15'>
+        <Stack horizontal horizontalAlign='center' wrap gap='15'> 
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2012 Hyundai Elantra - $6,950</Text></Stack>
+                <Stack padding={2}><Text className='tile-text-p'>2011 Nissan Versa - $4,950</Text></Stack>
                 <Stack padding={3}>
-                <Text className='tile-text-d'>71K Miles, All Power, Front Wheel Drive, New Front Brakes, New Oil Change, Extra Clean.</Text>
+                <Text className='tile-text-d'>119K Miles, All Power, Automatic Transmission, Good Tires, AC/Heat.</Text>
                 </Stack>
                 <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={elantrav1} />
-                    <img src={elantrav2} />
-                    <img src={elantrav3} />
-                    <img src={elantrav4} />
+                    <img src={versa1} />
+                    <img src={versa2} />
+                    <img src={versa3} />
+                    <img src={versa4} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2013 Checy Impala - $6,500</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>130K Miles, Leather, Sunroof, All Power, Automatic Transmission, Alloy Wheels, Good Tires.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={impala1} />
+                    <img src={impala2} />
+                    <img src={impala3} />
+                    <img src={impala4} />
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
@@ -173,18 +185,6 @@ class Cars extends React.Component {
                     <img src={soul2} />
                     <img src={soul3} />
                     <img src={soul4} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2013 Chevrolet Sonic - $5,950</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>91K Miles, All Power, AC/Heat, Automatic transmission, 4 Doors.</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={sonic1} />
-                    <img src={sonic2} />
-                    <img src={sonic3} />
-                    <img src={sonic4} />
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>

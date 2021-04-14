@@ -4,15 +4,6 @@ import './App.css';
 import { Carousel } from 'react-responsive-carousel';
 import { Depths } from '@uifabric/fluent-theme/lib/fluent/FluentDepths';
 
-import tahoe from './assets/trucks/ChevyTahoe2008.jpg';
-import tahoe2 from './assets/trucks/tahoe2.JPG';
-import tahoe3 from './assets/trucks/tahoe3.JPG';
-
-import tucson1 from './assets/trucks/tucson1.jpeg';
-import tucson2 from './assets/trucks/tucson2.jpeg';
-import tucson3 from './assets/trucks/tucson3.jpeg';
-import tucson4 from './assets/trucks/tucson4.jpeg';
-
 import flex from './assets/cars/flex.jpeg';
 import flex2 from './assets/cars/flex2.jpeg';
 import flex3 from './assets/cars/flex3.jpeg';
@@ -23,30 +14,32 @@ import MM2 from './assets/trucks/MM2.jpeg';
 import MM3 from './assets/trucks/MM3.jpeg';
 import MM4 from './assets/trucks/MM4.jpeg';
 
-import hhr1 from './assets/trucks/hhr1.jpeg';
-import hhr2 from './assets/trucks/hhr2.jpeg';
-import hhr3 from './assets/trucks/hhr3.jpeg';
-import hhr4 from './assets/trucks/hhr4.jpeg';
-
-import gmct1 from './assets/trucks/gmct1.jpeg';
-import gmct2 from './assets/trucks/gmct2.jpeg';
-import gmct3 from './assets/trucks/gmct3.jpeg';
-import gmct4 from './assets/trucks/gmct4.jpeg';
-
-import ford1 from './assets/cars/ford1.jpg';
-import ford2 from './assets/cars/ford2.jpg';
-import ford3 from './assets/cars/ford3.jpg';
-import ford4 from './assets/cars/ford4.jpg';
-
 import acadia1 from './assets/trucks/acadia1.jpg';
 import acadia2 from './assets/trucks/acadia2.jpg';
 import acadia3 from './assets/trucks/acadia3.jpg';
 import acadia4 from './assets/trucks/acadia4.jpg';
 
+import buick1 from './assets/cars/buick1.jpg';
+import buick2 from './assets/cars/buick2.jpg';
+import buick3 from './assets/cars/buick3.jpg';
+import buick4 from './assets/cars/buick4.jpg';
+
 class Suvs extends React.Component {
     render() {
     return(
         <Stack horizontal horizontalAlign='center' wrap gap='15'>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2011 Buick Enclave - $7,700</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>132K Miles, 3rd Row Seat, Sunroof, All Power, Leather Alloy Wheel, Front Wheel Drive.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={buick1} />
+                    <img src={buick2} />
+                    <img src={buick3} />
+                    <img src={buick4} />
+                </Carousel>
+            </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
                 <Stack padding={2}><Text className='tile-text-p'>2015 GMC Acadia - $14,200</Text></Stack>
                 <Stack padding={3}>
@@ -57,18 +50,6 @@ class Suvs extends React.Component {
                     <img src={acadia2} />
                     <img src={acadia3} />
                     <img src={acadia4} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2011 Ford Explorer - $12,500</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>119K Miles, All Power, Navigation System, Bluetooth, Heated Seats, 3rd Row, Back Up Camera. 4x4.</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={ford1} />
-                    <img src={ford2} />
-                    <img src={ford3} />
-                    <img src={ford4} />
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
