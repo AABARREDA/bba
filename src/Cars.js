@@ -9,7 +9,6 @@ import gti2 from './assets/cars/gti2.JPG';
 import gti3 from './assets/cars/gti3.JPG';
 import gti4 from './assets/cars/gti4.JPG';
 
-import focus from './assets/cars/FordFocus.JPG';
 import focus2 from './assets/cars/focus2.JPG';
 import focus3 from './assets/cars/focus3.JPG';
 
@@ -28,10 +27,44 @@ import sentra12v2 from './assets/cars/sentra12v2.jpg'
 import sentra12v3 from './assets/cars/sentra12v3.jpg'
 import sentra12v4 from './assets/cars/sentra12v4.jpg'
 
+import impala1 from './assets/cars/impala1.jpg'
+import impala2 from './assets/cars/impala2.jpg'
+import impala3 from './assets/cars/impala3.jpg'
+import impala4 from './assets/cars/impala4.jpg'
+
+import rio1 from './assets/cars/rio1.jpg'
+import rio2 from './assets/cars/rio2.jpg'
+import rio3 from './assets/cars/rio3.jpg'
+import rio4 from './assets/cars/rio4.jpg'
+
 class Cars extends React.Component {
     render() {
     return(
-        <Stack horizontal horizontalAlign='center' wrap gap='15'> 
+        <Stack horizontal horizontalAlign='center' wrap gap='15'>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2013 Kia Rio - $6,250</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>123K Miles, Front Wheel Drive, Automatic, Excellent Tires, Manual Windows</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={rio1} />
+                    <img src={rio2} />
+                    <img src={rio3} />
+                    <img src={rio4} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2012 Chevy Impala - $6,750</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>102K Miles, All Power, Automatic Transmission, AC/Heat, Front Wheel Drive. Dependable</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={impala1} />
+                    <img src={impala2} />
+                    <img src={impala3} />
+                    <img src={impala4} />
+                </Carousel>
+            </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
                 <Stack padding={2}><Text className='tile-text-p'>2012 Nissan Sentra - $7,500</Text></Stack>
                 <Stack padding={3}>
@@ -86,7 +119,6 @@ class Cars extends React.Component {
                 <Text className='tile-text-d'>129K Miles, Good Tires, Extra Clean, Cold AC, Oil Change Completed, 4 Cyl.</Text>
                 </Stack>
                 <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={focus} />
                     <img src={focus2} />
                     <img src={focus3} />
                 </Carousel>

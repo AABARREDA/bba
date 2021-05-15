@@ -4,11 +4,6 @@ import './App.css';
 import { Carousel } from 'react-responsive-carousel';
 import { Depths } from '@uifabric/fluent-theme/lib/fluent/FluentDepths';
 
-import cbr from './assets/other/hondacbr.JPG'
-import cbr2 from './assets/other/cbr2.JPG'
-import cbr3 from './assets/other/cbr3.JPG'
-import cbr4 from './assets/other/cbr4.JPG'
-
 class Other extends React.Component {
     render() {
     return(
@@ -19,10 +14,6 @@ class Other extends React.Component {
                 <Text className='tile-text-d'>23K Miles, New Tires, Tune Up compelte including oil change.</Text>
                 </Stack>
                 <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={cbr} />
-                    <img src={cbr2} />
-                    <img src={cbr3} />
-                    <img src={cbr4} />
                 </Carousel>
             </Stack>
             </Stack>
