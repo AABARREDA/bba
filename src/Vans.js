@@ -7,10 +7,10 @@ import { Depths } from '@uifabric/fluent-theme/lib/fluent/FluentDepths';
 import savana01 from './assets/trucks/savana01.jpeg';
 import savana02 from './assets/trucks/savana02.jpeg';
 
-import tc1 from './assets/trucks/tc1.jpeg';
-import tc2 from './assets/trucks/tc2.jpeg';
-import tc3 from './assets/trucks/tc3.jpeg';
-import tc4 from './assets/trucks/tc4.jpeg';
+import tc1 from './assets/trucks/tc1.jpg';
+import tc2 from './assets/trucks/tc2.jpg';
+import tc3 from './assets/trucks/tc3.jpg';
+import tc4 from './assets/trucks/tc4.jpg';
 
 class Vans extends React.Component {
     render() {
