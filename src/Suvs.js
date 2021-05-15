@@ -14,10 +14,27 @@ import terrain2 from './assets/trucks/terrain2.jpg';
 import terrain3 from './assets/trucks/terrain3.jpg';
 import terrain4 from './assets/trucks/terrain4.jpg';
 
+import ac1 from './assets/trucks/ac1.jpg';
+import ac2 from './assets/trucks/ac2.jpg';
+import ac3 from './assets/trucks/ac3.jpg';
+import ac4 from './assets/trucks/ac4.jpg';
+
 class Suvs extends React.Component {
     render() {
     return(
         <Stack horizontal horizontalAlign='center' wrap gap='15'>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2011 GMC Acadia - $8,750</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>159K Miiles, New Timing Chain, New Tune Up, New Oil Change, Excellent condition in and out. Alloy Wheels</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={ac1} />
+                    <img src={ac2} />
+                    <img src={ac3} />
+                    <img src={ac4} />
+                </Carousel>
+            </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
                 <Stack padding={2}><Text className='tile-text-p'>2011 GMC Terrain - $7,900</Text></Stack>
                 <Stack padding={3}>
