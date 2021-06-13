@@ -17,7 +17,7 @@ class Vans extends React.Component {
     return(
         <Stack horizontal horizontalAlign='center' wrap gap='15'>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2011 Chrysler Town and Country - $7500</Text></Stack>
+                <Stack padding={2}><Text className='tile-text-p'>2011 Chrysler TC - $7500</Text></Stack>
                 <Stack padding={3}>
                 <Text className='tile-text-d'>127K Miles, Stow n Go Seats, Back Up Camera, Auto, New Front Brakes, Oil Change.</Text>
                 </Stack>

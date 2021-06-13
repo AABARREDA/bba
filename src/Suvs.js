@@ -22,11 +22,11 @@ import ac4 from './assets/trucks/ac4.jpg';
 class Suvs extends React.Component {
     render() {
     return(
-        <Stack horizontal horizontalAlign='center' wrap gap='15'>
+        <Stack horizontal horizontalAlign='center' wrap gap='15'> 
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
                 <Stack padding={2}><Text className='tile-text-p'>2011 GMC Acadia - $8,750</Text></Stack>
                 <Stack padding={3}>
-                <Text className='tile-text-d'>159K Miiles, New Timing Chain, New Tune Up, New Oil Change, Excellent condition in and out. Alloy Wheels</Text>
+                <Text className='tile-text-d'>159K Miles, New Timing Chain, New Tune Up, New Oil Change, Excellent condition in and out. Alloy Wheels</Text>
                 </Stack>
                 <Carousel width="400px" emulateTouch showStatus={false}>
                     <img src={ac1} />
