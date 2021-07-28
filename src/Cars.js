@@ -4,28 +4,13 @@ import './App.css';
 import { Carousel } from 'react-responsive-carousel';
 import { Depths } from '@uifabric/fluent-theme/lib/fluent/FluentDepths';
 
-import gti from './assets/cars/GTI.JPG';
-import gti2 from './assets/cars/gti2.JPG';
-import gti3 from './assets/cars/gti3.JPG';
-import gti4 from './assets/cars/gti4.JPG';
-
 import focus2 from './assets/cars/focus2.JPG';
 import focus3 from './assets/cars/focus3.JPG';
-
-import fiesta1 from './assets/cars/fiesta1.jpg'
-import fiesta2 from './assets/cars/fiesta2.jpg'
-import fiesta3 from './assets/cars/fiesta3.jpg'
-import fiesta4 from './assets/cars/fiesta4.jpg'
 
 import sentra12v1 from './assets/cars/sentra12v1.jpg'
 import sentra12v2 from './assets/cars/sentra12v2.jpg'
 import sentra12v3 from './assets/cars/sentra12v3.jpg'
 import sentra12v4 from './assets/cars/sentra12v4.jpg'
-
-import impala1 from './assets/cars/impala1.jpg'
-import impala2 from './assets/cars/impala2.jpg'
-import impala3 from './assets/cars/impala3.jpg'
-import impala4 from './assets/cars/impala4.jpg'
 
 import rio1 from './assets/cars/rio1.jpg'
 import rio2 from './assets/cars/rio2.jpg'
@@ -51,10 +36,61 @@ import HY2 from './assets/cars/HY2.jpg'
 import HY3 from './assets/cars/HY3.jpg'
 import HY4 from './assets/cars/HY4.jpg'
 
+import c1 from './assets/cars/c1.jpg'
+import c2 from './assets/cars/c2.jpg'
+import c3 from './assets/cars/c3.jpg'
+import c4 from './assets/cars/c4.jpg'
+
+import cc1 from './assets/cars/cc1.jpg'
+import cc2 from './assets/cars/cc2.jpg'
+import cc3 from './assets/cars/cc3.jpg'
+import cc4 from './assets/cars/cc4.jpg'
+
+import tc1 from './assets/cars/tc1.jpg'
+import tc2 from './assets/cars/tc2.jpg'
+import tc3 from './assets/cars/tc3.jpg'
+import tc4 from './assets/cars/tc4.jpg'
+
 class Cars extends React.Component {
     render() {
     return(
         <Stack horizontal horizontalAlign='center' wrap gap='15'>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2010 Chevy Camaro RS - $16,500</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>79K Miles, V6, Automatic, Leather, Alloy Wheels, Bluetooth, Cold AC.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={c1} />
+                    <img src={c2} />
+                    <img src={c3} />
+                    <img src={c4} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2012 Chevy Cruz - $6,950</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>95K Miles, All Power, Sunroof, Front Wheel Drive, Alloy Wheels, AC.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={cc1} />
+                    <img src={cc2} />
+                    <img src={cc3} />
+                    <img src={cc4} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2007 Toyota Camry - $6,750</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>162K Miles, V6, Front Wheel Drive, All Power, AC, Nice and Clean.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={tc1} />
+                    <img src={tc2} />
+                    <img src={tc3} />
+                    <img src={tc4} />
+                </Carousel>
+            </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
                 <Stack padding={2}><Text className='tile-text-p'>2010 Ford Mustang - $13,500</Text></Stack>
                 <Stack padding={3}>
@@ -115,18 +151,6 @@ class Cars extends React.Component {
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2012 Chevy Impala - $6,750</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>102K Miles, All Power, Automatic Transmission, AC/Heat, Front Wheel Drive. Dependable</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={impala1} />
-                    <img src={impala2} />
-                    <img src={impala3} />
-                    <img src={impala4} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
                 <Stack padding={2}><Text className='tile-text-p'>2012 Nissan Sentra - $7,500</Text></Stack>
                 <Stack padding={3}>
                 <Text className='tile-text-d'>67K Miles, All Power, Auto, Alloy Wheels, Excellent Tires, AC/Heat.</Text>
@@ -136,30 +160,6 @@ class Cars extends React.Component {
                     <img src={sentra12v2} />
                     <img src={sentra12v3} />
                     <img src={sentra12v4} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2011 Ford Fiesa - $5,450</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>79K Miles, 5 Speed Manual, Leather, New Oil Change, Nice and Clean.</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={fiesta1} />
-                    <img src={fiesta2} />
-                    <img src={fiesta3} />
-                    <img src={fiesta4} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2009 VW GTI - $6,900</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>70K Miles, Paddle Shifter, Turbo, Tartan Interior, Premium Rims, Extra clean in and out.</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={gti} />
-                    <img src={gti2} />
-                    <img src={gti3} />
-                    <img src={gti4} />
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>

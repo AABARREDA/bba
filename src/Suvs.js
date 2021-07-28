@@ -9,44 +9,10 @@ import acadia2 from './assets/trucks/acadia2.jpg';
 import acadia3 from './assets/trucks/acadia3.jpg';
 import acadia4 from './assets/trucks/acadia4.jpg';
 
-import terrain1 from './assets/trucks/terrain1.jpg';
-import terrain2 from './assets/trucks/terrain2.jpg';
-import terrain3 from './assets/trucks/terrain3.jpg';
-import terrain4 from './assets/trucks/terrain4.jpg';
-
-import ac1 from './assets/trucks/ac1.jpg';
-import ac2 from './assets/trucks/ac2.jpg';
-import ac3 from './assets/trucks/ac3.jpg';
-import ac4 from './assets/trucks/ac4.jpg';
-
 class Suvs extends React.Component {
     render() {
     return(
         <Stack horizontal horizontalAlign='center' wrap gap='15'> 
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2011 GMC Acadia - $8,750</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>159K Miles, New Timing Chain, New Tune Up, New Oil Change, Excellent condition in and out. Alloy Wheels</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={ac1} />
-                    <img src={ac2} />
-                    <img src={ac3} />
-                    <img src={ac4} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2011 GMC Terrain - $7,900</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>125K Miles, All Power, Automatic Transmission, Alloy Wheels with Good Tires. Back up Camera.</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={terrain1} />
-                    <img src={terrain2} />
-                    <img src={terrain3} />
-                    <img src={terrain4} />
-                </Carousel>
-            </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
                 <Stack padding={2}><Text className='tile-text-p'>2015 GMC Acadia - $14,200</Text></Stack>
                 <Stack padding={3}>
