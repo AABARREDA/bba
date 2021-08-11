@@ -7,30 +7,47 @@ import { Depths } from '@uifabric/fluent-theme/lib/fluent/FluentDepths';
 import savana01 from './assets/trucks/savana01.jpeg';
 import savana02 from './assets/trucks/savana02.jpeg';
 
-import ct1 from './assets/trucks/ct1.jpeg';
-import ct2 from './assets/trucks/ct2.jpeg';
-import ct3 from './assets/trucks/ct3.jpeg';
-import ct4 from './assets/trucks/ct4.jpeg';
+import d1 from './assets/trucks/d1.jpg';
+import d2 from './assets/trucks/d2.jpg';
+import d3 from './assets/trucks/d3.jpg';
+import d4 from './assets/trucks/d4.jpg';
 
-import d1 from './assets/trucks/d1.jpeg';
-import d2 from './assets/trucks/d2.jpeg';
-import d3 from './assets/trucks/d3.jpeg';
-import d4 from './assets/trucks/d4.jpeg';
+import ts1 from './assets/trucks/ts1.jpg';
+import ts2 from './assets/trucks/ts2.jpg';
+import ts3 from './assets/trucks/ts3.jpg';
+import ts4 from './assets/trucks/ts4.jpg';
+
+import tv1 from './assets/trucks/tv1.jpg';
+import tv2 from './assets/trucks/tv2.jpg';
+import tv3 from './assets/trucks/tv3.jpg';
+import tv4 from './assets/trucks/tv4.jpg';
 
 class Vans extends React.Component {
     render() {
     return(
         <Stack horizontal horizontalAlign='center' wrap gap='15'>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2008 Chrysler Town and Country - $6,950</Text></Stack>
+                <Stack padding={2}><Text className='tile-text-p'>2011 Toyota Venza - $12,500</Text></Stack>
                 <Stack padding={3}>
-                <Text className='tile-text-d'>138K Miles, 3rd Row Seating, Back Up Camera, DVD, All Power, Excellent Tires.</Text>
+                <Text className='tile-text-d'>119K Miles, All Power, Automatic Transmission, 3rd row Seat, DVD, Great Tires.</Text>
                 </Stack>
                 <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={ct1} />
-                    <img src={ct2} />
-                    <img src={ct3} />
-                    <img src={ct4} />
+                    <img src={tv1} />
+                    <img src={tv2} />
+                    <img src={tv3} />
+                    <img src={tv4} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2006 Toyota Sienna - $6,500</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>137K Miles All Power, Automatic, AC, Great Tires, V6 Engine.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={ts1} />
+                    <img src={ts2} />
+                    <img src={ts3} />
+                    <img src={ts4} />
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>

@@ -31,30 +31,71 @@ import cts2 from './assets/cars/cts2.jpg'
 import cts3 from './assets/cars/cts3.jpg'
 import cts4 from './assets/cars/cts4.jpg'
 
-import HY1 from './assets/cars/HY1.jpg'
-import HY2 from './assets/cars/HY2.jpg'
-import HY3 from './assets/cars/HY3.jpg'
-import HY4 from './assets/cars/HY4.jpg'
-
 import c1 from './assets/cars/c1.jpg'
 import c2 from './assets/cars/c2.jpg'
 import c3 from './assets/cars/c3.jpg'
 import c4 from './assets/cars/c4.jpg'
-
-import cc1 from './assets/cars/cc1.jpg'
-import cc2 from './assets/cars/cc2.jpg'
-import cc3 from './assets/cars/cc3.jpg'
-import cc4 from './assets/cars/cc4.jpg'
 
 import tc1 from './assets/cars/tc1.jpg'
 import tc2 from './assets/cars/tc2.jpg'
 import tc3 from './assets/cars/tc3.jpg'
 import tc4 from './assets/cars/tc4.jpg'
 
+import f1 from './assets/cars/f1.jpg'
+import f2 from './assets/cars/f2.jpg'
+import f3 from './assets/cars/f3.jpg'
+import f4 from './assets/cars/f4.jpg'
+
+import vn1 from './assets/cars/vn1.jpg'
+import vn2 from './assets/cars/vn2.jpg'
+import vn3 from './assets/cars/vn3.jpg'
+import vn4 from './assets/cars/vn4.jpg'
+
+import imp1 from './assets/cars/imp1.jpg'
+import imp2 from './assets/cars/imp2.jpg'
+import imp3 from './assets/cars/imp3.jpg'
+import imp4 from './assets/cars/imp4.jpg'
+
 class Cars extends React.Component {
     render() {
     return(
         <Stack horizontal horizontalAlign='center' wrap gap='15'>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2012 Fiat 500 - $6,250</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>112K Miles, 5 Spd, Manual Transmission, Power Windows, AC, Bluetooth, Good Tires.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={f1} />
+                    <img src={f2} />
+                    <img src={f3} />
+                    <img src={f4} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2006 Chevrolet Impala - $4,950</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>135K Miles, Automatic Transmission, Front Wheel Drive, AC, Fresh Tune Up. Oil Change.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={imp1} />
+                    <img src={imp2} />
+                    <img src={imp3} />
+                    <img src={imp4} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2014 Versa Note - $7,500</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>121K Miles All Power, Automatic, Front Wheel Drive, Cold AC.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={vn1} />
+                    <img src={vn2} />
+                    <img src={vn3} />
+                    <img src={vn4} />
+                </Carousel>
+            </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
                 <Stack padding={2}><Text className='tile-text-p'>2010 Chevy Camaro RS - $16,500</Text></Stack>
                 <Stack padding={3}>
@@ -65,18 +106,6 @@ class Cars extends React.Component {
                     <img src={c2} />
                     <img src={c3} />
                     <img src={c4} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2012 Chevy Cruz - $6,950</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>95K Miles, All Power, Sunroof, Front Wheel Drive, Alloy Wheels, AC.</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={cc1} />
-                    <img src={cc2} />
-                    <img src={cc3} />
-                    <img src={cc4} />
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
@@ -113,18 +142,6 @@ class Cars extends React.Component {
                     <img src={cts2} />
                     <img src={cts3} />
                     <img src={cts4} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2012 Hyundai Elantra - $8,250</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>69K Miles, All Power, Automatic Transmission, Front Wheel drive, XM Radio, CD, Extra Clean in and out. Alloy Wheels.</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={HY1} />
-                    <img src={HY2} />
-                    <img src={HY3} />
-                    <img src={HY4} />
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
