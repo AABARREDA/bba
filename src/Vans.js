@@ -27,18 +27,6 @@ class Vans extends React.Component {
     return(
         <Stack horizontal horizontalAlign='center' wrap gap='15'>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2011 Toyota Venza - $12,500</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>119K Miles, All Power, Automatic Transmission, 3rd row Seat, DVD, Great Tires.</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={tv1} />
-                    <img src={tv2} />
-                    <img src={tv3} />
-                    <img src={tv4} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
                 <Stack padding={2}><Text className='tile-text-p'>2006 Toyota Sienna - $6,500</Text></Stack>
                 <Stack padding={3}>
                 <Text className='tile-text-d'>137K Miles All Power, Automatic, AC, Great Tires, V6 Engine.</Text>

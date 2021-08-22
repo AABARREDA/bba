@@ -56,10 +56,27 @@ import imp2 from './assets/cars/imp2.jpg'
 import imp3 from './assets/cars/imp3.jpg'
 import imp4 from './assets/cars/imp4.jpg'
 
+import ci1 from './assets/cars/ci1.jpg'
+import ci2 from './assets/cars/ci2.jpg'
+import ci3 from './assets/cars/ci3.jpg'
+import ci4 from './assets/cars/ci4.jpg'
+
 class Cars extends React.Component {
     render() {
     return(
         <Stack horizontal horizontalAlign='center' wrap gap='15'>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2015 Chevy Impala -  $12,500</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>85K Miles, All Power, Front Wheel Drive, DVD Bluetooth, Backup Camera, 4 Cylinder, Extra Clean.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={ci1} />
+                    <img src={ci2} />
+                    <img src={ci3} />
+                    <img src={ci4} />
+                </Carousel>
+            </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
                 <Stack padding={2}><Text className='tile-text-p'>2012 Fiat 500 - $6,250</Text></Stack>
                 <Stack padding={3}>
@@ -73,19 +90,7 @@ class Cars extends React.Component {
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2006 Chevrolet Impala - $4,950</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>135K Miles, Automatic Transmission, Front Wheel Drive, AC, Fresh Tune Up. Oil Change.</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={imp1} />
-                    <img src={imp2} />
-                    <img src={imp3} />
-                    <img src={imp4} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2014 Versa Note - $7,500</Text></Stack>
+                <Stack padding={2}><Text className='tile-text-p'>2014 Versa Note - $6,950</Text></Stack>
                 <Stack padding={3}>
                 <Text className='tile-text-d'>121K Miles All Power, Automatic, Front Wheel Drive, Cold AC.</Text>
                 </Stack>
@@ -97,7 +102,7 @@ class Cars extends React.Component {
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2010 Chevy Camaro RS - $16,500</Text></Stack>
+                <Stack padding={2}><Text className='tile-text-p'>2010 Chevy Camaro RS - $14,500</Text></Stack>
                 <Stack padding={3}>
                 <Text className='tile-text-d'>79K Miles, V6, Automatic, Leather, Alloy Wheels, Bluetooth, Cold AC.</Text>
                 </Stack>
@@ -109,7 +114,7 @@ class Cars extends React.Component {
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2007 Toyota Camry - $6,750</Text></Stack>
+                <Stack padding={2}><Text className='tile-text-p'>2007 Toyota Camry - $5,950</Text></Stack>
                 <Stack padding={3}>
                 <Text className='tile-text-d'>162K Miles, V6, Front Wheel Drive, All Power, AC, Nice and Clean.</Text>
                 </Stack>
@@ -145,7 +150,7 @@ class Cars extends React.Component {
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2013 NIssan Versa - $6,450</Text></Stack>
+                <Stack padding={2}><Text className='tile-text-p'>2013 Nissan Versa - $6,950</Text></Stack>
                 <Stack padding={3}>
                 <Text className='tile-text-d'>107K Miles, Automatic, Front Wheel Drive, Clean in and out, Great Tires, Ice Cold Air.</Text>
                 </Stack>
