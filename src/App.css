@@ -36,10 +36,11 @@
 }
 
 .tile{
-  height:475px;
-  width: 400px;
+  height:550px;
+  width: 450px;
   min-width: 400px;
 }
+
 
 .tile-pic{
   height:345px;

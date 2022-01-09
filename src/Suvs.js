@@ -4,52 +4,150 @@ import './App.css';
 import { Carousel } from 'react-responsive-carousel';
 import { Depths } from '@uifabric/fluent-theme/lib/fluent/FluentDepths';
 
-import acadia1 from './assets/trucks/acadia1.jpg';
-import acadia2 from './assets/trucks/acadia2.jpg';
-import acadia3 from './assets/trucks/acadia3.jpg';
-import acadia4 from './assets/trucks/acadia4.jpg';
-
 import ev1 from './assets/trucks/ev1.jpg';
 import ev2 from './assets/trucks/ev2.jpg';
 import ev3 from './assets/trucks/ev3.jpg';
 import ev4 from './assets/trucks/ev4.jpg';
 
-import g501 from './assets/trucks/g501.jpg';
-import g502 from './assets/trucks/g502.jpg';
-import g503 from './assets/trucks/g503.jpg';
-import g504 from './assets/trucks/g504.jpg';
+import Sub1 from './assets/trucks/Sub1.jpg';
+import Sub2 from './assets/trucks/Sub2.jpg';
+import Sub3 from './assets/trucks/Sub3.jpg';
+import Sub4 from './assets/trucks/Sub4.jpg';
 
-import az1 from './assets/trucks/az1.jpg';
-import az2 from './assets/trucks/az2.jpg';
-import az3 from './assets/trucks/az3.jpg';
-import az4 from './assets/trucks/az4.jpg';
+import escape1 from './assets/trucks/escape1.jpg';
+import escape2 from './assets/trucks/escape2.jpg';
+import escape3 from './assets/trucks/escape3.jpg';
+import escape4 from './assets/trucks/escape4.jpg';
+
+import equi1 from './assets/trucks/equi1.jpg';
+import equi2 from './assets/trucks/equi2.jpg';
+import equi3 from './assets/trucks/equi3.jpg';
+import equi4 from './assets/trucks/equi4.jpg';
+
+import mkx1 from './assets/trucks/mkx1.jpg';
+import mkx2 from './assets/trucks/mkx2.jpg';
+import mkx3 from './assets/trucks/mkx3.jpg';
+import mkx4 from './assets/trucks/mkx4.jpg';
+
+import cadi1 from './assets/trucks/cadi1.jpg';
+import cadi2 from './assets/trucks/cadi2.jpg';
+import cadi3 from './assets/trucks/cadi3.jpg';
+import cadi4 from './assets/trucks/cadi4.jpg';
+
+import toy1 from './assets/trucks/toy1.jpg';
+import toy2 from './assets/trucks/toy2.jpg';
+import toy3 from './assets/trucks/toy3.jpg';
+import toy4 from './assets/trucks/toy4.jpg';
+
+import mar1 from './assets/trucks/mar1.jpg';
+import mar2 from './assets/trucks/mar2.jpg';
+import mar3 from './assets/trucks/mar3.jpg';
+import mar4 from './assets/trucks/mar4.jpg';
+
+import chevy1 from './assets/trucks/chevy1.jpg';
+import chevy2 from './assets/trucks/chevy2.jpg';
+import chevy3 from './assets/trucks/chevy3.jpg';
+import chevy4 from './assets/trucks/chevy4.jpg';
 
 class Suvs extends React.Component {
     render() {
     return(
-        <Stack horizontal horizontalAlign='center' wrap gap='15'> 
+        <Stack horizontal horizontalAlign='center' wrap gap='15'>
+            2011 Chevrolet Equinox 135 k miles all power automatic transmission front wheel drive 4 cylinder ac/heater $7950
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2002 Mercedes G500 $38,000</Text></Stack>
+                <Stack padding={2}><Text className='tile-text-p'>2011 Chevy Equinox - $7,950</Text></Stack>
                 <Stack padding={3}>
-                <Text className='tile-text-d'>115K Miles, 4x4, Leather, Sunroof, Well Maintained 7K in dealer receipts.</Text>
+                <Text className='tile-text-d'>135K Miles, All Power, Automatic Transmission, Front Wheel Drive, 4 Cyl.</Text>
                 </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={g501} />
-                    <img src={g502} />
-                    <img src={g503} />
-                    <img src={g504} />
+                <Carousel width="450px" emulateTouch showStatus={false}>
+                    <img src={chevy1} />
+                    <img src={chevy2} />
+                    <img src={chevy3} />
+                    <img src={chevy4} />
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2004 Pontiac Aztec - $3,950</Text></Stack>
+                <Stack padding={2}><Text className='tile-text-p'>2009 Mercur Mariner - $6,950</Text></Stack>
                 <Stack padding={3}>
-                <Text className='tile-text-d'>155K Miles, Oil Change, New Brakes, Front and Rear AC, All Power, All Wheel Drive, Good Dependable Truck.</Text>
+                <Text className='tile-text-d'>111K Miles, Automatic Transmission, Front Wheel Drive, AC/Heat, Extra Clean, Alloy Wheels and Tires.</Text>
                 </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={az1} />
-                    <img src={az2} />
-                    <img src={az3} />
-                    <img src={az4} />
+                <Carousel width="450px" emulateTouch showStatus={false}>
+                    <img src={mar1} />
+                    <img src={mar2} />
+                    <img src={mar3} />
+                    <img src={mar4} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2007 Toyota 4 Runner - $12,500</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>150K Miles, All Power, Automatic Transmission, Alloy Wheels, Great Tires and Extra Clean.</Text>
+                </Stack>
+                <Carousel width="450px" emulateTouch showStatus={false}>
+                    <img src={toy1} />
+                    <img src={toy2} />
+                    <img src={toy3} />
+                    <img src={toy4} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2010 Lincoln MKX - $9,500</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>100K Miles, Panoramic Sunroof, Leather Navigation, Heated and Cooled Seats, V6 Alloy Wheels and Great Tires.</Text>
+                </Stack>
+                <Carousel width="450px" emulateTouch showStatus={false}>
+                    <img src={mkx1} />
+                    <img src={mkx2} />
+                    <img src={mkx3} />
+                    <img src={mkx4} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2011 Cadillac SRX - $10,500</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>138K Miles, All Power, Navigation, 2 DVDs, Heated and Cooled Seats, Push Start, V6, New Oil Change.</Text>
+                </Stack>
+                <Carousel width="450px" emulateTouch showStatus={false}>
+                    <img src={cadi1} />
+                    <img src={cadi2} />
+                    <img src={cadi3} />
+                    <img src={cadi4} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2007 Chevrolet Suburban - $9700</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>150K Miles, 2 Wheel Drive, 3rd Row Seat, Fresh Tune Up, New Oil Change, AC/Heater.</Text>
+                </Stack>
+                <Carousel width="450px" emulateTouch showStatus={false}>
+                    <img src={Sub1} />
+                    <img src={Sub2} />
+                    <img src={Sub3} />
+                    <img src={Sub4} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2010 Chevrolet Equinox - $7,950</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>100K Miles, All Power, Front Wheel Drive, Extra Clean, Alloy Wheels and Great Tires.</Text>
+                </Stack>
+                <Carousel width="450px" emulateTouch showStatus={false}>
+                    <img src={equi1} />
+                    <img src={equi2} />
+                    <img src={equi3} />
+                    <img src={equi4} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2011 Ford Escape - $7,450</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>128K Miles, All Power, Leather, V6, All Wheel Drive, New Oil Change.</Text>
+                </Stack>
+                <Carousel width="450px" emulateTouch showStatus={false}>
+                    <img src={escape1} />
+                    <img src={escape2} />
+                    <img src={escape3} />
+                    <img src={escape4} />
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
@@ -57,23 +155,11 @@ class Suvs extends React.Component {
                 <Stack padding={3}>
                 <Text className='tile-text-d'>136K Miles, 4x4, Leather, Sunroof, AC, Alloy Wheels, Towing Package.</Text>
                 </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
+                <Carousel width="450px" emulateTouch showStatus={false}>
                     <img src={ev1} />
                     <img src={ev2} />
                     <img src={ev3} />
                     <img src={ev4} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2015 GMC Acadia - $14,200</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>92K Miles, All Power, Automatic Transmission, Back Up Camera, Front Wheel Drive, 3rd Row Seating.</Text>
-                </Stack>
-                <Carousel width="400px" emulateTouch showStatus={false}>
-                    <img src={acadia1} />
-                    <img src={acadia2} />
-                    <img src={acadia3} />
-                    <img src={acadia4} />
                 </Carousel>
             </Stack>
         </Stack>
