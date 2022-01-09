@@ -53,7 +53,6 @@ class Suvs extends React.Component {
     render() {
     return(
         <Stack horizontal horizontalAlign='center' wrap gap='15'>
-            2011 Chevrolet Equinox 135 k miles all power automatic transmission front wheel drive 4 cylinder ac/heater $7950
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
                 <Stack padding={2}><Text className='tile-text-p'>2011 Chevy Equinox - $7,950</Text></Stack>
                 <Stack padding={3}>
