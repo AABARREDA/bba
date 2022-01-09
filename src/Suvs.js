@@ -66,7 +66,7 @@ class Suvs extends React.Component {
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2009 Mercur Mariner - $6,950</Text></Stack>
+                <Stack padding={2}><Text className='tile-text-p'>2009 Mercury Mariner - $6,950</Text></Stack>
                 <Stack padding={3}>
                 <Text className='tile-text-d'>111K Miles, Automatic Transmission, Front Wheel Drive, AC/Heat, Extra Clean, Alloy Wheels and Tires.</Text>
                 </Stack>
