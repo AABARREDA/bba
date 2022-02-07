@@ -29,42 +29,93 @@ import vn2 from './assets/cars/vn2.jpg'
 import vn3 from './assets/cars/vn3.jpg'
 import vn4 from './assets/cars/vn4.jpg'
 
-import avenger1 from './assets/cars/avenger1.jpg'
-import avenger2 from './assets/cars/avenger2.jpg'
-import avenger3 from './assets/cars/avenger3.jpg'
-import avenger4 from './assets/cars/avenger4.jpg'
+import elan1 from './assets/cars/elan1.jpg'
+import elan2 from './assets/cars/elan2.jpg'
+import elan3 from './assets/cars/elan3.jpg'
+import elan4 from './assets/cars/elan4.jpg'
 
-import avengerv1 from './assets/cars/avengerv1.jpg'
-import avengerv2 from './assets/cars/avengerv2.jpg'
-import avengerv3 from './assets/cars/avengerv3.jpg'
-import avengerv4 from './assets/cars/avengerv4.jpg'
+import spark1 from './assets/cars/spark1.jpg'
+import spark2 from './assets/cars/spark2.jpg'
+import spark3 from './assets/cars/spark3.jpg'
+import spark4 from './assets/cars/spark4.jpg'
+
+import focus1 from './assets/cars/focus1.jpg'
+import focus2 from './assets/cars/focus2.jpg'
+import focus3 from './assets/cars/focus3.jpg'
+import focus4 from './assets/cars/focus4.jpg'
+
+import impala1 from './assets/cars/impala1.jpg'
+import impala2 from './assets/cars/impala2.jpg'
+import impala3 from './assets/cars/impala3.jpg'
+import impala4 from './assets/cars/impala4.jpg'
+
+import camry1 from './assets/cars/camry1.jpg'
+import camry2 from './assets/cars/camry2.jpg'
+import camry3 from './assets/cars/camry3.jpg'
+import camry4 from './assets/cars/camry4.jpg'
 
 class Cars extends React.Component {
     render() {
     return(
         <Stack horizontal horizontalAlign='center' wrap gap='15'>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2008 Dodge Avenger - $6,250</Text></Stack>
+                <Stack padding={2}><Text className='tile-text-p'>2009 Toyota Camry - $7,500</Text></Stack>
                 <Stack padding={3}>
-                <Text className='tile-text-d'>69K Miles, Front Wheel Drive, Oil Change, Great Tires, Automatic Transmission.</Text>
+                <Text className='tile-text-d'>89K Miles, All Power, 4 cyl., Front Wheel Drive, Extra clean in and out, great tires.</Text>
                 </Stack>
                 <Carousel width="450px" emulateTouch showStatus={false}>
-                    <img src={avenger1} />
-                    <img src={avenger2} />
-                    <img src={avenger3} />
-                    <img src={avenger4} />
+                    <img src={camry1} />
+                    <img src={camry2} />
+                    <img src={camry3} />
+                    <img src={camry4} />
+                </Carousel>
+            </Stack> 
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2009 Chevy Impala - $5,750</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>124K Miles, Automatic, Front Wheel Drive, All Power, Alloy Wheels, Oil Change.</Text>
+                </Stack>
+                <Carousel width="450px" emulateTouch showStatus={false}>
+                    <img src={impala1} />
+                    <img src={impala2} />
+                    <img src={impala3} />
+                    <img src={impala4} />
+                </Carousel>
+            </Stack> 
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2013 Ford Focus - $6,450</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>128K Miles, Automatic, Front Wheel Drive, All Power, Oil Change, A/ Heat.</Text>
+                </Stack>
+                <Carousel width="450px" emulateTouch showStatus={false}>
+                    <img src={focus1} />
+                    <img src={focus2} />
+                    <img src={focus3} />
+                    <img src={focus4} />
+                </Carousel>
+            </Stack> 
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2017 Chevy Spark - $9,500</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>66K Miles, Back Up Camera, Automatic, Front Wheel Drive, Oil Change, AC/Heat..</Text>
+                </Stack>
+                <Carousel width="450px" emulateTouch showStatus={false}>
+                    <img src={spark1} />
+                    <img src={spark2} />
+                    <img src={spark3} />
+                    <img src={spark4} />
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2008 Dodge Avenger - $4,950</Text></Stack>
+                <Stack padding={2}><Text className='tile-text-p'>2013 Hyundai Elantra - $8,950</Text></Stack>
                 <Stack padding={3}>
-                <Text className='tile-text-d'>126K Miles, All Power, Automatic Transmission, Front Wheel Drive, AC Heater, Great Tires.</Text>
+                <Text className='tile-text-d'>86K Miles, All Power, Front Wheel Drive, Automatic, AC/Heat, Alloy Wheels, Great Tires.</Text>
                 </Stack>
                 <Carousel width="450px" emulateTouch showStatus={false}>
-                    <img src={avengerv1} />
-                    <img src={avengerv3} />
-                    <img src={avengerv3} />
-                    <img src={avengerv4} />
+                    <img src={elan1} />
+                    <img src={elan2} />
+                    <img src={elan3} />
+                    <img src={elan4} />
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>

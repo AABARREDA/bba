@@ -49,10 +49,38 @@ import chevy2 from './assets/trucks/chevy2.jpg';
 import chevy3 from './assets/trucks/chevy3.jpg';
 import chevy4 from './assets/trucks/chevy4.jpg';
 
+import jeep1 from './assets/trucks/jeep1.jpg';
+import jeep2 from './assets/trucks/jeep2.jpg';
+import jeep3 from './assets/trucks/jeep3.jpg';
+import jeep4 from './assets/trucks/jeep4.jpg';
+
+import enclave1 from './assets/trucks/enclave1.jpg';
+
 class Suvs extends React.Component {
     render() {
     return(
         <Stack horizontal horizontalAlign='center' wrap gap='15'>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2008 Jeep Wrangler - $18,000</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>117K Miles, 4x4, Automatic Transmission, Winch, LED Lights </Text>
+                </Stack>
+                <Carousel width="450px" emulateTouch showStatus={false}>
+                    <img src={jeep1} />
+                    <img src={jeep2} />
+                    <img src={jeep3} />
+                    <img src={jeep4} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2010 Buick Enclave - $7,950</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>175K Miles, New Rebuilt Engine, All Power, Panoramic Roof, Bluetooth.</Text>
+                </Stack>
+                <Carousel width="450px" emulateTouch showStatus={false}>
+                    <img src={enclave1} />
+                </Carousel>
+            </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
                 <Stack padding={2}><Text className='tile-text-p'>2011 Chevy Equinox - $7,950</Text></Stack>
                 <Stack padding={3}>
@@ -147,18 +175,6 @@ class Suvs extends React.Component {
                     <img src={escape2} />
                     <img src={escape3} />
                     <img src={escape4} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2002 GMC Envoy - $5,400</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>136K Miles, 4x4, Leather, Sunroof, AC, Alloy Wheels, Towing Package.</Text>
-                </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
-                    <img src={ev1} />
-                    <img src={ev2} />
-                    <img src={ev3} />
-                    <img src={ev4} />
                 </Carousel>
             </Stack>
         </Stack>
