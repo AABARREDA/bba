@@ -62,7 +62,7 @@ class Suvs extends React.Component {
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
                 <Stack padding={2}><Text className='tile-text-p'>2016 Hyundai Tucson - $17,500</Text></Stack>
                 <Stack padding={3}>
-                <Text className='tile-text-d'>53K Miles, All Power, Bluetooth, Front Wheel Drive, Excellent Condition, Back Up Camera.</Text>
+                <Text className='tile-text-d'>35K Miles, All Power, Bluetooth, Front Wheel Drive, Excellent Condition, Back Up Camera.</Text>
                 </Stack>
                 <Carousel width="450px" emulateTouch showStatus={false}>
                     <img src={tucson11} />
@@ -80,18 +80,6 @@ class Suvs extends React.Component {
                     <img src={soul11} />
                     <img src={soul22} />
                     <img src={soul33} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2013 Kia Soul - $6,900</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>112K Miles, All Power, Automatic Transmission, Front Wheel Drive, Alloy Wheels, AC</Text>
-                </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
-                    <img src={soul111} />
-                    <img src={soul222} />
-                    <img src={soul333} />
-                    <img src={soul444} />
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
