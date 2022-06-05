@@ -39,6 +39,11 @@ import mkx22 from './assets/cars/mkx22.jpg'
 import mkx33 from './assets/cars/mkx33.jpg'
 import mkx44 from './assets/cars/mkx44.jpg'
 
+import mustang111 from './assets/cars/mustang111.jpg'
+import mustang222 from './assets/cars/mustang222.jpg'
+import mustang333 from './assets/cars/mustang333.jpg'
+import mustang444 from './assets/cars/mustang444.jpg'
+
 class Cars extends React.Component {
     render() {
     return(
@@ -49,10 +54,10 @@ class Cars extends React.Component {
                 <Text className='tile-text-d'>91K Miles, Automatic Transmission, Electric Top, V-6 Engine, Leather, Alloy Wheels, AC.</Text>
                 </Stack>
                 <Carousel width="450px" emulateTouch showStatus={false}>
-                    <img src={focus1} />
-                    <img src={focus2} />
-                    <img src={focus3} />
-                    <img src={focus4} />
+                    <img src={mustang111} />
+                    <img src={mustang222} />
+                    <img src={mustang333} />
+                    <img src={mustang444} />
                 </Carousel>
             </Stack> 
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
