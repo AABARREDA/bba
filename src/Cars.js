@@ -14,11 +14,6 @@ import cts2 from './assets/cars/cts2.jpg'
 import cts3 from './assets/cars/cts3.jpg'
 import cts4 from './assets/cars/cts4.jpg'
 
-import c1 from './assets/cars/c1.jpg'
-import c2 from './assets/cars/c2.jpg'
-import c3 from './assets/cars/c3.jpg'
-import c4 from './assets/cars/c4.jpg'
-
 import f1 from './assets/cars/f1.jpg'
 import f2 from './assets/cars/f2.jpg'
 import f3 from './assets/cars/f3.jpg'
@@ -28,11 +23,6 @@ import vn1 from './assets/cars/vn1.jpg'
 import vn2 from './assets/cars/vn2.jpg'
 import vn3 from './assets/cars/vn3.jpg'
 import vn4 from './assets/cars/vn4.jpg'
-
-import elan1 from './assets/cars/elan1.jpg'
-import elan2 from './assets/cars/elan2.jpg'
-import elan3 from './assets/cars/elan3.jpg'
-import elan4 from './assets/cars/elan4.jpg'
 
 import spark1 from './assets/cars/spark1.jpg'
 import spark2 from './assets/cars/spark2.jpg'
@@ -44,42 +34,37 @@ import focus2 from './assets/cars/focus2.jpg'
 import focus3 from './assets/cars/focus3.jpg'
 import focus4 from './assets/cars/focus4.jpg'
 
-import impala1 from './assets/cars/impala1.jpg'
-import impala2 from './assets/cars/impala2.jpg'
-import impala3 from './assets/cars/impala3.jpg'
-import impala4 from './assets/cars/impala4.jpg'
-
-import camry1 from './assets/cars/camry1.jpg'
-import camry2 from './assets/cars/camry2.jpg'
-import camry3 from './assets/cars/camry3.jpg'
-import camry4 from './assets/cars/camry4.jpg'
+import mkx11 from './assets/cars/mkx11.jpg'
+import mkx22 from './assets/cars/mkx22.jpg'
+import mkx33 from './assets/cars/mkx33.jpg'
+import mkx44 from './assets/cars/mkx44.jpg'
 
 class Cars extends React.Component {
     render() {
     return(
         <Stack horizontal horizontalAlign='center' wrap gap='15'>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2009 Toyota Camry - $7,500</Text></Stack>
+                <Stack padding={2}><Text className='tile-text-p'>2004 Ford Mustang - $5,500</Text></Stack>
                 <Stack padding={3}>
-                <Text className='tile-text-d'>89K Miles, All Power, 4 cyl., Front Wheel Drive, Extra clean in and out, great tires.</Text>
+                <Text className='tile-text-d'>91K Miles, Automatic Transmission, Electric Top, V-6 Engine, Leather, Alloy Wheels, AC.</Text>
                 </Stack>
                 <Carousel width="450px" emulateTouch showStatus={false}>
-                    <img src={camry1} />
-                    <img src={camry2} />
-                    <img src={camry3} />
-                    <img src={camry4} />
+                    <img src={focus1} />
+                    <img src={focus2} />
+                    <img src={focus3} />
+                    <img src={focus4} />
                 </Carousel>
             </Stack> 
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2009 Chevy Impala - $5,750</Text></Stack>
+                <Stack padding={2}><Text className='tile-text-p'>2013 Lincoln MKZ - $15,000</Text></Stack>
                 <Stack padding={3}>
-                <Text className='tile-text-d'>124K Miles, Automatic, Front Wheel Drive, All Power, Alloy Wheels, Oil Change.</Text>
+                <Text className='tile-text-d'>66K Miles, All Touch Sunroof, Bluetooth, Alloy Wheels, New Brakes, Blind Spot Mirrors.</Text>
                 </Stack>
                 <Carousel width="450px" emulateTouch showStatus={false}>
-                    <img src={impala1} />
-                    <img src={impala2} />
-                    <img src={impala3} />
-                    <img src={impala4} />
+                    <img src={mkx11} />
+                    <img src={mkx22} />
+                    <img src={mkx33} />
+                    <img src={mkx44} />
                 </Carousel>
             </Stack> 
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
@@ -107,18 +92,6 @@ class Cars extends React.Component {
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2013 Hyundai Elantra - $8,950</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>86K Miles, All Power, Front Wheel Drive, Automatic, AC/Heat, Alloy Wheels, Great Tires.</Text>
-                </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
-                    <img src={elan1} />
-                    <img src={elan2} />
-                    <img src={elan3} />
-                    <img src={elan4} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
                 <Stack padding={2}><Text className='tile-text-p'>2012 Fiat 500 - $6,250</Text></Stack>
                 <Stack padding={3}>
                 <Text className='tile-text-d'>112K Miles, 5 Spd, Manual Transmission, Power Windows, AC, Bluetooth, Good Tires.</Text>
@@ -140,18 +113,6 @@ class Cars extends React.Component {
                     <img src={vn2} />
                     <img src={vn3} />
                     <img src={vn4} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2010 Chevy Camaro RS - $14,500</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>79K Miles, V6, Automatic, Leather, Alloy Wheels, Bluetooth, Cold AC.</Text>
-                </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
-                    <img src={c1} />
-                    <img src={c2} />
-                    <img src={c3} />
-                    <img src={c4} />
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>

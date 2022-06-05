@@ -57,14 +57,12 @@ class App extends React.Component{
           <DefaultButton text="Trucks" onClick={() => this.updateViewT()}/>
           <DefaultButton text="Suvs" onClick={() => this.updateViewS()}/>
           <DefaultButton text="Vans" onClick={() => this.updateViewV()}/>
-          <DefaultButton text="Motorcycle" onClick={() => this.updateViewM()}/>
       </Stack>
       <Stack horizontal horizontalAlign='center' wrap gap='15'>
           <Cars/>
           <Trucks/>
           <Vans/>
           <Suvs/>
-          <Other/>
        </Stack>
       <Footer/>
     </div>
@@ -82,7 +80,6 @@ class App extends React.Component{
             <DefaultButton text="Trucks" onClick={() => this.updateViewT()}/>
             <DefaultButton text="Suvs" onClick={() => this.updateViewS()}/>
             <DefaultButton text="Vans" onClick={() => this.updateViewV()}/>
-            <DefaultButton text="Motorcycle" onClick={() => this.updateViewM()}/>
         </Stack>
         <Stack horizontal horizontalAlign='center' wrap gap='15'>
             <Cars/>
@@ -103,7 +100,6 @@ class App extends React.Component{
             <DefaultButton text="Trucks" onClick={() => this.updateViewT()}/>
             <DefaultButton text="Suvs" onClick={() => this.updateViewS()}/>
             <DefaultButton text="Vans" onClick={() => this.updateViewV()}/>
-            <DefaultButton text="Motorcycle" onClick={() => this.updateViewM()}/>
         </Stack>
         <Stack horizontal horizontalAlign='center' wrap gap='15'>
             <Trucks/>
@@ -124,7 +120,6 @@ class App extends React.Component{
             <DefaultButton text="Trucks" onClick={() => this.updateViewT()}/>
             <DefaultButton text="Suvs" onClick={() => this.updateViewS()}/>
             <DefaultButton text="Vans" onClick={() => this.updateViewV()}/>
-            <DefaultButton text="Motorcycle" onClick={() => this.updateViewM()}/>
         </Stack>
         <Stack horizontal horizontalAlign='center' wrap gap='15'>
             <Suvs/>
@@ -145,7 +140,6 @@ class App extends React.Component{
             <DefaultButton text="Trucks" onClick={() => this.updateViewT()}/>
             <DefaultButton text="Suvs" onClick={() => this.updateViewS()}/>
             <DefaultButton text="Vans" onClick={() => this.updateViewV()}/>
-            <DefaultButton text="Motorcycle" onClick={() => this.updateViewM()}/>
         </Stack>
         <Stack horizontal horizontalAlign='center' wrap gap='15'>
             <Vans/>
@@ -155,26 +149,26 @@ class App extends React.Component{
       );
     }
 
-    if (this.state.view == 'Moto'){
-      return (
-        <div>
-        <Header/>
-        <Separator className='App-header'>Current Inventory</Separator>
-        <Stack className='bContainer' horizontal horizontalAlign='center' wrap gap='25'>
-            <DefaultButton text="Show All" onClick={() => this.updateViewA()}/>
-            <DefaultButton text="Cars" onClick={() => this.updateViewC()}/>
-            <DefaultButton text="Trucks" onClick={() => this.updateViewT()}/>
-            <DefaultButton text="Suvs" onClick={() => this.updateViewS()}/>
-            <DefaultButton text="Vans" onClick={() => this.updateViewV()}/>
-            <DefaultButton text="Motorcycle" onClick={() => this.updateViewM()}/>
-        </Stack>
-        <Stack horizontal horizontalAlign='center' wrap gap='15'>
-            <Other/>
-        </Stack>
-        <Footer/>
-    </div>
-      );
-    }
+   // if (this.state.view == 'Moto'){
+     // return (
+       // <div>
+        //<Header/>
+        //<Separator className='App-header'>Current Inventory</Separator>
+        //<Stack className='bContainer' horizontal horizontalAlign='center' wrap gap='25'>
+          //  <DefaultButton text="Show All" onClick={() => this.updateViewA()}/>
+          //  <DefaultButton text="Cars" onClick={() => this.updateViewC()}/>
+          //  <DefaultButton text="Trucks" onClick={() => this.updateViewT()}/>
+          //  <DefaultButton text="Suvs" onClick={() => this.updateViewS()}/>
+          //  <DefaultButton text="Vans" onClick={() => this.updateViewV()}/>
+           // <DefaultButton text="Motorcycle" onClick={() => this.updateViewM()}/>
+        //</Stack>
+        //<Stack horizontal horizontalAlign='center' wrap gap='15'>
+         //   <Other/>
+       // </Stack>
+       // <Footer/>
+    //</div>
+     // );
+    //}
 
   };
 };
