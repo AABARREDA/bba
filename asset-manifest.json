@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.1690a478.chunk.css",
-    "main.js": "/static/js/main.3a813ea4.chunk.js",
-    "main.js.map": "/static/js/main.3a813ea4.chunk.js.map",
+    "main.js": "/static/js/main.65d51ba4.chunk.js",
+    "main.js.map": "/static/js/main.65d51ba4.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1968646e.js",
     "runtime-main.js.map": "/static/js/runtime-main.1968646e.js.map",
     "static/css/2.eb210c0c.chunk.css": "/static/css/2.eb210c0c.chunk.css",
-    "static/js/2.6414627d.chunk.js": "/static/js/2.6414627d.chunk.js",
-    "static/js/2.6414627d.chunk.js.map": "/static/js/2.6414627d.chunk.js.map",
+    "static/js/2.de686374.chunk.js": "/static/js/2.de686374.chunk.js",
+    "static/js/2.de686374.chunk.js.map": "/static/js/2.de686374.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.cb0db8cade6c6cd4c82b153d371db504.js": "/precache-manifest.cb0db8cade6c6cd4c82b153d371db504.js",
+    "precache-manifest.0886879774d4d1f46aba9e7d44905a22.js": "/precache-manifest.0886879774d4d1f46aba9e7d44905a22.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.eb210c0c.chunk.css.map": "/static/css/2.eb210c0c.chunk.css.map",
     "static/css/main.1690a478.chunk.css.map": "/static/css/main.1690a478.chunk.css.map",
-    "static/js/2.6414627d.chunk.js.LICENSE": "/static/js/2.6414627d.chunk.js.LICENSE",
+    "static/js/2.de686374.chunk.js.LICENSE": "/static/js/2.de686374.chunk.js.LICENSE",
     "static/media/caravan11.jpg": "/static/media/caravan11.36460ecf.jpg",
     "static/media/cbr1.jpg": "/static/media/cbr1.f4fa1b80.jpg",
     "static/media/cbr2.jpg": "/static/media/cbr2.e418adbc.jpg",
@@ -67,6 +67,9 @@
     "static/media/silverado3.jpg": "/static/media/silverado3.3cb25612.jpg",
     "static/media/silverado4.jpg": "/static/media/silverado4.aeeabf8f.jpg",
     "static/media/soul1.png": "/static/media/soul1.aa832dc0.png",
+    "static/media/soul2.png": "/static/media/soul2.52b44309.png",
+    "static/media/soul3.png": "/static/media/soul3.8cab5f80.png",
+    "static/media/soul4.png": "/static/media/soul4.dd0e52c4.png",
     "static/media/veloster1.png": "/static/media/veloster1.d5d3cd62.png",
     "static/media/veloster2.png": "/static/media/veloster2.c8a403f4.png",
     "static/media/veloster3.png": "/static/media/veloster3.d8f33d00.png",
@@ -75,8 +78,8 @@
   "entrypoints": [
     "static/js/runtime-main.1968646e.js",
     "static/css/2.eb210c0c.chunk.css",
-    "static/js/2.6414627d.chunk.js",
+    "static/js/2.de686374.chunk.js",
     "static/css/main.1690a478.chunk.css",
-    "static/js/main.3a813ea4.chunk.js"
+    "static/js/main.65d51ba4.chunk.js"
   ]
 }
