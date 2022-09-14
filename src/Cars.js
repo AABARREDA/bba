@@ -19,81 +19,59 @@ import f2 from './assets/cars/f2.jpg'
 import f3 from './assets/cars/f3.jpg'
 import f4 from './assets/cars/f4.jpg'
 
-import vn1 from './assets/cars/vn1.jpg'
-import vn2 from './assets/cars/vn2.jpg'
-import vn3 from './assets/cars/vn3.jpg'
-import vn4 from './assets/cars/vn4.jpg'
+import f1 from './assets/cars/veloster1.png'
+import f2 from './assets/cars/veloster2.png'
+import f3 from './assets/cars/veloster3.png'
+import f4 from './assets/cars/veloster4.png'
 
-import spark1 from './assets/cars/spark1.jpg'
-import spark2 from './assets/cars/spark2.jpg'
-import spark3 from './assets/cars/spark3.jpg'
-import spark4 from './assets/cars/spark4.jpg'
+import mks1 from './assets/cars/mks1.png'
+import mks2 from './assets/cars/mks2.png'
+import mks3 from './assets/cars/mks3.png'
+import mks4 from './assets/cars/mks4.png'
 
-import focus1 from './assets/cars/focus1.jpg'
-import focus2 from './assets/cars/focus2.jpg'
-import focus3 from './assets/cars/focus3.jpg'
-import focus4 from './assets/cars/focus4.jpg'
-
-import mkx11 from './assets/cars/mkx11.jpg'
-import mkx22 from './assets/cars/mkx22.jpg'
-import mkx33 from './assets/cars/mkx33.jpg'
-import mkx44 from './assets/cars/mkx44.jpg'
-
-import mustang111 from './assets/cars/mustang111.jpg'
-import mustang222 from './assets/cars/mustang222.jpg'
-import mustang333 from './assets/cars/mustang333.jpg'
-import mustang444 from './assets/cars/mustang444.jpg'
+import ela1 from './assets/cars/ela1.png'
+import ela2 from './assets/cars/ela2.png'
+import ela3 from './assets/cars/ela3.png'
+import ela4 from './assets/cars/ela4.png'
 
 class Cars extends React.Component {
     render() {
     return(
         <Stack horizontal horizontalAlign='center' wrap gap='15'>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2004 Ford Mustang - $5,500</Text></Stack>
+                <Stack padding={2}><Text className='tile-text-p'>2012 Hyundai Elantra - $7,900</Text></Stack>
                 <Stack padding={3}>
-                <Text className='tile-text-d'>91K Miles, Automatic Transmission, Electric Top, V-6 Engine, Leather, Alloy Wheels, AC.</Text>
+                <Text className='tile-text-d'>91K Miles, Extra Clean In/Out, New Oil Change.</Text>
                 </Stack>
                 <Carousel width="450px" emulateTouch showStatus={false}>
-                    <img src={mustang111} />
-                    <img src={mustang222} />
-                    <img src={mustang333} />
-                    <img src={mustang444} />
+                    <img src={ela1} />
+                    <img src={ela2} />
+                    <img src={ela3} />
+                    <img src={ela4} />
                 </Carousel>
-            </Stack> 
+            </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2013 Lincoln MKZ - $15,000</Text></Stack>
+                <Stack padding={2}><Text className='tile-text-p'>2009 Lincoln MKS - $11,500</Text></Stack>
                 <Stack padding={3}>
-                <Text className='tile-text-d'>66K Miles, All Touch Sunroof, Bluetooth, Alloy Wheels, New Brakes, Blind Spot Mirrors.</Text>
+                <Text className='tile-text-d'>92K Miles, Front Wheel Drive, Sunroof, Bluetooth, 20" Wheels, Great Tires.</Text>
                 </Stack>
                 <Carousel width="450px" emulateTouch showStatus={false}>
-                    <img src={mkx11} />
-                    <img src={mkx22} />
-                    <img src={mkx33} />
-                    <img src={mkx44} />
+                    <img src={mks1} />
+                    <img src={mks2} />
+                    <img src={mks3} />
+                    <img src={mks4} />
                 </Carousel>
-            </Stack> 
+            </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2013 Ford Focus - $6,450</Text></Stack>
+                <Stack padding={2}><Text className='tile-text-p'>2013 Hyundai Veloster - $8,250</Text></Stack>
                 <Stack padding={3}>
-                <Text className='tile-text-d'>128K Miles, Automatic, Front Wheel Drive, All Power, Oil Change, A/ Heat.</Text>
+                <Text className='tile-text-d'>136K Miles, 3DR Hatch, Bluetooth, Sunroof, Great Tires, Cold AC</Text>
                 </Stack>
                 <Carousel width="450px" emulateTouch showStatus={false}>
-                    <img src={focus1} />
-                    <img src={focus2} />
-                    <img src={focus3} />
-                    <img src={focus4} />
-                </Carousel>
-            </Stack> 
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2017 Chevy Spark - $9,500</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>66K Miles, Back Up Camera, Automatic, Front Wheel Drive, Oil Change, AC/Heat..</Text>
-                </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
-                    <img src={spark1} />
-                    <img src={spark2} />
-                    <img src={spark3} />
-                    <img src={spark4} />
+                    <img src={veloster1} />
+                    <img src={veloster2} />
+                    <img src={veloster3} />
+                    <img src={veloster4} />
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
@@ -106,18 +84,6 @@ class Cars extends React.Component {
                     <img src={f2} />
                     <img src={f3} />
                     <img src={f4} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2014 Versa Note - $6,950</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>121K Miles All Power, Automatic, Front Wheel Drive, Cold AC.</Text>
-                </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
-                    <img src={vn1} />
-                    <img src={vn2} />
-                    <img src={vn3} />
-                    <img src={vn4} />
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
