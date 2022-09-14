@@ -25,6 +25,10 @@ import kias3 from './assets/trucks/kias3.png';
 import kias4 from './assets/trucks/kias4.png';
 
 import soul1 from './assets/trucks/soul1.png';
+import soul2 from './assets/trucks/soul2.png';
+import soul3 from './assets/trucks/soul3.png';
+import soul4 from './assets/trucks/soul4.png';
+
 
 class Suvs extends React.Component {
     render() {
@@ -37,6 +41,9 @@ class Suvs extends React.Component {
                 </Stack>
                 <Carousel width="450px" emulateTouch showStatus={false}>
                     <img src={soul1} />
+                    <img src={soul2} />
+                    <img src={soul3} />
+                    <img src={soul4} />
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
