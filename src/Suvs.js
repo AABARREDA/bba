@@ -29,11 +29,44 @@ import soul2 from './assets/trucks/soul2.png';
 import soul3 from './assets/trucks/soul3.png';
 import soul4 from './assets/trucks/soul4.png';
 
+import srx1 from './assets/trucks/srx1.png';
+import srx2 from './assets/trucks/srx2.png';
+import srx3 from './assets/trucks/srx3.png';
+import srx4 from './assets/trucks/srx4.png';
+
+import pilot1 from './assets/trucks/pilot1.png';
+import pilot2 from './assets/trucks/pilot2.png';
+import pilot3 from './assets/trucks/pilot3.png';
+import pilot4 from './assets/trucks/pilot4.png';
 
 class Suvs extends React.Component {
     render() {
     return(
         <Stack horizontal horizontalAlign='center' wrap gap='15'>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2012 Cadillac SRX - $12,500</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>106K Miles, Leather, All Power, Panoramic Roof, Bluetooth, All Wheel Drive.</Text>
+                </Stack>
+                <Carousel width="450px" emulateTouch showStatus={false}>
+                    <img src={srx1} />
+                    <img src={srx2} />
+                    <img src={srx3} />
+                    <img src={srx4} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2012 Honda Pilot - $14,500</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>107K Miles, 4 Wheel Drive, Sunroof, Navigation, Bluetooth, Cold AC, Dependable.</Text>
+                </Stack>
+                <Carousel width="450px" emulateTouch showStatus={false}>
+                    <img src={pilot1} />
+                    <img src={pilot2} />
+                    <img src={pilot3} />
+                    <img src={pilot4} />
+                </Carousel>
+            </Stack>
              <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
                 <Stack padding={2}><Text className='tile-text-p'>2016 Kia Soul - $14,500</Text></Stack>
                 <Stack padding={3}>
