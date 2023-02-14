@@ -12,6 +12,7 @@ import silverado4 from './assets/trucks/silverado4.jpg';
 import sil1 from './assets/trucks/sil1.jpg';
 import sil2 from './assets/trucks/sil2.jpg';
 import sil3 from './assets/trucks/sil3.jpg';
+import sil4 from './assets/trucks/sil4.jpg';
 
 class Trucks extends React.Component {
     render() {
@@ -26,6 +27,7 @@ class Trucks extends React.Component {
                     <img src={sil1} />
                     <img src={sil2} />
                     <img src={sil3} />
+                    <img src={sil4} />
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
