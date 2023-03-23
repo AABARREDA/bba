@@ -24,15 +24,44 @@ import ks2 from './assets/trucks/ks2.jpg';
 import ks3 from './assets/trucks/ks3.jpg';
 import ks4 from './assets/trucks/ks4.jpg';
 
-import be1 from './assets/trucks/be1.jpg';
-import be2 from './assets/trucks/be2.jpg';
-import be3 from './assets/trucks/be3.jpg';
-import be4 from './assets/trucks/be4.jpg';
+import lr1 from './assets/trucks/lr1.jpg';
+import lr2 from './assets/trucks/lr2.jpg';
+import lr3 from './assets/trucks/lr3.jpg';
+import lr4 from './assets/trucks/lr4.jpg';
+
+import jp1 from './assets/trucks/jp1.jpg';
+import jp2 from './assets/trucks/jp2.jpg';
+import jp3 from './assets/trucks/jp3.jpg';
+import jp4 from './assets/trucks/jp4.jpg';
 
 class Suvs extends React.Component {
     render() {
     return(
         <Stack horizontal horizontalAlign='center' wrap gap='15'>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2013 Land Rover - $17,000</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>50k Miles, All Power, Panoramic Sunroof, Navigation, All Wheel Drive, Extra Clean.</Text>
+                </Stack>
+                <Carousel width="450px" emulateTouch showStatus={false}>
+                    <img src={lr1} />
+                    <img src={lr2} />
+                    <img src={lr3} />
+                    <img src={lr4} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2016 Jeep Renegade - $13,500</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>110K Miles, 4x4, Automatic Transmission, Alloy Wheels, Great Tires.</Text>
+                </Stack>
+                <Carousel width="450px" emulateTouch showStatus={false}>
+                    <img src={jp1} />
+                    <img src={jp2} />
+                    <img src={jp3} />
+                    <img src={jp4} />
+                </Carousel>
+            </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
                 <Stack padding={2}><Text className='tile-text-p'>2016 Kia Soul - $7,900</Text></Stack>
                 <Stack padding={3}>
@@ -79,18 +108,6 @@ class Suvs extends React.Component {
                     <img src={escape2} />
                     <img src={escape3} />
                     <img src={escape4} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2008 Buick Enclave - $7,900</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>108K Miles, Leather, Panoramic Roof, rear camera, new brakes.</Text>
-                </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
-                    <img src={be1} />
-                    <img src={be2} />
-                    <img src={be3} />
-                    <img src={be4} />
                 </Carousel>
             </Stack>
         </Stack>

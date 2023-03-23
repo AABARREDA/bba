@@ -39,25 +39,32 @@ import fm2 from './assets/cars/fm2.jpg'
 import fm3 from './assets/cars/fm3.jpg'
 import fm4 from './assets/cars/fm4.jpg'
 
-import fw1 from './assets/cars/fw1.jpg'
-import fw2 from './assets/cars/fw2.jpg'
-import fw3 from './assets/cars/fw3.jpg'
-import fw4 from './assets/cars/fw4.jpg'
+import malibu1 from './assets/trucks/malibu1.jpg'
+import malibu2 from './assets/trucks/malibu2.jpg'
+import malibu3 from './assets/trucks/malibu3.jpg'
+import malibu4 from './assets/trucks/malibu4.jpg'
 
 import cts1 from './assets/cars/cts1.jpg'
 import cts2 from './assets/cars/cts2.jpg'
 import cts3 from './assets/cars/cts3.jpg'
 import cts4 from './assets/cars/cts4.jpg'
 
-import hy1 from './assets/cars/hy1.jpg'
-import hy2 from './assets/cars/hy2.jpg'
-import hy3 from './assets/cars/hy3.jpg'
-import hy4 from './assets/cars/hy4.jpg'
-
 class Cars extends React.Component {
     render() {
     return(
         <Stack horizontal horizontalAlign='center' wrap gap='15'>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2013 Chevy Malibu - $8,950</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>124K Miles, Automatic, Front Wheel Drive, Back up camera, extra clean.</Text>
+                </Stack>
+                <Carousel width="450px" emulateTouch showStatus={false}>
+                    <img src={malibu1} />
+                    <img src={malibu2} />
+                    <img src={malibu3} />
+                    <img src={malibu4} />
+                </Carousel>
+            </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
                 <Stack padding={2}><Text className='tile-text-p'>2013 Dodge Avenger - $7,500</Text></Stack>
                 <Stack padding={3}>
@@ -80,30 +87,6 @@ class Cars extends React.Component {
                     <img src={fm2} />
                     <img src={fm3} />
                     <img src={fm4} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2016 Hyundai Veloster - $12,500</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>36K Miles, All Automatic, Front Wheel Drive, Bluetooth, Navigation, Excellent Condition.</Text>
-                </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
-                    <img src={hy1} />
-                    <img src={hy2} />
-                    <img src={hy3} />
-                    <img src={hy4} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2004 Ford Mustang - $5,900</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>104K Miles, V6 Automatic, all power, aftermarket wheels.</Text>
-                </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
-                    <img src={fw1} />
-                    <img src={fw2} />
-                    <img src={fw3} />
-                    <img src={fw4} />
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
