@@ -70,7 +70,7 @@ class Cars extends React.Component {
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2013 Chevy Malibu - $6,500</Text></Stack>
+                <Stack padding={2}><Text className='tile-text-p'>2013 Hyundai Veloster - $6,500</Text></Stack>
                 <Stack padding={3}>
                 <Text className='tile-text-d'>103K Miles, All Power, Front Wheel Drive, Auto.</Text>
                 </Stack>
