@@ -49,6 +49,10 @@ import cts2 from './assets/cars/cts2.jpg'
 import cts3 from './assets/cars/cts3.jpg'
 import cts4 from './assets/cars/cts4.jpg'
 
+import velo1 from './assets/trucks/velo1.jpg'
+import velo2 from './assets/trucks/velo2.jpg'
+import velo3 from './assets/trucks/velo3.jpg'
+
 class Cars extends React.Component {
     render() {
     return(
@@ -63,6 +67,17 @@ class Cars extends React.Component {
                     <img src={malibu2} />
                     <img src={malibu3} />
                     <img src={malibu4} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2013 Chevy Malibu - $6,500</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>103K Miles, All Power, Front Wheel Drive, Auto.</Text>
+                </Stack>
+                <Carousel width="450px" emulateTouch showStatus={false}>
+                    <img src={velo1} />
+                    <img src={velo2} />
+                    <img src={velo3} />
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>

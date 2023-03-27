@@ -34,6 +34,11 @@ import jp2 from './assets/trucks/jp2.jpg';
 import jp3 from './assets/trucks/jp3.jpg';
 import jp4 from './assets/trucks/jp4.jpg';
 
+import jc1 from './assets/trucks/jc1.jpg';
+import jc2 from './assets/trucks/jc2.jpg';
+import jc3 from './assets/trucks/jc3.jpg';
+import jc4 from './assets/trucks/jc4.jpg';
+
 class Suvs extends React.Component {
     render() {
     return(
@@ -48,6 +53,18 @@ class Suvs extends React.Component {
                     <img src={lr2} />
                     <img src={lr3} />
                     <img src={lr4} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2012 Jeep Grand Cherokee - $11,500</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>115K Miles, 4v4, All Power, New Wheels, Great Tires, Dependable.</Text>
+                </Stack>
+                <Carousel width="450px" emulateTouch showStatus={false}>
+                    <img src={jc1} />
+                    <img src={jc2} />
+                    <img src={jc3} />
+                    <img src={jc4} />
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
