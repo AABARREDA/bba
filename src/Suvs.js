@@ -14,57 +14,60 @@ import kias2 from './assets/trucks/kias2.png';
 import kias3 from './assets/trucks/kias3.png';
 import kias4 from './assets/trucks/kias4.png';
 
-import ce1 from './assets/trucks/ce1.jpg';
-import ce2 from './assets/trucks/ce2.jpg';
-import ce3 from './assets/trucks/ce3.jpg';
-import ce4 from './assets/trucks/ce4.jpg';
-
-import ks1 from './assets/trucks/ks1.jpg';
-import ks2 from './assets/trucks/ks2.jpg';
-import ks3 from './assets/trucks/ks3.jpg';
-import ks4 from './assets/trucks/ks4.jpg';
-
-import lr1 from './assets/trucks/lr1.jpg';
-import lr2 from './assets/trucks/lr2.jpg';
-import lr3 from './assets/trucks/lr3.jpg';
-import lr4 from './assets/trucks/lr4.jpg';
-
 import jp1 from './assets/trucks/jp1.jpg';
 import jp2 from './assets/trucks/jp2.jpg';
 import jp3 from './assets/trucks/jp3.jpg';
 import jp4 from './assets/trucks/jp4.jpg';
 
-import jc1 from './assets/trucks/jc1.jpg';
-import jc2 from './assets/trucks/jc2.jpg';
-import jc3 from './assets/trucks/jc3.jpg';
-import jc4 from './assets/trucks/jc4.jpg';
+import hm1 from './assets/trucks/hm1.jpg';
+import hm2 from './assets/trucks/hm2.jpg';
+import hm3 from './assets/trucks/hm3.jpg';
+import hm4 from './assets/trucks/hm4.jpg';
+
+import fe1 from './assets/trucks/fe1.jpg';
+import fe2 from './assets/trucks/fe2.jpg';
+import fe3 from './assets/trucks/fe3.jpg';
+import fe4 from './assets/trucks/fe4.jpg';
+
+import yd1 from './assets/trucks/yd1.jpg';
+import yd2 from './assets/trucks/yd2.jpg';
 
 class Suvs extends React.Component {
     render() {
     return(
         <Stack horizontal horizontalAlign='center' wrap gap='15'>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2013 Land Rover - $17,000</Text></Stack>
+                <Stack padding={2}><Text className='tile-text-p'>2015 GMC Yukon - $22,500</Text></Stack>
                 <Stack padding={3}>
-                <Text className='tile-text-d'>50k Miles, All Power, Panoramic Sunroof, Navigation, All Wheel Drive, Extra Clean.</Text>
+                <Text className='tile-text-d'>150K Miles, Remote Start, Leather, Sunroof, Bluetooth, Towing Package.</Text>
                 </Stack>
                 <Carousel width="450px" emulateTouch showStatus={false}>
-                    <img src={lr1} />
-                    <img src={lr2} />
-                    <img src={lr3} />
-                    <img src={lr4} />
+                    <img src={yd1} />
+                    <img src={yd2} />
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2012 Jeep Grand Cherokee - $11,500</Text></Stack>
+                <Stack padding={2}><Text className='tile-text-p'>2016 Ford Explorer - $15,500</Text></Stack>
                 <Stack padding={3}>
-                <Text className='tile-text-d'>115K Miles, 4v4, All Power, New Wheels, Great Tires, Dependable.</Text>
+                <Text className='tile-text-d'>150K Miles, 4X4, Bluetooth, Camera, Alloy Wheels, Great Tires, Clean.</Text>
                 </Stack>
                 <Carousel width="450px" emulateTouch showStatus={false}>
-                    <img src={jc1} />
-                    <img src={jc2} />
-                    <img src={jc3} />
-                    <img src={jc4} />
+                    <img src={fe1} />
+                    <img src={fe2} />
+                    <img src={fe3} />
+                    <img src={fe4} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2007 GMC Hummer - $30,000</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>135K Miles, 4x4, 6.0 Engine, TV, Backup Cameras, New Brakes, New Tune Up.</Text>
+                </Stack>
+                <Carousel width="450px" emulateTouch showStatus={false}>
+                    <img src={hm1} />
+                    <img src={hm2} />
+                    <img src={hm3} />
+                    <img src={hm4} />
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
@@ -80,31 +83,7 @@ class Suvs extends React.Component {
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2016 Kia Soul - $7,900</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>100K Miles, all power, new oil change, new brakes, clean in and out.</Text>
-                </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
-                    <img src={ks1} />
-                    <img src={ks2} />
-                    <img src={ks3} />
-                    <img src={ks4} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2013 Chevrolet Equinox - $11,500</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>114K Miles, all power, automatic, front wheel drive, AC Heat, Oil Change.</Text>
-                </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
-                    <img src={ce1} />
-                    <img src={ce2} />
-                    <img src={ce3} />
-                    <img src={ce4} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2014 Kia Soul - $9,250</Text></Stack>
+                <Stack padding={2}><Text className='tile-text-p'>2014 Kia Soul - $8,250</Text></Stack>
                 <Stack padding={3}>
                 <Text className='tile-text-d'>112K Miles, Front Wheel Drive, Extra Clean, New Oil Change, Extra Clean.</Text>
                 </Stack>
