@@ -23,15 +23,6 @@ class Vans extends React.Component {
                     <img src={savana02} />
                 </Carousel>
             </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2013 Dodge Caravan - $8,900</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>136K Miles, Stow and Go Seats, AC, Automatic Transmission, Front Wheel Drive, Alloy Wheels</Text>
-                </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
-                    <img src={caravan11} />
-                </Carousel>
-            </Stack>
         </Stack>
        );
     }
