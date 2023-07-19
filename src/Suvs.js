@@ -24,11 +24,6 @@ import hm2 from './assets/trucks/hm2.jpg';
 import hm3 from './assets/trucks/hm3.jpg';
 import hm4 from './assets/trucks/hm4.jpg';
 
-import fe1 from './assets/trucks/fe1.jpg';
-import fe2 from './assets/trucks/fe2.jpg';
-import fe3 from './assets/trucks/fe3.jpg';
-import fe4 from './assets/trucks/fe4.jpg';
-
 import yd1 from './assets/trucks/yd1.jpg';
 import yd2 from './assets/trucks/yd2.jpg';
 
@@ -52,10 +47,10 @@ import rado2 from './assets/trucks/rado2.jpg';
 import rado3 from './assets/trucks/rado3.jpg';
 import rado4 from './assets/trucks/rado4.jpg';
 
-import fe1 from './assets/trucks/fe1.jpg';
-import fe2 from './assets/trucks/fe2.jpg';
-import fe3 from './assets/trucks/fe3.jpg';
-import fe4 from './assets/trucks/fe4.jpg';
+import fex1 from './assets/trucks/fex1.jpg';
+import fex2 from './assets/trucks/fex2.jpg';
+import fex3 from './assets/trucks/fex3.jpg';
+import fex4 from './assets/trucks/fex4.jpg';
 
 class Suvs extends React.Component {
     render() {
@@ -67,10 +62,10 @@ class Suvs extends React.Component {
                 <Text className='tile-text-d'>136K Miles, All Power, All Wheel Drive, AC, New Oil Change.</Text>
                 </Stack>
                 <Carousel width="450px" emulateTouch showStatus={false}>
-                    <img src={fe1} />
-                    <img src={fe2} />
-                    <img src={fe3} />
-                    <img src={fe4} />
+                    <img src={fex1} />
+                    <img src={fex2} />
+                    <img src={fex3} />
+                    <img src={fex4} />
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
