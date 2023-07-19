@@ -52,10 +52,27 @@ import rado2 from './assets/trucks/rado2.jpg';
 import rado3 from './assets/trucks/rado3.jpg';
 import rado4 from './assets/trucks/rado4.jpg';
 
+import fe1 from './assets/trucks/fe1.jpg';
+import fe2 from './assets/trucks/fe2.jpg';
+import fe3 from './assets/trucks/fe3.jpg';
+import fe4 from './assets/trucks/fe4.jpg';
+
 class Suvs extends React.Component {
     render() {
     return(
         <Stack horizontal horizontalAlign='center' wrap gap='15'>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2014 Ford Explorer - $13,500</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>136K Miles, All Power, All Wheel Drive, AC, New Oil Change.</Text>
+                </Stack>
+                <Carousel width="450px" emulateTouch showStatus={false}>
+                    <img src={fe1} />
+                    <img src={fe2} />
+                    <img src={fe3} />
+                    <img src={fe4} />
+                </Carousel>
+            </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
                 <Stack padding={2}><Text className='tile-text-p'>2012 Chevy Silverado 2500 - $21,000</Text></Stack>
                 <Stack padding={3}>
@@ -112,18 +129,6 @@ class Suvs extends React.Component {
                 <Carousel width="450px" emulateTouch showStatus={false}>
                     <img src={yd1} />
                     <img src={yd2} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2016 Ford Explorer - $15,500</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>150K Miles, 4X4, Bluetooth, Camera, Alloy Wheels, Great Tires, Clean.</Text>
-                </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
-                    <img src={fe1} />
-                    <img src={fe2} />
-                    <img src={fe3} />
-                    <img src={fe4} />
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>

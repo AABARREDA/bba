@@ -9,6 +9,8 @@ import ninja2 from './assets/trucks/ninja2.jpg'
 import ninja3 from './assets/trucks/ninja3.jpg'
 import ninja4 from './assets/trucks/ninja4.jpg'
 
+import harley1 from './assets/trucks/harley1.jpg'
+
 class Other extends React.Component {
     render() {
     return(
@@ -23,6 +25,15 @@ class Other extends React.Component {
                     <img src={ninja2} />
                     <img src={ninja3} />
                     <img src={ninja4} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'> 2012 Harley Davidson - $CALL</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>2800K Miles, Excellent Condition.</Text>
+                </Stack>
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={harley1} />
                 </Carousel>
             </Stack>
             </Stack>
