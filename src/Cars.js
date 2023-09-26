@@ -120,30 +120,6 @@ class Cars extends React.Component {
                     <img src={fm4} />
                 </Carousel>
             </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2012 Chevy Impala - $5,500</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>91K Miles, New oil change, great dependable car.</Text>
-                </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
-                    <img src={imp1} />
-                    <img src={imp2} />
-                    <img src={imp3} />
-                    <img src={imp4} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2010 Ford Mustang - $13,500</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>75K Miles, Automatic, Cold Air, Alloy Wheels with great tires, V6.</Text>
-                </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
-                    <img src={m2} />
-                    <img src={m1} />
-                    <img src={m3} />
-                    <img src={m4} />
-                </Carousel>
-            </Stack>
         </Stack>
        );
     }
