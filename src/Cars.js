@@ -29,10 +29,10 @@ import mkz2 from './assets/cars/mkz2.jpg'
 import mkz3 from './assets/cars/mkz3.jpg'
 import mkz4 from './assets/cars/mkz4.jpg'
 
-import challenge1 from './assets/cars/challenge1.jpeg'
-import challenge2 from './assets/cars/challenge2.jpeg'
-import challenge3 from './assets/cars/challenge3.jpeg'
-import challenge4 from './assets/cars/challenge4.jpeg'
+import challenge1 from './assets/cars/challenge1.jpg'
+import challenge2 from './assets/cars/challenge2.jpg'
+import challenge3 from './assets/cars/challenge3.jpg'
+import challenge4 from './assets/cars/challenge4.jpg'
 
 class Cars extends React.Component {
     render() {
