@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/static/css/main.1690a478.chunk.css",
-    "main.js": "/static/js/main.3ec53d16.chunk.js",
-    "main.js.map": "/static/js/main.3ec53d16.chunk.js.map",
+    "main.js": "/static/js/main.0424ce42.chunk.js",
+    "main.js.map": "/static/js/main.0424ce42.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1968646e.js",
     "runtime-main.js.map": "/static/js/runtime-main.1968646e.js.map",
     "static/css/2.eb210c0c.chunk.css": "/static/css/2.eb210c0c.chunk.css",
     "static/js/2.1a9fd8c3.chunk.js": "/static/js/2.1a9fd8c3.chunk.js",
     "static/js/2.1a9fd8c3.chunk.js.map": "/static/js/2.1a9fd8c3.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.0927e7aca22ef33bef82edc4e052f54e.js": "/precache-manifest.0927e7aca22ef33bef82edc4e052f54e.js",
+    "precache-manifest.476d6408c7427b151dc4fe98c891a6cb.js": "/precache-manifest.476d6408c7427b151dc4fe98c891a6cb.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.eb210c0c.chunk.css.map": "/static/css/2.eb210c0c.chunk.css.map",
     "static/css/main.1690a478.chunk.css.map": "/static/css/main.1690a478.chunk.css.map",
     "static/js/2.1a9fd8c3.chunk.js.LICENSE": "/static/js/2.1a9fd8c3.chunk.js.LICENSE",
     "static/media/cbr1.jpg": "/static/media/cbr1.76b97b89.jpg",
     "static/media/cbr2.jpg": "/static/media/cbr2.8d851358.jpg",
-    "static/media/challenge1.jpeg": "/static/media/challenge1.04a38718.jpeg",
-    "static/media/challenge2.jpeg": "/static/media/challenge2.3fab39ba.jpeg",
-    "static/media/challenge3.jpeg": "/static/media/challenge3.60314bd9.jpeg",
-    "static/media/challenge4.jpeg": "/static/media/challenge4.4111553e.jpeg",
+    "static/media/challenge1.jpg": "/static/media/challenge1.b927b9ca.jpg",
+    "static/media/challenge2.jpg": "/static/media/challenge2.37d58d08.jpg",
+    "static/media/challenge3.jpg": "/static/media/challenge3.7ec5a2e9.jpg",
+    "static/media/challenge4.jpg": "/static/media/challenge4.9545b0d6.jpg",
     "static/media/dd1.jpg": "/static/media/dd1.a062e3e3.jpg",
     "static/media/dd2.jpg": "/static/media/dd2.00f342a9.jpg",
     "static/media/dd3.jpg": "/static/media/dd3.caff07a6.jpg",
@@ -101,6 +101,6 @@
     "static/css/2.eb210c0c.chunk.css",
     "static/js/2.1a9fd8c3.chunk.js",
     "static/css/main.1690a478.chunk.css",
-    "static/js/main.3ec53d16.chunk.js"
+    "static/js/main.0424ce42.chunk.js"
   ]
 }
