@@ -17,7 +17,7 @@ class Vans extends React.Component {
     return(
         <Stack horizontal horizontalAlign='center' wrap gap='15'>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2004 GMC Savana - $5,950</Text></Stack>
+                <Stack padding={2}><Text className='tile-text-p'>2004 GMC Savana - $4,900</Text></Stack>
                 <Stack padding={3}>
                 <Text className='tile-text-d'>134K Miles, Cargo Van, 6.0 Engine, Automatic Transmission, Towing PKG.</Text>
                 </Stack>
@@ -27,7 +27,7 @@ class Vans extends React.Component {
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2010 Chrysler Town and Country - $7,900</Text></Stack>
+                <Stack padding={2}><Text className='tile-text-p'>2010 Chrysler Town and Country - $7,500</Text></Stack>
                 <Stack padding={3}>
                 <Text className='tile-text-d'>92K Miles, Automatic, Front Wheel Drive, Stowaway seats, All Power.</Text>
                 </Stack>

@@ -29,7 +29,7 @@ class Other extends React.Component {
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'> 2019 Kawasaki Ninja 650 - $6750</Text></Stack>
+                <Stack padding={2}><Text className='tile-text-p'> 2019 Kawasaki Ninja 650 - $4999</Text></Stack>
                 <Stack padding={3}>
                 <Text className='tile-text-d'>2800 Miles, New oil change and tune up. </Text>
                 </Stack>
