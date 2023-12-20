@@ -51,18 +51,6 @@ class Cars extends React.Component {
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2014 Lincoln MKZ - $14,000</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>74K Miles, Leather, Sunroof, Automatic Transmission, Key Less Entry, Push Start.</Text>
-                </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
-                    <img src={mkz1} />
-                    <img src={mkz2} />
-                    <img src={mkz3} />
-                    <img src={mkz4} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
                 <Stack padding={2}><Text className='tile-text-p'>2012 Ford Mustang - $11,500</Text></Stack>
                 <Stack padding={3}>
                 <Text className='tile-text-d'>125k Miles, All Power, Electric Top, Oil change, Rear Wheel Drive, Great Tires.</Text>

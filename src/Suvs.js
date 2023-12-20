@@ -159,16 +159,6 @@ class Suvs extends React.Component {
                     <img src={equi4} />
                 </Carousel>
             </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2015 GMC Yukon - $21,000</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>150K Miles, Remote Start, Leather, Sunroof, Bluetooth, Towing Package.</Text>
-                </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
-                    <img src={yd1} />
-                    <img src={yd2} />
-                </Carousel>
-            </Stack>
         </Stack>
        );
     }
