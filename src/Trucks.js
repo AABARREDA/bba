@@ -19,7 +19,7 @@ class Trucks extends React.Component {
     return(
         <Stack horizontal horizontalAlign='center' wrap gap='15'>
              <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2016 GMC Sierra - 21500</Text></Stack>
+                <Stack padding={2}><Text className='tile-text-p'>2016 GMC Sierra - $21,500</Text></Stack>
                 <Stack padding={3}>
                 <Text className='tile-text-d'>119K Miles, 4x4, 3' Lift Kit, Aftermarket Wheels, Great Tires, Auto, New oil change, depandable.</Text>
                 </Stack>
