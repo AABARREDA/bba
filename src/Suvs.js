@@ -9,9 +9,6 @@ import hm2 from './assets/trucks/hm2.jpg';
 import hm3 from './assets/trucks/hm3.jpg';
 import hm4 from './assets/trucks/hm4.jpg';
 
-import yd1 from './assets/trucks/yd1.jpg';
-import yd2 from './assets/trucks/yd2.jpg';
-
 import equi1 from './assets/trucks/equi1.jpg';
 import equi2 from './assets/trucks/equi2.jpg';
 import equi3 from './assets/trucks/equi3.jpg';
@@ -22,10 +19,6 @@ import rado2 from './assets/trucks/rado2.jpg';
 import rado3 from './assets/trucks/rado3.jpg';
 import rado4 from './assets/trucks/rado4.jpg';
 
-import hm21 from './assets/trucks/hm21.jpg';
-import hm22 from './assets/trucks/hm22.jpg';
-import hm23 from './assets/trucks/hm23.jpg';
-import hm24 from './assets/trucks/hm24.jpg';
 
 import terr1 from './assets/trucks/terr1.jpg';
 import terr2 from './assets/trucks/terr2.jpg';
@@ -49,11 +42,27 @@ import jeepc2 from './assets/trucks/jeepc2.jpg';
 import jeepc3 from './assets/trucks/jeepc3.jpg';
 import jeepc4 from './assets/trucks/jeepc4.jpg';
 
+import newsrx1 from './assets/trucks/newsrx1.jpg';
+import newsrx2 from './assets/trucks/newsrx2.jpg';
+import newsrx3 from './assets/trucks/newsrx3.jpg';
+import newsrx4 from './assets/trucks/newsrx4.jpg';
 
 class Suvs extends React.Component {
     render() {
     return(
         <Stack horizontal horizontalAlign='center' wrap gap='15'>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2012 Cadillac SRX - $10,500</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>110K Miles, Panoramic Sunroof, Leather, Auto, Transmission, Front Wheel Drive, Heated Seats.</Text>
+                </Stack>
+                <Carousel width="450px" emulateTouch showStatus={false}>
+                    <img src={newsrx1} />
+                    <img src={newsrx2} />
+                    <img src={newsrx3} />
+                    <img src={newsrx4} />
+                </Carousel>
+            </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
                 <Stack padding={2}><Text className='tile-text-p'>2011 Jeep Grand Cherokee - $10,500.</Text></Stack>
                 <Stack padding={3}>
@@ -109,18 +118,6 @@ class Suvs extends React.Component {
                     <img src={terr2} />
                     <img src={terr3} />
                     <img src={terr4} />
-                </Carousel>
-            </Stack>
-             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2006 GMC Hummer - $14,500</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>154K Miles, TVs, Rock Star Wheels, Great Tires, 4x4, Bluetooth, LEDs.</Text>
-                </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
-                    <img src={hm21} />
-                    <img src={hm22} />
-                    <img src={hm23} />
-                    <img src={hm24} />
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>

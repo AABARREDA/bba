@@ -14,32 +14,117 @@ import dd2 from './assets/cars/dd2.jpg'
 import dd3 from './assets/cars/dd3.jpg'
 import dd4 from './assets/cars/dd4.jpg'
 
-import impas1 from './assets/cars/impas1.jpg'
-import impas2 from './assets/cars/impas2.jpg'
-import impas3 from './assets/cars/impas3.jpg'
-import impas4 from './assets/cars/impas4.jpg'
-
-import fmb1 from './assets/cars/fm1.jpg'
-import fmb2 from './assets/cars/fm2.jpg'
-import fmb3 from './assets/cars/fm3.jpg'
-import fmb4 from './assets/cars/fm4.jpg'
-
-import mkz1 from './assets/cars/mkz1.jpg'
-import mkz2 from './assets/cars/mkz2.jpg'
-import mkz3 from './assets/cars/mkz3.jpg'
-import mkz4 from './assets/cars/mkz4.jpg'
-
 import challenge1 from './assets/cars/challenge1.jpg'
 import challenge2 from './assets/cars/challenge2.jpg'
 import challenge3 from './assets/cars/challenge3.jpg'
 import challenge4 from './assets/cars/challenge4.jpg'
+
+import newcamry1 from './assets/cars/newcamry1.jpg'
+import newcamry2 from './assets/cars/newcamry2.jpg'
+import newcamry3 from './assets/cars/newcamry3.jpg'
+import newcamry4 from './assets/cars/newcamry4.jpg'
+
+import newcamry11 from './assets/cars/newcamry11.jpg'
+import newcamry22 from './assets/cars/newcamry22.jpg'
+import newcamry33 from './assets/cars/newcamry33.jpg'
+import newcamry44 from './assets/cars/newcamry44.jpg'
+
+import newcruze1 from './assets/cars/newcruze1.jpg'
+import newcruze2 from './assets/cars/newcruze2.jpg'
+import newcruze3 from './assets/cars/newcruze3.jpg'
+import newcruze4 from './assets/cars/newcruze4.jpg'
+
+import newimpala1 from './assets/cars/newimpala1.jpg'
+import newimpala2 from './assets/cars/newimpala2.jpg'
+import newimpala3 from './assets/cars/newimpala3.jpg'
+import newimpala4 from './assets/cars/newimpala4.jpg'
+
+import newm1 from './assets/cars/newm1.jpg'
+import newm2 from './assets/cars/newm2.jpg'
+import newm3 from './assets/cars/newm3.jpg'
+
+import newaven1 from './assets/cars/newaven1.jpg'
+import newaven2 from './assets/cars/newaven2.jpg'
+import newaven3 from './assets/cars/newaven3.jpg'
+import newaven4 from './assets/cars/newaven4.jpg'
 
 class Cars extends React.Component {
     render() {
     return(
         <Stack horizontal horizontalAlign='center' wrap gap='15'>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2014 Dodge Challenger - $12,500</Text></Stack>
+                <Stack padding={2}><Text className='tile-text-p'>2013 Dodge Avenger - $5,500</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>132K Miles, 4 Cyl. All Power, AC/Heat, Auto, Front Wheel Drive.</Text>
+                </Stack>
+                <Carousel width="450px" emulateTouch showStatus={false}>
+                    <img src={newaven1} />
+                    <img src={newaven2} />
+                    <img src={newaven3} />
+                    <img src={newaven4} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2004 Mercury Gran Marquis - #3,700</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>144K Miles, V8 Engine, All Power, Rear Wheel Drive.</Text>
+                </Stack>
+                <Carousel width="450px" emulateTouch showStatus={false}>
+                    <img src={newm1} />
+                    <img src={newm2} />
+                    <img src={newm3} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2013 Chevy Impala - $5,700</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>124K Miles, V6 Engine, New Oil Change, Front Brakes, All Power, AC/Heat.</Text>
+                </Stack>
+                <Carousel width="450px" emulateTouch showStatus={false}>
+                    <img src={newimpala1} />
+                    <img src={newimpala2} />
+                    <img src={newimpala3} />
+                    <img src={newimpala4} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2014 Chevy Cruze - $4,950</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>130K Miles, All Power, Auto, Front Wheel Drive, AC/Heat.</Text>
+                </Stack>
+                <Carousel width="450px" emulateTouch showStatus={false}>
+                    <img src={newcruze1} />
+                    <img src={newcruze2} />
+                    <img src={newcruze3} />
+                    <img src={newcruze4} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2010 Toyota Camry - $8,250</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>115K Miles, New Oil Change, Auto, Front Wheel Drive, All Power, Clean and Dependable.</Text>
+                </Stack>
+                <Carousel width="450px" emulateTouch showStatus={false}>
+                    <img src={newcamry11} />
+                    <img src={newcamry22} />
+                    <img src={newcamry33} />
+                    <img src={newcamry44} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2011 Toyota Camry - $7,900</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>155K Miles, new engine with 75k Miles, All Power, Fresh Tune Up, Alloy Wheels, Auto.</Text>
+                </Stack>
+                <Carousel width="450px" emulateTouch showStatus={false}>
+                    <img src={newcamry1} />
+                    <img src={newcamry2} />
+                    <img src={newcamry3} />
+                    <img src={newcamry4} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2014 Dodge Charger - $12,500</Text></Stack>
                 <Stack padding={3}>
                 <Text className='tile-text-d'>119K Miles, Auto, Rear Wheel Drive, Clean and dependable car.</Text>
                 </Stack>
@@ -48,30 +133,6 @@ class Cars extends React.Component {
                     <img src={challenge2} />
                     <img src={challenge3} />
                     <img src={challenge4} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2012 Ford Mustang - $11,500</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>125k Miles, All Power, Electric Top, Oil change, Rear Wheel Drive, Great Tires.</Text>
-                </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
-                    <img src={fmb1} />
-                    <img src={fmb2} />
-                    <img src={fmb3} />
-                    <img src={fmb4} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2012 Chevy Impala - $4,500</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>165K Miles, All Power, Auto, Front Wheel Drive, Dependable and Clean.</Text>
-                </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
-                    <img src={impas1} />
-                    <img src={impas2} />
-                    <img src={impas3} />
-                    <img src={impas4} />
                 </Carousel>
             </Stack>
              <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
