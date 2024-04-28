@@ -30,11 +30,6 @@ import expl2 from './assets/trucks/expl2.jpg';
 import expl3 from './assets/trucks/expl3.jpg';
 import expl4 from './assets/trucks/expl4.jpg';
 
-import esc1 from './assets/trucks/esc1.jpg';
-import esc2 from './assets/trucks/esc2.jpg';
-import esc3 from './assets/trucks/esc3.jpg';
-import esc4 from './assets/trucks/esc4.jpg';
-
 import toyh1 from './assets/trucks/toyh1.jpg';
 
 import jeepc1 from './assets/trucks/jeepc1.jpg';
@@ -42,27 +37,10 @@ import jeepc2 from './assets/trucks/jeepc2.jpg';
 import jeepc3 from './assets/trucks/jeepc3.jpg';
 import jeepc4 from './assets/trucks/jeepc4.jpg';
 
-import newsrx1 from './assets/trucks/newsrx1.jpg';
-import newsrx2 from './assets/trucks/newsrx2.jpg';
-import newsrx3 from './assets/trucks/newsrx3.jpg';
-import newsrx4 from './assets/trucks/newsrx4.jpg';
-
 class Suvs extends React.Component {
     render() {
     return(
         <Stack horizontal horizontalAlign='center' wrap gap='15'>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2012 Cadillac SRX - $10,500</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>110K Miles, Panoramic Sunroof, Leather, Auto, Transmission, Front Wheel Drive, Heated Seats.</Text>
-                </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
-                    <img src={newsrx1} />
-                    <img src={newsrx2} />
-                    <img src={newsrx3} />
-                    <img src={newsrx4} />
-                </Carousel>
-            </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
                 <Stack padding={2}><Text className='tile-text-p'>2011 Jeep Grand Cherokee - $10,500.</Text></Stack>
                 <Stack padding={3}>
@@ -82,18 +60,6 @@ class Suvs extends React.Component {
                 </Stack>
                 <Carousel width="450px" emulateTouch showStatus={false}>
                     <img src={toyh1} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2010 Cadillac Escalade - $14,500.</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>126K Miles, All Wheel Drive, 3rd Row Seat, Leather, All Power, Fresh Tune Up.</Text>
-                </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
-                    <img src={esc1} />
-                    <img src={esc2} />
-                    <img src={esc3} />
-                    <img src={esc4} />
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>

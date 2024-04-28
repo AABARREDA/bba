@@ -29,41 +29,14 @@ import newcamry22 from './assets/cars/newcamry22.jpg'
 import newcamry33 from './assets/cars/newcamry33.jpg'
 import newcamry44 from './assets/cars/newcamry44.jpg'
 
-import newcruze1 from './assets/cars/newcruze1.jpg'
-import newcruze2 from './assets/cars/newcruze2.jpg'
-import newcruze3 from './assets/cars/newcruze3.jpg'
-import newcruze4 from './assets/cars/newcruze4.jpg'
-
-import newimpala1 from './assets/cars/newimpala1.jpg'
-import newimpala2 from './assets/cars/newimpala2.jpg'
-import newimpala3 from './assets/cars/newimpala3.jpg'
-import newimpala4 from './assets/cars/newimpala4.jpg'
-
 import newm1 from './assets/cars/newm1.jpg'
 import newm2 from './assets/cars/newm2.jpg'
 import newm3 from './assets/cars/newm3.jpg'
-
-import newaven1 from './assets/cars/newaven1.jpg'
-import newaven2 from './assets/cars/newaven2.jpg'
-import newaven3 from './assets/cars/newaven3.jpg'
-import newaven4 from './assets/cars/newaven4.jpg'
 
 class Cars extends React.Component {
     render() {
     return(
         <Stack horizontal horizontalAlign='center' wrap gap='15'>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2013 Dodge Avenger - $5,500</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>132K Miles, 4 Cyl. All Power, AC/Heat, Auto, Front Wheel Drive.</Text>
-                </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
-                    <img src={newaven1} />
-                    <img src={newaven2} />
-                    <img src={newaven3} />
-                    <img src={newaven4} />
-                </Carousel>
-            </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
                 <Stack padding={2}><Text className='tile-text-p'>2004 Mercury Gran Marquis - #3,700</Text></Stack>
                 <Stack padding={3}>
@@ -73,30 +46,6 @@ class Cars extends React.Component {
                     <img src={newm1} />
                     <img src={newm2} />
                     <img src={newm3} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2013 Chevy Impala - $5,700</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>124K Miles, V6 Engine, New Oil Change, Front Brakes, All Power, AC/Heat.</Text>
-                </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
-                    <img src={newimpala1} />
-                    <img src={newimpala2} />
-                    <img src={newimpala3} />
-                    <img src={newimpala4} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2014 Chevy Cruze - $4,950</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>130K Miles, All Power, Auto, Front Wheel Drive, AC/Heat.</Text>
-                </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
-                    <img src={newcruze1} />
-                    <img src={newcruze2} />
-                    <img src={newcruze3} />
-                    <img src={newcruze4} />
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
