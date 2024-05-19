@@ -14,28 +14,30 @@ import sierrablack2 from './assets/trucks/sierrablack2.jpg';
 import sierrablack3 from './assets/trucks/sierrablack3.jpg';
 import sierrablack4 from './assets/trucks/sierrablack4.jpg';
 
-import denali1 from './assets/trucks/denali1.jpg';
-import denali2 from './assets/trucks/denali2.jpg';
-import denali3 from './assets/trucks/denali3.jpg';
-import denali4 from './assets/trucks/denali4.jpg';
+import silmay1 from './assets/cars/silmay1.jpg';
+import silmay2 from './assets/cars/silmay2.jpg';
+import silmay3 from './assets/cars/silmay3.jpg';
+import silmay4 from './assets/cars/silmay4.jpg';
+
 
 class Trucks extends React.Component {
     render() {
     return(
         <Stack horizontal horizontalAlign='center' wrap gap='15'>
+            12 Chevrolet Silverado 1500 regular cab short bed V-6 2 wheel $11500
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2012 GMC Denali - $15,500</Text></Stack>
+                <Stack padding={2}><Text className='tile-text-p'>2012 Chevy Silverado - $11,500</Text></Stack>
                 <Stack padding={3}>
-                <Text className='tile-text-d'>117K Miles, 4x4 Leather, DVD, Sunroof, 6.0 Engine, Towing Package, All Power.</Text>
+                <Text className='tile-text-d'>118K Miles, Regular Cab, Short Bed, V-6.</Text>
                 </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
-                    <img src={denali1} />
-                    <img src={denali2} />
-                    <img src={denali3} />
-                    <img src={denali4} />
+                <Carousel width="400px" emulateTouch showStatus={false}>
+                    <img src={silmay1} />
+                    <img src={silmay2} />
+                    <img src={silmay3} />
+                    <img src={silmay4} />
                 </Carousel>
             </Stack>
-             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
                 <Stack padding={2}><Text className='tile-text-p'>2016 GMC Sierra - $21,500</Text></Stack>
                 <Stack padding={3}>
                 <Text className='tile-text-d'>119K Miles, 4x4, 3' Lift Kit, Aftermarket Wheels, Great Tires, Auto, New oil change, depandable.</Text>

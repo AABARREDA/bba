@@ -33,11 +33,6 @@ import newm1 from './assets/cars/newm1.jpg'
 import newm2 from './assets/cars/newm2.jpg'
 import newm3 from './assets/cars/newm3.jpg'
 
-import sparkapril1 from './assets/cars/sparkapril1.jpg'
-import sparkapril2 from './assets/cars/sparkapril2.jpg'
-import sparkapril3 from './assets/cars/sparkapril3.jpg'
-import sparkapril4 from './assets/cars/sparkapril4.jpg'
-
 import mustangapril1 from './assets/cars/mustangapril1.jpg'
 import mustangapril2 from './assets/cars/mustangapril2.jpg'
 import mustangapril3 from './assets/cars/mustangapril3.jpg'
@@ -53,57 +48,30 @@ import toyotaapril2 from './assets/cars/toyotaapril2.jpg'
 import toyotaapril3 from './assets/cars/toyotaapril3.jpg'
 import toyotaapril4 from './assets/cars/toyotaapril4.jpg'
 
-import pontiacapril1 from './assets/cars/pontiacapril1.jpg'
-import pontiacapril2 from './assets/cars/pontiacapril2.jpg'
-import pontiacapril3 from './assets/cars/pontiacapril3.jpg'
-import pontiacapril4 from './assets/cars/pontiacapril4.jpg'
-
 import hapril1 from './assets/cars/hapril1.jpg'
 import hapril2 from './assets/cars/hapril2.jpg'
 import hapril3 from './assets/cars/hapril3.jpg'
 import hapril4 from './assets/cars/hapril4.jpg'
 
-import mlapril1 from './assets/cars/mlapril1.jpg'
-import mlapril2 from './assets/cars/mlapril2.jpg'
-import mlapril3 from './assets/cars/mlapril3.jpg'
-import mlapril4 from './assets/cars/mlapril4.jpg'
-
-import avengerapril1 from './assets/cars/avengerapril1.jpg'
-import avengerapril2 from './assets/cars/avengerapril2.jpg'
-import avengerapril3 from './assets/cars/avengerapril3.jpg'
-import avengerapril4 from './assets/cars/avengerapril4.jpg'
-
-import challengerapril1 from './assets/cars/challengerapril1.jpg'
-import challengerapril2 from './assets/cars/challengerapril2.jpg'
-import challengerapril3 from './assets/cars/challengerapril3.jpg'
-import challengerapril4 from './assets/cars/challengerapril4.jpg'
+import sonic1 from './assets/cars/sonic1.jpg'
+import sonic2 from './assets/cars/sonic2.jpg'
+import sonic3 from './assets/cars/sonic3.jpg'
+import sonic4 from './assets/cars/sonic4.jpg'
 
 class Cars extends React.Component {
     render() {
     return(
         <Stack horizontal horizontalAlign='center' wrap gap='15'>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2015 Dodge Challenger - $14,500</Text></Stack>
+                <Stack padding={2}><Text className='tile-text-p'>2017 - Chevy Sonic - $9,500</Text></Stack>
                 <Stack padding={3}>
-                <Text className='tile-text-d'>96K Miles, V-6, Automatic, Rear Wheel Drive, All Power, Premium Wheels.</Text>
+                <Text className='tile-text-d'>82K miles, All Power, Bluetooth, Back up camera.</Text>
                 </Stack>
                 <Carousel width="450px" emulateTouch showStatus={false}>
-                    <img src={challengerapril1} />
-                    <img src={challengerapril2} />
-                    <img src={challengerapril3} />
-                    <img src={challengerapril4} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2020 Chevy Spark - $8,350</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>89K Miles, Automatic, Front Wheel Drive, Back Up Camera, New Oil Change.</Text>
-                </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
-                    <img src={sparkapril1} />
-                    <img src={sparkapril2} />
-                    <img src={sparkapril3} />
-                    <img src={sparkapril4} />
+                    <img src={sonic1} />
+                    <img src={sonic2} />
+                    <img src={sonic3} />
+                    <img src={sonic4} />
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
@@ -143,18 +111,6 @@ class Cars extends React.Component {
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2009 Pontiac G6 - $3,950</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>90K Miles, Automatic, Front Wheel Drive, Alloy Wheels, Clean car.</Text>
-                </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
-                    <img src={pontiacapril1} />
-                    <img src={pontiacapril2} />
-                    <img src={pontiacapril3} />
-                    <img src={pontiacapril4} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
                 <Stack padding={2}><Text className='tile-text-p'>2013 Hyundai Elantra - $5,950</Text></Stack>
                 <Stack padding={3}>
                 <Text className='tile-text-d'>134K Miles, All Power, New Oil Change, Sunroof, Front Wheel Drive.</Text>
@@ -164,30 +120,6 @@ class Cars extends React.Component {
                     <img src={hapril2} />
                     <img src={hapril3} />
                     <img src={hapril4} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2008 Mitsubishi Lancer - $3,950</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>90K Miles, All Power, 4 Cyl. New Oil Change, Automatic, Front Wheel Drive.</Text>
-                </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
-                    <img src={mlapril1} />
-                    <img src={mlapril2} />
-                    <img src={mlapril3} />
-                    <img src={mlapril4} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2013 Dodge Avenger - $5,500</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>134K Miles, Automatic Transmission, Front Wheel Drive, New Oil Change, Dependable.</Text>
-                </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
-                    <img src={avengerapril1} />
-                    <img src={avengerapril2} />
-                    <img src={avengerapril3} />
-                    <img src={avengerapril4} />
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>

@@ -9,11 +9,6 @@ import hm2 from './assets/trucks/hm2.jpg';
 import hm3 from './assets/trucks/hm3.jpg';
 import hm4 from './assets/trucks/hm4.jpg';
 
-import equi1 from './assets/trucks/equi1.jpg';
-import equi2 from './assets/trucks/equi2.jpg';
-import equi3 from './assets/trucks/equi3.jpg';
-import equi4 from './assets/trucks/equi4.jpg';
-
 import rado1 from './assets/trucks/rado1.jpg';
 import rado2 from './assets/trucks/rado2.jpg';
 import rado3 from './assets/trucks/rado3.jpg';
@@ -108,18 +103,6 @@ class Suvs extends React.Component {
                     <img src={rado2} />
                     <img src={rado3} />
                     <img src={rado4} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2015 Chevy Equinox - $11,500</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>125K Miles, All Wheel Drive, Leather, AC, Nice/Clean.</Text>
-                </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
-                    <img src={equi1} />
-                    <img src={equi2} />
-                    <img src={equi3} />
-                    <img src={equi4} />
                 </Carousel>
             </Stack>
         </Stack>
