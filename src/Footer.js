@@ -22,13 +22,13 @@ class Footer extends React.Component {
             <Stack className='gap'></Stack>
             <Stack className='tile-about'>
               <Text className='App-info-test'>About Us</Text>
-              <Text className='App-info-test'>BBA Auto Sales is family owned and operated. We have been part of the Urbana community for the last 27 years. 
+              <Text className='App-info-test'>BBA Auto Sales is family owned and operated. We have been part of the Urbana community for the last 30+ years. 
               Being a small family owned dealership allows us to provide quality cars while keeping our prices low.</Text><br/>
               <Text horizontalAlign='right' className='App-info-test'>Antonio Barreda - Owner</Text>
             </Stack>
         </Stack>
         <footer className="App-footer">
-          Copyright @ 2020 BBA Auto Sales
+          Copyright @ 2024 BBA Auto Sales
         </footer>
         </div>
        );

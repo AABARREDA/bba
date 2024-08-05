@@ -25,17 +25,66 @@ import expl2 from './assets/trucks/expl2.jpg';
 import expl3 from './assets/trucks/expl3.jpg';
 import expl4 from './assets/trucks/expl4.jpg';
 
-import toyh1 from './assets/trucks/toyh1.jpg';
-
 import jeepc1 from './assets/trucks/jeepc1.jpg';
 import jeepc2 from './assets/trucks/jeepc2.jpg';
 import jeepc3 from './assets/trucks/jeepc3.jpg';
 import jeepc4 from './assets/trucks/jeepc4.jpg';
 
+import jrenegade1 from './assets/cars/jrenegade1.jpg';
+import jrenegade2 from './assets/cars/jrenegade2.jpg';
+import jrenegade3 from './assets/cars/jrenegade3.jpg';
+import jrenegade4 from './assets/cars/jrenegade4.jpg';
+
+import jpatriot1 from './assets/cars/jpatriot1.jpg';
+import jpatriot2 from './assets/cars/jpatriot2.jpg';
+import jpatriot3 from './assets/cars/jpatriot3.jpg';
+import jpatriot4 from './assets/cars/jpatriot4.jpg';
+
+import jcherokee1 from './assets/cars/jcherokee1.jpg';
+import jcherokee2 from './assets/cars/jcherokee2.jpg';
+import jcherokee3 from './assets/cars/jcherokee3.jpg';
+import jcherokee4 from './assets/cars/jcherokee4.jpg';
+
 class Suvs extends React.Component {
     render() {
     return(
         <Stack horizontal horizontalAlign='center' wrap gap='15'>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2000 Jeep Cherokee - $4,450</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>125K Miles, 4x4 Automatic, Sunroof, All Power, 6 Cyl. 4.0 Engine.</Text>
+                </Stack>
+                <Carousel width="450px" emulateTouch showStatus={false}>
+                    <img src={jcherokee1} />
+                    <img src={jcherokee2} />
+                    <img src={jcherokee3} />
+                    <img src={jcherokee4} />
+                </Carousel>
+            </Stack>
+             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2014 Jeep Patriot - $7,500</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>103K Miles, Automatic Transmission, Front Wheel Drive.</Text>
+                </Stack>
+                <Carousel width="450px" emulateTouch showStatus={false}>
+                    <img src={jpatriot1} />
+                    <img src={jpatriot2} />
+                    <img src={jpatriot3} />
+                    <img src={jpatriot4} />
+                </Carousel>
+            </Stack>
+            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
+                <Stack padding={2}><Text className='tile-text-p'>2016 Jeep Renegade - $13,500</Text></Stack>
+                <Stack padding={3}>
+                <Text className='tile-text-d'>65K Miles, 5 Speed Manual, All Power, AC, 75 Anniversary.</Text>
+                </Stack>
+                <Carousel width="450px" emulateTouch showStatus={false}>
+                    <img src={jrenegade1} />
+                    <img src={jrenegade2} />
+                    <img src={jrenegade3} />
+                    <img src={jrenegade4} />
+                </Carousel>
+            </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
                 <Stack padding={2}><Text className='tile-text-p'>2011 Jeep Grand Cherokee - $10,500.</Text></Stack>
                 <Stack padding={3}>
@@ -46,15 +95,6 @@ class Suvs extends React.Component {
                     <img src={jeepc2} />
                     <img src={jeepc3} />
                     <img src={jeepc4} />
-                </Carousel>
-            </Stack>
-            <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
-                <Stack padding={2}><Text className='tile-text-p'>2016 Toyota Highlander - $23,000.</Text></Stack>
-                <Stack padding={3}>
-                <Text className='tile-text-d'>76k Miles, All Wheel Drive, Sunroof, Leather, Navigation, Heated Seats, Camera, Loaded.</Text>
-                </Stack>
-                <Carousel width="450px" emulateTouch showStatus={false}>
-                    <img src={toyh1} />
                 </Carousel>
             </Stack>
             <Stack horizontalAlign='center' className='tile' style={{ boxShadow: Depths.depth8 }}>
